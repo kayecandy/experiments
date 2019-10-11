@@ -20,6 +20,14 @@ $(function(){
 	});
 
 
+	$chatContainer.on('click', '.cndce-help', function(){
+		var $content = $($(this).data('content'));
+
+		if($content.length)
+			conversationalForm.addRobotChatResponse($content.html());
+	});
+
+
 	(function startIntro(){
 		var $intros = $('.cndce-intro-message', $cndceContainer);
 
