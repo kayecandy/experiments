@@ -30,7 +30,7 @@
  				console.log(result);
  				$headerIcons.append($('svg', result));
  			}
- 		})
+ 		});
 
  	})();
 
