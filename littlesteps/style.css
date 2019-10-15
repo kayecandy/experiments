@@ -114,6 +114,7 @@ a:hover{
 	    -ms-flex-positive: 1;
 	        flex-grow: 1;
 	margin-top: 3rem;
+	max-width: 65%;
 }
 
 .cndce-header .cndce-header-contents .cndce-header-title{
@@ -292,4 +293,33 @@ a:hover{
 #section-featured .cndce-featured:hover .cndce-featured-label{
 	background: #00000000;
 	opacity: 0.5;
+}
+
+
+#section-clients{
+	background: #dcdcda;
+}
+
+
+
+.cndce-footer-top{
+	background: #4a4a4a;
+    color: #a2a2a2;
+    font-size: 75%;
+}
+
+.cndce-footer-top .cndce-footer-title{
+    color: white;
+    font-size: 120%;
+}
+
+.cndce-footer-top ul{
+	list-style: none;
+	padding: 0;
+}
+
+.cndce-footer-bottom{
+	background: #363636;
+    color: #c7c7c7;
+    font-size: 75%;
 }
