@@ -42,6 +42,11 @@ a:hover{
 	color: #25b0bf;
 }
 
+.cndce-section-title{
+	display: inline-block;
+	font-weight: bold;
+}
+
 
 /* MENU */
 
@@ -154,7 +159,17 @@ a:hover{
 	border-top-right-radius: 5rem;
 	border-bottom-right-radius: 5rem;
 	white-space: nowrap;
+	-webkit-transition: all 0.3s cubic-bezier(0, 0.74, 0, 1.78);
+	-o-transition: all 0.3s cubic-bezier(0, 0.74, 0, 1.78);
+	-moz-transition: all 0.3s cubic-bezier(0, 0.74, 0, 1.78);
+	transition: all 0.3s cubic-bezier(0, 0.74, 0, 1.78);
 }
+
+
+.cndce-header .cndce-header-contents .cndce-search-container:hover .cndce-see-schedules{
+	padding: 0 2rem;
+}
+
 
 .cndce-header .cndce-header-icons{
 	-webkit-flex-basis: 45%;
@@ -174,10 +189,17 @@ a:hover{
 .cndce-header .cndce-header-icons svg .cndce-icon{
 	cursor: pointer;
 	transform-box: fill-box;
+	
 	-webkit-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
+
+	-webkit-transform-origin: center;
+	   -moz-transform-origin: center;
+	    -ms-transform-origin: center;
+	     -o-transform-origin: center;
+	        transform-origin: center;
 }
 
 .cndce-header .cndce-header-icons svg .cndce-icon:hover{
@@ -296,11 +318,75 @@ a:hover{
 }
 
 
+
+
+
+/* SECTION POPULAR CATEGORIES */
+#section-popular-categories .cndce-popular-subcategory{
+	display: inline-block;
+	font-size: 90%;
+    color: #b5b5b5;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+#section-popular-categories .cndce-popular-subcategory:hover{
+	color: #25b0bf;
+}
+
+#section-popular-categories .cndce-popular-item{
+	border-radius: 1rem;
+	font-size: 80%;
+	overflow: hidden;
+	color: #464646;
+	box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.05), 0 2px 15px 0 rgba(0, 0, 0, 0.05);
+}
+
+#section-popular-categories .cndce-popular-item a:hover{
+	color: #464646;
+}
+
+
+#section-popular-categories .cndce-popular-item .cndce-thumb{
+	height: 10rem;
+}
+
+#section-popular-categories .cndce-popular-item .cndce-item-category{
+	font-weight: bold;
+	font-size: 90%;
+	text-transform: uppercase;
+	color: #b9b9b9;
+}
+
+#section-popular-categories .cndce-popular-item .cndce-item-title{
+	font-size: 110%;
+	color: #25b0bf;
+	font-weight: bold;
+	line-height: 120%;
+}
+
+#section-popular-categories .cndce-popular-item .cndce-item-provider{
+    font-size: 80%;
+    color: #a2a2a2;
+}
+
+
+/* SECTION CLIENTS */
+
 #section-clients{
 	background: #dcdcda;
 }
 
 
+
+
+
+
+
+/* FOOTER */
 
 .cndce-footer-top{
 	background: #4a4a4a;
