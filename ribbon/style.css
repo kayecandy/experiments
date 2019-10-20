@@ -23,9 +23,7 @@ body, html{
 
 body{
   text-align: center;
-  background: -webkit-radial-gradient(50% 0,#ffffff96,rgba(255, 255, 255, 0.06)), #0e0e0e;
-  background: -moz-radial-gradient(50% 0,#ffffff96,rgba(255, 255, 255, 0.06)), #0e0e0e;
-  background: radial-gradient(50% 0,#ffffff96,rgba(255, 255, 255, 0.06)), #0e0e0e;
+  background: #171717;
   color: rgba(0,0,0,.6);
   font-family: sans-serif;
 }
@@ -126,9 +124,13 @@ body{
   pointer-events: none;
   top:0; left:0; right:0; bottom: 0;
 
-  background: -webkit-linear-gradient(135deg, #ffffff00 30%, #ff7e7fe8 50%, #ffffff00 66%) no-repeat;
+  /*background: -webkit-linear-gradient(135deg, #ffffff00 30%, #ff7e7fe8 50%, #ffffff00 66%) no-repeat;
   background: -moz-linear-gradient(135deg, #ffffff00 30%, #ff7e7fe8 50%, #ffffff00 66%) no-repeat;
-  background: linear-gradient(-45deg, #ffffff00 30%, #ff7e7fe8 50%, #ffffff00 66%) no-repeat;
+  background: linear-gradient(-45deg, #ffffff00 30%, #ff7e7fe8 50%, #ffffff00 66%) no-repeat;*/
+
+  background: url('glare.svg');
+  background-size: cover;
+  background-repeat: no-repeat;;
   background-position: -150px -150px;
 
   -webkit-transition: all 2s;
