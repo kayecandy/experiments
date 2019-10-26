@@ -49,7 +49,7 @@ body{
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  margin: 1rem;
+  margin: 2rem;
   cursor: pointer;
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -75,9 +75,9 @@ body{
 
 .cndce-shape.loaded{
   visibility: visible;
-  -webkit-animation: bounceIn 1s ease-in-out;
-     -moz-animation: bounceIn 1s ease-in-out;
-          animation: bounceIn 1s ease-in-out;
+  -webkit-animation: bounceIn 1.2s ease-in-out;
+     -moz-animation: bounceIn 1.2s ease-in-out;
+          animation: bounceIn 1.2s ease-in-out;
 }
 
 
