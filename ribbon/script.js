@@ -1,6 +1,8 @@
 var  body = document.getElementsByTagName('body')[0];
-var cndceShape = document.querySelector('.cndce-shape');
+var cndceShapes = document.querySelectorAll('.cndce-shape');
 
 body.onload = function(){
-	cndceShape.classList.add('loaded');
+	for(var i=0; i < cndceShapes.length; i++){
+		cndceShapes[i].classList.add('loaded');	
+	}
 }
