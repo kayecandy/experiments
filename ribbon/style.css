@@ -45,6 +45,10 @@ body{
   text-align:center;
   line-height: 180%;
   /*margin: 50px auto;*/
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   margin: 1rem;
   cursor: pointer;
   -webkit-box-align: center;
