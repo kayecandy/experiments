@@ -134,11 +134,11 @@ body{
   top: 0;
   width: 100%;
   height: 100%;
-  background: url('./drawing.svg');
+  background: url('./assets/drawing.svg');
   background-size: contain;
 
-  -webkit-mask: url('./drawing.svg');
-  mask: url('./drawing.svg');
+  -webkit-mask: url('./assets/drawing.svg');
+  mask: url('./assets/drawing.svg');
 
   -webkit-mask-size: contain;
           mask-size: contain;
@@ -158,7 +158,7 @@ body{
   background: -moz-linear-gradient(135deg, #ffffff00 30%, #ff7e7fe8 50%, #ffffff00 66%) no-repeat;
   background: linear-gradient(-45deg, #ffffff00 30%, #ff7e7fe8 50%, #ffffff00 66%) no-repeat;*/
 
-  background: url('glare.svg');
+  background: url('./assets/glare.svg');
   background-size: cover;
   background-repeat: no-repeat;;
   background-position: -150px -150px;
