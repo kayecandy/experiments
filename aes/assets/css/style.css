@@ -430,7 +430,7 @@ footer a.tz{
 
 footer a.tz:before{
 	content: '';
-	background: url('http://cdn.tutorialzine.com/misc/enhance/v2_footer_bg.png') no-repeat 0 -53px;
+	background: url('https://cdn.tutorialzine.com/misc/enhance/v2_footer_bg.png') no-repeat 0 -53px;
 	width: 138px;
 	height: 20px;
 	display: inline-block;
@@ -443,7 +443,7 @@ footer .close{
 	cursor: pointer;
 	width: 8px;
 	height: 8px;
-	background: url('http://cdn.tutorialzine.com/misc/enhance/v2_footer_bg.png') no-repeat 0 0px;
+	background: url('https://cdn.tutorialzine.com/misc/enhance/v2_footer_bg.png') no-repeat 0 0px;
 	top:10px;
 	right:10px;
 	z-index: 3;
