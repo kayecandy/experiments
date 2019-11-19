@@ -69,7 +69,8 @@ jQuery(function($){
 		}
 	})
 
-	$('.cndce-grid-volume', $videoGrid).click(function(){
+	$('.cndce-grid-volume', $videoGrid).click(function(e){
+		e.stopPropagation();
 		var $gridItem =  $(this).parents('.cndce-grid-item');
 		var video = $('.cndce-grid-video', $gridItem)[0];
 
