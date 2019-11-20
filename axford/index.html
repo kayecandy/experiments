@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CNDCE Experiments - Axford</title>
+	<link rel="icon" href="https://kayecandy.github.io/favicon.png">
+
+	<!-- Font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,800&display=swap" rel="stylesheet">
+
+	<!-- Simplebar -->
+	<link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css" />
+
+	<link rel="stylesheet" type="text/css" href="./cndce-axford.css">
+
+</head>
+<body>
+
+	<div id="cndce-axford">
+		<div id="cndce-left-panel" class="cndce-panel">
+			<div class="cndce-logo-container">			
+			</div>
+
+			<div class="cndce-info">Choose one:</div>
+
+			<div class="cndce-checkboxes-container">
+				<div class="cndce-checkbox-item cndce-template"></div>
+			</div>
+
+			
+		</div>
+
+		<div id="cndce-middle-panel" class="cndce-panel">
+			<form class="cndce-chat-form">
+				<input type="text" name="browsers" list="browsers" cf-questions="Your browser?" />
+				  <input type="email" name="emailReqTest" cf-questions="Your email?" />
+				  <textarea name="testmultirows2" rows="3"></textarea>
+				  <input type="email" value="werew@werew.com" name="emailReqTest2" cf-questions="Your email? (required)" required />
+				  <input type="number" min="3" max="5" required cf-error="Must be between 3 and 5" name="numValTest" cf-questions="Is this req. number between 3 and 5?" />
+				  <input type="number" value="4" min="3" max="5" required cf-error="Must be between 3 and 5" name="numValTest" cf-questions="Is this req. number between 3 and 5?" />
+				  <input type="password" value='1234566788QWERTY' name="pwdTest" cf-questions="Is this password?" minlength="8" required cf-error="Please provide a password to continue (min. 8 chars.)" />
+				  <input type="tel" value="123-456-7890" name="telTest" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" cf-questions="Your phone #? (format: 123-456-7890)" required />
+			</form>
+			<div class="cndce-chat-container">
+			</div>
+		</div>
+
+		<div id="cndce-right-panel" class="cndce-panel">
+			<h1>Questions</h1>
+			<form>
+				<div  class="cndce-form-item">
+					<label>Organisation name?</label>
+					<input type="text" name="">
+				</div>
+				
+
+				<br>
+				<label><b>Organisation Address</b></label>
+
+				<button class="search-button"><img src="./assets/icon-search.svg"></button>
+
+				<div  class="cndce-form-item">
+					<label>Street</label>
+					<input type="text" name="">
+					<input type="text" name="">
+					<input type="text" name="">
+				</div>
+
+				<div  class="cndce-form-item">
+					<label>Town/City</label>
+					<input type="text" name="">
+				</div>
+
+				<div  class="cndce-form-item">
+					<label>County</label>
+					<input type="text" name="">
+				</div>
+
+				<div  class="cndce-form-item">
+					<label>Postcode</label>
+					<input type="text" name="">
+				</div>
+
+				<div  class="cndce-form-item">
+					<label>Country</label>
+					<input type="text" name="">
+				</div>
+				
+			</form>
+
+			<br>
+
+
+			<button class="cndce-button-save">Save</button>
+
+			<button class="cndce-button-cancel">Cancel</button>
+		</div>
+	</div>
+
+	<!-- Simplebar -->
+	<script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+
+	<!-- Space10 - Conversational Form -->
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/space10-community/conversational-form@1.0.1/dist/conversational-form.min.js" crossorigin></script>
+
+
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+
+	<!-- Self -->
+	<script type="text/javascript" src="./cndce-axford.js"></script>
+
+</body>
+</html>
