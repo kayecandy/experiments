@@ -1,2 +1,2 @@
-# contests
-Just a compilation of various contest entries
+# experiments
+Just a compilation of various contest entries and experiments
