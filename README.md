@@ -1,8 +1,8 @@
 # experiments  [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/kayecandy/experiments)
 
-[![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
+![| Uses HTML | ](https://forthebadge.com/images/badges/uses-html.svg) ![Uses JS | ](https://forthebadge.com/images/badges/uses-js.svg) ![Uses CSS | ](https://forthebadge.com/images/badges/uses-css.svg)
 
-[![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com)
+![Works on My Machine](https://forthebadge.com/images/badges/works-on-my-machine.svg)
 
 Just a compilation of various contest entries and small experiments
 
