@@ -1,0 +1,177 @@
+<?php
+	session_start(  );
+
+	// unset( $_SESSION['logged_in'] );
+	// unset( $logged_in );
+	// unset( $_SESSION['wrong'] );
+	// // unset( $wrong )
+	// // session_destroy(  );
+
+	// // // exit();
+
+
+
+	if( empty( $_SESSION['logged_in'] ) && !empty( $_POST['p'] ) ){
+		if( $_POST['p'] === 'T1berian!' )
+			$_SESSION['logged_in'] = true;
+		else
+			$_SESSION['wrong'] = true;
+	}	
+
+
+	// Always logged in
+	$_SESSION['logged_in'] = true;
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Candice Experiments - Tiberian</title>
+	<link rel="icon" href="assets/favicon.png">
+
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,700" rel="stylesheet">
+
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+
+	<!-- Snap Icon -->
+	<script type="text/javascript" src="assets/js/snap.svg-min.js"></script>
+	<script type="text/javascript" src="assets/js/svgicons-config.js"></script>
+	<script type="text/javascript" src="assets/js/svgicons.js"></script>
+
+</head>
+<body>
+
+	<?php if( empty( $_SESSION['logged_in'] ) ): ?>
+
+		<div class="container">
+			<?php if( !empty( $_SESSION['wrong'] ) ): ?>
+				<div class="wrong">Sorry. Wrong Password :(</div>
+			<?php endif; ?>
+
+			<form method="POST">
+				<!-- <span>Password</span> -->
+				<input type="password" name="p" placeholder="Password">
+				<button>GO</button>
+			</form>
+			
+		</div>
+
+
+	<?php else: ?>
+
+		<div id="loading-container">
+			<img src="assets/Ellipsis.svg">
+		</div>
+
+		<div id="gl-error-container" class="hidden">
+			<div>
+				<div style="font-size: 100px">:(</div>
+				<h1>Oops! WebGL Error</h1>
+				You are seeing this because WebGL might not be enabled or supported by your device/browser.
+				<br>
+				<small><a href="http://webglreport.com/">Click here</a> to see your browser's WebGL capability</small>
+				<br><br>
+
+
+				<small>This error is caused by your browser, OS or GPU settings</small>
+				<br>
+				<small>GIF Animation will be rendered instead</small>
+				<br>
+				<br>
+				<br>
+				<br>
+				... and show must go on! Click to proceed
+			</div>
+		</div>
+
+		<div class="instructions">
+			<span>
+				<svg version="1.1"
+				         width="50px" height="50px" viewBox="30.5 -9.5 554 813" enable-background="new 30.5 -9.5 554 813" xml:space="preserve">
+				      <path d="M328,0h-44C271.68,0,42,5.28,42,242v308c0,9.9,3.96,242,242,242h44c13.86,0,242-6.16,242-242V242C570,232.1,566.04,0,328,0z
+				               M526,550c0,191.62-177.76,198-198,198h-44C92.38,748,86,570.24,86,550V242C86,50.82,263.54,44,284,44h44
+				               c191.62,0,198,177.76,198,198V550z"/>
+				      <circle cx="306" cy="231" r="45"/>
+			    </svg>
+			    <br>
+				Single-click to change logo texture
+				<br><br>
+				Double-click to change logo shape
+			</span>
+		</div>
+
+		<div id="settings-container">
+			<div id="settings-button" data-icon-name="equalizer"></div>
+
+			<div class="setting setting-lock" >
+				<div class="icon" data-icon-name="padlock"></div>
+				<div class="tooltip">Enable/Disable Mouse Events</div>
+			</div>
+
+			<div class="setting setting-play" >
+				<div class="icon" data-icon-name="play"></div>
+				<div class="tooltip">Play/Stop Animation</div>
+			</div>
+		</div>
+		
+
+		<img id="gif-image" src="assets/logo.gif">
+
+
+		<!-- jQuery -->
+		<script
+		  src="https://code.jquery.com/jquery-3.2.1.min.js"
+		  crossorigin="anonymous"></script>
+
+
+
+		<!-- ThreeJS -->
+		<script type="text/javascript" src="assets/js/three.min.js"></script>
+		<script type="text/javascript" src="assets/js/MTLLoader.js"></script>
+		<script type="text/javascript" src="assets/js/OBJLoader2.js"></script>
+
+
+
+		<script type="text/javascript" src="assets/js/Tween.js"></script>
+
+
+		<script type="text/javascript" src="assets/js/FlareShine.js"></script>
+
+
+
+
+		<script src="assets/js/CCapture.all.min.js"></script>
+		<script type="text/javascript">
+			var capturer = new CCapture( { format: 'png', workersPath: 'assets/js/' } );
+		</script>
+
+
+
+		<!-- Self -->
+		<script type="text/javascript" src="script.js"></script>
+
+		<script type="text/javascript">
+			
+			new svgIcon( $( '#settings-button' )[0], svgIconConfig, {
+				// evtoggle	: 'mouseover',
+				easing		: mina.easeinout
+			} )
+
+			new svgIcon( $( '.setting-lock .icon' )[0], svgIconConfig, {
+				evtoggle	: 'mouseover',
+				easing		: mina.easeinout
+			} )
+
+			new svgIcon( $( '.setting-play .icon' )[0], svgIconConfig, {
+				// evtoggle	: 'mouseover',
+				easing		: mina.easeinout
+			} )
+		</script>
+<!--  -->
+	<?php endif; ?>
+
+</body>
+</html>
