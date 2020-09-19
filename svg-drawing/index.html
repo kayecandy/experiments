@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Candice Experiments - SVG Drawing</title>
+	<link rel="icon" href="http://cndce.me/favicon.png">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+
+
+	<!-- Self -->
+	<link rel="stylesheet" type="text/css" href="./cndce-svgdrawing.css">
+
+
+	<style type="text/css">
+		body::before{
+			content: 'Draw on me...';
+			position: fixed;
+			left: 50%;
+			top: 50%;
+
+			font-size: 130%;
+			opacity: 1;
+
+			-webkit-transition: all 0.3s ease-in-out;
+			-o-transition: all 0.3s ease-in-out;
+			-moz-transition: all 0.3s ease-in-out;
+			transition: all 0.3s ease-in-out;
+
+			-webkit-transform: translate(-50%, -50%);
+			   -moz-transform: translate(-50%, -50%);
+			    -ms-transform: translate(-50%, -50%);
+			     -o-transform: translate(-50%, -50%);
+			        transform: translate(-50%, -50%);
+
+		}
+
+		body.cndce-drawn::before{
+			opacity: 0;
+			z-index: -1;
+		}
+	</style>
+
+</head>
+<body class="cndce-bare">
+
+
+
+	<svg class="cndce-svg">
+	</svg>
+
+
+	<!-- jQuery -->
+	<script src="http://cdn.cndce.me/jquery-3.3.1.min.js"></script>
+
+
+	<!-- Self -->
+	<script type="text/javascript" src="./cndce-svgdrawing.js"></script>
+
+	<script type="text/javascript">
+		$('.cndce-svg').cndceSVGDrawing({
+
+		});
+
+		$('.cndce-svg').on('mousedown touchstart', function(){
+			$('body').addClass('cndce-drawn');
+
+		})
+	</script>
+
+</body>
+</html>
