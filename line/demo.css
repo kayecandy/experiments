@@ -1,0 +1,12 @@
+html, body{
+	width: 100%;
+	height: 100%;
+
+	margin: 0;
+}
+
+.element-content img{
+	width: calc(7vw + 1.5vw);
+	height: calc(7vw + 1.5vw);
+	border-radius: 50%;
+}

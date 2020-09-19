@@ -1,0 +1,48 @@
+{
+	"items": [
+		{
+			"content": "Hello, I am a content",
+			"subtitleIcon": true,
+			"subtitle": "This is a subtitle"
+		},{
+			
+		},{
+			"content": "Multiple Subtitles",
+			"subtitles": [
+				{
+					"subtitleIcon": true,
+					"subtitle": "I am first subtitle"
+				},
+				{
+					"subtitleIcon": "bicycle",
+					"subtitle": "I am second subtitle"
+				},{
+					"subtitleIcon": "bicycle",
+					"subtitle": "I am third subtitle"
+				}
+			]
+		},{
+			"subtitle": "No content with subtitle"
+		},{
+			
+		},{
+			"content": "Put HTML content inside me",
+			"subtitleIcon": false,
+			"subtitle": "This is a subtitle without an icon and LOOOOOONG TEXT LONG TEXT LONG TEXT"
+		},{
+			"content": "<img src=\"./assets/sample-image.jpg\" />",
+			"subtitleIcon": "code",
+			"subtitle": "With HTML content"
+		},{
+			"content": "You can choose a different icon",
+			"subtitleIcon": "bicycle",
+			"subtitle": "From FontAwesome library"
+		},{
+			"content": ""
+		},{
+			"content": ""
+		},{
+			"content": "BYE!"
+		}
+	]
+}
