@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Candice Experiments - Conway's Game of Life</title>
+	<link rel="icon" href="http://cndce.me/favicon.png">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+
+	<!-- Font -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,800" rel="stylesheet">
+
+
+	<!-- Self -->
+	<link rel="stylesheet" type="text/css" href="./cndce-conway-game-of-life.css">
+</head>
+<body>
+
+	<h1>Conway's Game of Life</h1>
+
+	<div id="cndce-conway-game-of-life-container" class="cndce-conway-game-of-life">
+		<div class="cndce-table-container"></div>
+
+		<br><br>
+		<button class="cndce-new">New</button>
+		<button class="cndce-step">Step</button>&nbsp;
+		<button class="cndce-play">Play</button>&nbsp;
+		<a class="cndce-download cndce-button" download="scene.json">
+			Download
+		</a>
+		&nbsp;
+		<button class="cndce-load">Load</button>
+
+		<input class="cndce-load-input" type="file" accept=".json">
+	</div>
+	<br><br>
+
+	<div class="cndce-controls">
+		<div class="inline">
+			<small>Rows:</small><br>
+			<input class="cndce-control" data-cndce-param="nRows" type="text">
+			
+		</div>
+		<div class="inline">
+			<small>Columns:</small> <br>
+			<input class="cndce-control" data-cndce-param="nColumns" type="text">
+			
+		</div>
+		<div class="inline">
+			<small>Grid Size:</small> <br>
+			<input class="cndce-control" data-cndce-param="gridSize" type="text">
+			
+		</div>
+		<div class="inline">
+			<small>Play Interval:</small> <br>
+			<input class="cndce-control" data-cndce-param="playInterval" data-cndce-init="false" type="text">
+			
+		</div>
+	</div>
+
+	<!-- jQuery -->
+	<script
+	  src="https://code.jquery.com/jquery-3.2.1.min.js"
+	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	  crossorigin="anonymous"></script>
+
+
+	<!-- Self -->
+	<script type="text/javascript" src="./cndce-conway-game-of-life.js"></script>
+
+	<script type="text/javascript">
+		$('#cndce-conway-game-of-life-container').cndceConwayGameOfLife();
+	</script>
+
+</body>
+</html>

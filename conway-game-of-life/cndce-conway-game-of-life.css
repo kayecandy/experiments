@@ -1,0 +1,134 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+
+h1{
+	font-weight: lighter;
+}
+
+button, .cndce-button{
+	border: none;
+    outline: none;
+    font-size: 90%;
+    padding: 8px 20px;
+    -moz-border-radius: 5px;
+         border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    letter-spacing: 5px;
+    cursor: pointer;
+    background: lightgrey;
+    color: black;
+    text-decoration: none;
+
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover, .cndce-button:hover{
+	background: black;
+	color: white;
+}
+
+.cndce-conway-game-of-life .cndce-table-container{
+	overflow: auto;
+}
+
+.cndce-conway-game-of-life .cndce-table{
+	display: -webkit-inline-box;
+	display: -webkit-inline-flex;
+	display: -moz-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	   -moz-box-orient: vertical;
+	   -moz-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}	
+
+.cndce-conway-game-of-life .cndce-row,
+.cndce-conway-game-of-life .cndce-column{
+	border: 1px solid black;
+}
+
+
+.cndce-conway-game-of-life .cndce-row{
+	border-width: 1px 0 0 1px;
+
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+
+	-webkit-flex-wrap: nowrap;
+	    -ms-flex-wrap: nowrap;
+	        flex-wrap: nowrap;
+	
+}
+
+.cndce-conway-game-of-life .cndce-row:last-child .cndce-column{
+	border-bottom-width: 1px;
+}
+
+.cndce-conway-game-of-life .cndce-column{
+	border-width: 0 1px 0 0;
+	cursor: pointer;
+	background: white;
+
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+
+	-webkit-flex-shrink: 0;
+	    -ms-flex-negative: 0;
+	        flex-shrink: 0;
+
+	-webkit-box-flex: 0;
+	-webkit-flex-grow: 0;
+	   -moz-box-flex: 0;
+	    -ms-flex-positive: 0;
+	        flex-grow: 0;
+}
+
+.cndce-conway-game-of-life.cndce-playing .cndce-column{
+	-webkit-transition: none;
+	-o-transition: none;
+	-moz-transition: none;
+	transition: none;
+}
+
+.cndce-conway-game-of-life .cndce-column.cndce-alive{
+	background: black;
+}
+
+
+
+
+/*.cndce-conway-game-of-life .cndce-column:hover{
+	border-width: 1px;
+
+	-webkit-transform: scale(1.2);
+	   -moz-transform: scale(1.2);
+	    -ms-transform: scale(1.2);
+	     -o-transform: scale(1.2);
+	        transform: scale(1.2);
+}*/
+
+.cndce-conway-game-of-life .cndce-load-input{
+	display: none;
+}
+
+.cndce-controls div.inline{
+	display: inline-block;
+}
+
