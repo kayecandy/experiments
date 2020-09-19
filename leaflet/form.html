@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>Candice Experiments - Form</title>
+
+	<link rel="icon" href="http://candicecanoso.com/favicon.png">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+
+	<!-- California Top Homes -->
+	<link rel="stylesheet" href="./styles/bootstrap-3.3.7.min.css">
+	<link rel="STYLESHEET" type="text/css" href="//californiatophomes.com/styles/custom/_global.css?_=1636cbafef3">
+	<link rel="STYLESHEET" type="text/css" href="//californiatophomes.com/styles/custom/search_form.css?_=1636cbafef3">
+	<style type="text/css">
+	@media ( max-width : 766px) {
+		.well {
+			padding: 4px;
+			margin-bottom: 4px;
+			width: 100%;
+		}
+	}
+</style>
+
+
+<!-- Leaflet -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css"
+integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+crossorigin=""/>
+
+
+<!-- Self -->
+<link rel="stylesheet" type="text/css" href="./style.css">
+
+<!-- jQuery -->
+<script src="http://code.jquery.com/jquery-3.2.1.min.js"
+integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="form">
+
+
+	<nav class="navbar navbar-default navbar-mobile" id="mobile-nav-wrap" style="margin-bottom: 2px">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-nav">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<span class="navbar-brand">
+					<a href="?"><img alt="logo combined" src="//californiatophomes.com/images/california/californiatophomes-logo-combined.png"></a>
+				</span>
+			</div>
+
+			<div class="pull-right" style="padding: 0.5em">
+				<form class="form-inline" action="" method="GET" name="SearchMLSNumberForm" id="SearchMLSNumberForm" role="search">
+					<div class="input-group">
+						<span class="input-group-addon">Jump to..</span>
+						<input type="text" name="q" class="form-control" size="50" placeholder="Address, Subdivision, or Listing Number">
+						<span class="input-group-btn">
+							<button class="btn btn-default" type="submit">Go!</button>
+						</span>
+					</div>
+				</form>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="mobile-nav">
+
+				<ul class="nav navbar-nav" style="margin: 0.5em">
+
+					<li class="active">		
+						<a href="?">
+							<span class="glyphicon glyphicon-home"></span> Home
+						</a>
+					</li>
+					<li>
+						<a href="?f=search">
+							<span class="glyphicon glyphicon-search"></span> Advanced Search
+						</a>
+					</li>
+
+					<li>
+						<a href="?f=profile&amp;id=edit_search">
+							<span class="glyphicon glyphicon-bookmark"></span> Saved Search
+						</a>
+					</li>
+
+					<li>
+						<a href="?f=favorites"><span class="glyphicon glyphicon-star"></span> Favorites</a>
+					</li>
+
+					<li>
+						<a href="?f=text&amp;id=contact_us"><span class="glyphicon glyphicon-envelope"></span> Contact Us</a>
+					</li>
+
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+							<span class="glyphicon glyphicon-user"></span>
+							My CTH <span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu">
+
+
+							<li><a href="?f=signin"><span class="glyphicon glyphicon-user"></span> Sign In</a></li>
+							<li><a href="?f=register"><span class="glyphicon glyphicon-pencil"></span> Register</a></li>
+							
+						</ul>
+					</li>
+				</ul>
+
+				<span style="clear: both"></span>
+
+
+
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+
+
+
+
+	<div id="main" class="container">
+
+		<div class="well pagename">San Diego Home Search</div>
+		<!-- end of common BODY header -->
+
+		<div class="search-form-wrap">    
+			<div class="search-form-page">
+				<div class="panel panel-default" id="search-form">
+					<div class="panel-body">
+						<!-- _searhcform-page  -->
+						<div class="search-form">
+							<div class="form-search-wrap">
+								<form method="GET" name="SearchForm" id="SearchForm" action="?">
+									<input type="hidden" name="f" value="search_result">
+									<input type="hidden" name="geolocation" id="geolocation" value="Only secure origins are allowed (see: https://goo.gl/Y0ZkNV).">
+									<script>
+										/*<![CDATA[*/
+										var options = {
+											enableHighAccuracy: true,
+											timeout: 15000,
+											maximumAge: 0
+										};
+										function success(pos) {
+											$(geolocation).val(`${pos.coords.latitude}*${pos.coords.longitude}*${pos.coords.accuracy}`);
+										}
+										function error(err) {
+											$(geolocation).val(err.message);
+										}
+										navigator.geolocation.getCurrentPosition(success, error, options);
+										/*]]>*/
+									</script>
+
+									<div class="row search-criteria">
+										<div class="col-xs-7">
+											<div class="row">
+												<div class="col-md-6 ">
+													<div class="input-group form-group">
+														<span class="input-group-addon">Min</span>
+														<select name="PriceLow" class="form-control" id="PriceLow" onchange="lowPrice()">
+															<option value="0">No Minimum</option>
+
+																<option value="200000">$200,000</option><option value="250000">$250,000</option><option value="300000">$300,000</option><option value="350000">$350,000</option><option value="400000">$400,000</option><option value="450000">$450,000</option><option value="500000">$500,000</option><option value="550000">$550,000</option><option value="600000">$600,000</option><option value="650000">$650,000</option><option value="700000">$700,000</option><option value="750000">$750,000</option><option value="800000">$800,000</option><option value="850000">$850,000</option><option value="900000">$900,000</option><option value="950000">$950,000</option><option value="1000000">$1,000,000</option><option value="1100000">$1,100,000</option><option value="1200000">$1,200,000</option><option value="1300000">$1,300,000</option><option value="1400000">$1,400,000</option><option value="1500000">$1,500,000</option><option value="1600000">$1,600,000</option><option value="1700000">$1,700,000</option><option value="1800000">$1,800,000</option><option value="1900000">$1,900,000</option><option value="2000000">$2,000,000</option><option value="2100000">$2,100,000</option><option value="2200000">$2,200,000</option><option value="2300000">$2,300,000</option><option value="2400000">$2,400,000</option><option value="2500000">$2,500,000</option><option value="2600000">$2,600,000</option><option value="2700000">$2,700,000</option><option value="2800000">$2,800,000</option><option value="2900000">$2,900,000</option><option value="3000000">$3,000,000</option><option value="3250000">$3,250,000</option><option value="3500000">$3,500,000</option><option value="3750000">$3,750,000</option><option value="4000000">$4,000,000</option><option value="4250000">$4,250,000</option><option value="4500000">$4,500,000</option><option value="4750000">$4,750,000</option><option value="5000000">$5,000,000</option><option value="5500000">$5,500,000</option><option value="6000000">$6,000,000</option><option value="6500000">$6,500,000</option><option value="7000000">$7,000,000</option><option value="7500000">$7,500,000</option><option value="8000000">$8,000,000</option><option value="8500000">$8,500,000</option><option value="9000000">$9,000,000</option><option value="9500000">$9,500,000</option><option value="10000000">$10,000,000</option><option value="11000000">$11,000,000</option><option value="12000000">$12,000,000</option><option value="13000000">$13,000,000</option><option value="14000000">$14,000,000</option><option value="15000000">$15,000,000</option><option value="16000000">$16,000,000</option><option value="17000000">$17,000,000</option><option value="18000000">$18,000,000</option><option value="19000000">$19,000,000</option><option value="20000000">$20,000,000</option><option value="30000000">$30,000,000</option><option value="40000000">$40,000,000</option><option value="50000000">$50,000,000</option>
+
+														</select>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="input-group form-group">
+														<span class="input-group-addon">Max</span>
+														<select class="form-control" name="PriceHigh" id="PriceHigh" onchange="highPrice()">
+															<option value="200000">$200,000</option><option value="250000">$250,000</option><option value="300000">$300,000</option><option value="350000">$350,000</option><option value="400000">$400,000</option><option value="450000">$450,000</option><option value="500000">$500,000</option><option value="550000">$550,000</option><option value="600000">$600,000</option><option value="650000">$650,000</option><option value="700000">$700,000</option><option value="750000">$750,000</option><option value="800000">$800,000</option><option value="850000">$850,000</option><option value="900000">$900,000</option><option value="950000">$950,000</option><option value="1000000">$1,000,000</option><option value="1100000">$1,100,000</option><option value="1200000">$1,200,000</option><option value="1300000">$1,300,000</option><option value="1400000">$1,400,000</option><option value="1500000">$1,500,000</option><option value="1600000">$1,600,000</option><option value="1700000">$1,700,000</option><option value="1800000">$1,800,000</option><option value="1900000">$1,900,000</option><option value="2000000">$2,000,000</option><option value="2100000">$2,100,000</option><option value="2200000">$2,200,000</option><option value="2300000">$2,300,000</option><option value="2400000">$2,400,000</option><option value="2500000">$2,500,000</option><option value="2600000">$2,600,000</option><option value="2700000">$2,700,000</option><option value="2800000">$2,800,000</option><option value="2900000">$2,900,000</option><option value="3000000">$3,000,000</option><option value="3250000">$3,250,000</option><option value="3500000">$3,500,000</option><option value="3750000">$3,750,000</option><option value="4000000">$4,000,000</option><option value="4250000">$4,250,000</option><option value="4500000">$4,500,000</option><option value="4750000">$4,750,000</option><option value="5000000">$5,000,000</option><option value="5500000">$5,500,000</option><option value="6000000">$6,000,000</option><option value="6500000">$6,500,000</option><option value="7000000">$7,000,000</option><option value="7500000">$7,500,000</option><option value="8000000">$8,000,000</option><option value="8500000">$8,500,000</option><option value="9000000">$9,000,000</option><option value="9500000">$9,500,000</option><option value="10000000">$10,000,000</option><option value="11000000">$11,000,000</option><option value="12000000">$12,000,000</option><option value="13000000">$13,000,000</option><option value="14000000">$14,000,000</option><option value="15000000">$15,000,000</option><option value="16000000">$16,000,000</option><option value="17000000">$17,000,000</option><option value="18000000">$18,000,000</option><option value="19000000">$19,000,000</option><option value="20000000">$20,000,000</option><option value="30000000">$30,000,000</option><option value="40000000">$40,000,000</option><option value="50000000">$50,000,000</option>
+															<option value="999999999">No Maximum</option>
+														</select>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-xs-5">
+											<div class="row">
+												<div class="col-md-6">
+													<div class="input-group form-group">
+														<span class="input-group-addon">Beds</span>
+														<select name="Bedrooms" class="combo3 form-control">
+															<option value="0">0+</option>
+															<option value="1" selected="selected">1+</option>
+															<option value="2">2+</option>
+															<option value="3">3+</option>
+															<option value="4">4+</option>
+															<option value="5">5+</option>
+														</select>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="input-group form-group">
+														<span class="input-group-addon">Baths</span>
+														<select class="combo3 form-control" name="Baths">
+															<option value="1" selected="selected">1+</option>
+															<option value="1.1">1.5+</option>
+															<option value="2">2+</option>
+															<option value="2.1">2.5+</option>
+															<option value="3">3+</option>
+															<option value="3.1">3.5+</option>
+															<option value="4">4+</option>
+															<option value="5">5+</option>
+														</select>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+
+
+									<div id="cndce-map-container">
+										<div class="cndce-checkbox-container">
+											<label class="cndce-neighborhood-checkbox template">
+												<input type="checkbox">
+											</label>
+
+											<small>Search Neighborhoods</small>
+
+											<input class="cndce-neighborhood-search" type="text" placeholder="Search for neighborhood or ZIP Code">
+
+											<small>Selected Neighborhoods</small>
+											<div class="cndce-neighborhood-container selected"></div>
+
+
+											<!-- <small>Nearby Neighborhoods</small> -->
+											<!-- <div class="cndce-neighborhood-container nearby"></div> -->
+
+											<br>
+
+											<small>All Neighborhoods</small>
+											<div class="cndce-neighborhood-container all"></div>
+
+										</div>
+
+										<div id="cndce-zip-map"></div>
+									</div>
+									<br><br>
+									<div class="search-button">
+										<button type="submit" class="btn btn-lg btn-success" style="margin-top: 5px; margin-bottom: 10px;">
+											<span class="glyphicon glyphicon-search"></span>
+											Search
+										</button>
+									</div>
+
+								</form>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+			
+
+
+			<!-- Leaflet -->
+			<script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"
+			integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw=="
+			crossorigin=""></script>
+
+
+			<!-- California Top Homes -->
+			<script src="//californiatophomes.com/scripts/bootstrap-3.3.7.min.js?_=1636cbafef3"></script>
+			<script type="text/javascript" src="//californiatophomes.com/scripts/base.js?_=1636cbafef3"></script>
+
+
+			<script type="text/javascript" src="./script.js"></script>
+
+		</body>
+
+		</html>

@@ -1,0 +1,377 @@
+html, body{
+
+	margin: 0;
+
+	width: 100%;
+
+	height: 100%;
+
+}
+
+
+
+body{
+
+	font-family: 'Arial', sans-serif;
+
+}
+
+
+
+.template{
+
+	display: none;
+
+}
+
+
+
+#cndce-map-container{
+
+	width: 100%;
+
+	height: 100%;
+	min-height: 500px;
+
+
+	position: relative;
+
+}
+
+
+
+#cndce-map-container::before{
+
+	content: '';
+
+	position: absolute;
+
+	width: 100%;
+
+	height: 100%;
+
+	background: rgba( 255, 255, 255, 0.5 );
+
+
+
+	z-index: 2000;
+
+}
+
+
+
+#cndce-map-container::after{
+
+	content: 'Populating map...';
+
+	position: absolute;
+
+
+
+	font-weight: bold;
+
+	text-transform: uppercase;
+
+	letter-spacing: 1px;
+
+
+
+	top: 50%;
+
+	left: 50%;
+
+
+
+	z-index: 2500;
+
+
+
+
+
+	-webkit-transform: translate(-50%, -50%);
+
+	   -moz-transform: translate(-50%, -50%);
+
+	    -ms-transform: translate(-50%, -50%);
+
+	     -o-transform: translate(-50%, -50%);
+
+	        transform: translate(-50%, -50%);
+
+}
+
+
+
+#cndce-map-container.loaded::after,
+
+#cndce-map-container.loaded::before{
+
+	content: none;
+
+}
+
+
+
+#cndce-map-container .cndce-checkbox-container{
+
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	bottom: 10px;
+	padding: 10px 20px;
+	z-index: 1000;
+	background: white;
+	overflow: auto;
+
+	width: 30%;
+
+	-webkit-border-radius: 5px;
+	   -moz-border-radius: 5px;
+	        border-radius: 5px;
+}
+
+body.form #cndce-map-container .cndce-checkbox-container{
+	right: unset; 
+	left: 0;
+	top: 0;
+	bottom: 0;
+    padding-left: 0;
+    padding-top: 0;
+}
+
+
+
+
+
+#cndce-map-container.vertical .cndce-checkbox-container{
+
+	left: 2%;
+
+    right: 2%;
+
+    width: unset;
+
+    height: 40%;
+
+    top: unset;
+
+
+
+    -webkit-transition: all 0.3s ease-in-out;
+
+    -o-transition: all 0.3s ease-in-out;
+
+    -moz-transition: all 0.3s ease-in-out;
+
+    transition: all 0.3s ease-in-out;
+
+}
+
+
+body.form #cndce-map-container.vertical .cndce-checkbox-container{
+    padding: 0;
+    top: unset;
+}
+
+
+#cndce-map-container.vertical .cndce-checkbox-container.hovered{
+
+	height: 70%;
+
+}
+
+
+
+#cndce-map-container.vertical.has-keyboard .cndce-checkbox-container.hovered .cndce-neighborhood-container.selected{
+
+	/*display: none;*/
+
+}
+
+
+
+#cndce-map-container .cndce-checkbox-container small{
+
+	text-transform: uppercase;
+
+	font-weight: bold;
+
+	color: gray;
+
+	letter-spacing: 1px;
+
+	margin: 10px 0;
+
+	display: block;
+
+}
+
+
+
+#cndce-map-container .cndce-neighborhood-container{
+
+	display: -webkit-box;
+
+	display: -webkit-flex;
+
+	display: -moz-box;
+
+	display: -ms-flexbox;
+
+	display: flex;
+
+
+
+	-webkit-flex-wrap: wrap;
+
+	    -ms-flex-wrap: wrap;
+
+	        flex-wrap: wrap;
+
+}
+
+
+
+#cndce-map-container .cndce-neighborhood-search{
+
+	width: 100%;
+
+	outline: none;
+
+	border: 1px solid #c8c8c8;
+
+	margin-bottom: 5px;
+
+	-webkit-border-radius: 5px;
+
+	   -moz-border-radius: 5px;
+
+	        border-radius: 5px;
+
+	padding: 5px 10px;
+
+	-webkit-box-sizing: border-box;
+
+	   -moz-box-sizing: border-box;
+
+	        box-sizing: border-box;
+
+	text-transform: uppercase;
+
+	letter-spacing: 1px;
+
+	font-size: 80%;
+
+}
+
+
+
+#cndce-map-container .cndce-neighborhood-container .cndce-neighborhood-checkbox{
+
+	font-size: 90%;
+
+
+
+	-webkit-flex-basis: 50%;
+
+	    -ms-flex-preferred-size: 50%;
+
+	        flex-basis: 50%;
+
+}
+
+
+
+#cndce-map-container .cndce-neighborhood-container.all .cndce-neighborhood-checkbox.search-hidden{
+
+	display: none;
+
+}
+
+
+
+#cndce-map-container .cndce-neighborhood-container.selected .cndce-neighborhood-checkbox{
+
+	background: #7a4955;
+	color: white;
+
+	-webkit-border-radius: 5px;
+	   -moz-border-radius: 5px;
+	        border-radius: 5px;
+
+	text-transform: uppercase;
+	font-size: 76%;
+	letter-spacing: 1px;
+	cursor: pointer;
+	padding: 5px 10px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+
+	-webkit-flex-basis: unset;
+	    -ms-flex-preferred-size: unset;
+	        flex-basis: unset;
+
+}
+
+
+#cndce-map-container .cndce-neighborhood-container.selected .cndce-neighborhood-checkbox{
+	background: #e59e23;
+}
+
+
+
+
+#cndce-map-container .cndce-neighborhood-container.selected .cndce-neighborhood-checkbox::before {
+
+    content: 'x';
+
+    opacity: 0.6;
+
+}
+
+
+
+#cndce-map-container .cndce-neighborhood-container.selected .cndce-neighborhood-checkbox input{
+
+	display: none;
+
+}
+
+
+
+#cndce-zip-map{
+	width: 100%;
+	height: 100%;
+	min-height: 500px;
+}
+
+
+body.form #cndce-zip-map{
+	width: 69%;
+	margin-left: 31%;
+	border-radius: 7px;
+}
+
+
+
+body.form #cndce-map-container.vertical #cndce-zip-map{
+	width: 100%;
+	margin-left: 0;
+}
+
+#cndce-zip-map path{
+
+	-webkit-transition: all 0.3s ease-in-out;
+
+	-o-transition: all 0.3s ease-in-out;
+
+	-moz-transition: all 0.3s ease-in-out;
+
+	transition: all 0.3s ease-in-out;
+
+}
+
+
+
+
+
