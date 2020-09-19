@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Candice Experiments - Photocloud</title>
+	<link rel="icon" href="http://cndce.me/favicon.png">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+
+	<!-- Font -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
+	
+	<!-- jQuery.Scrollbar -->
+	<link rel="stylesheet" type="text/css" href="http://cdn.cndce.me/jquery.scrollbar.css">
+
+	<!-- Self -->
+	<link rel="stylesheet" type="text/css" href="cndce-photocloud.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	<div id="cndce-photocloud" class="cndce-photocloud">
+
+		<!-- Depth Slider -->
+		<div class="cndce-depth-slider" style="display: none">
+			<div class="cndce-depth-slider-button"></div>
+		</div>
+
+
+		<!-- Textbox -->
+		<div class="cndce-textbox">
+			<input type="text">
+		</div>
+
+
+		
+
+		<div class="cndce-fullscreen-image-container">
+			<div class="cndce-fullscreen-image-control close"></div>
+			<div class="cndce-fullscreen-image-control zoom-in"></div>
+			<div class="cndce-fullscreen-image-control zoom-out"></div>
+
+		</div>
+
+
+		<div class="cndce-control-point-container">
+
+			<!-- HTML Control Point -->
+			<div class="cndce-control-point-html">
+				<div class="cndce-control-point-progress-bar">
+					<div class="cndce-control-point-progress"></div>
+				</div>
+				<div class="cndce-control-point-top-bar">
+					<div class="cndce-control-point-top-bar-count">
+						<span class="cndce-control-point-index"></span>
+						/
+						<span class="cndce-control-point-total"></span>
+					</div>
+
+					<div class="cndce-control-point-top-bar-icons">
+						<img class="cndce-control-point-top-bar-icon fullscreen" src="./assets/img/icon-fullscreen.svg">
+
+						<img class="cndce-control-point-top-bar-icon play" src="./assets/img/icon-play.svg">
+
+						<img class="cndce-control-point-top-bar-icon stop" src="./assets/img/icon-stop.svg">
+
+
+						<a download class="cndce-control-point-download-link"><img class="cndce-control-point-top-bar-icon download"  src="./assets/img/icon-download.svg"></a>
+
+						<img class="cndce-control-point-top-bar-icon close" src="./assets/img/icon-close.svg">
+
+
+
+
+					</div>
+				</div>
+				<div class="cndce-control-point-html-contents">
+
+					<div class="cndce-control-point-arrow left" data-cndce-delta="-1"></div>
+					<div class="cndce-control-point-div cndce-scrollbar scrollbar-macosx left">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis ultrices purus, in elementum diam accumsan nec. Nunc luctus eros a libero rhoncus pretium. Curabitur nec urna convallis, tincidunt nibh ac, auctor lacus. Phasellus volutpat, mi nec imperdiet venenatis, nibh nulla mollis felis, in consectetur sem quam a magna. Nam accumsan metus a turpis aliquet, ac tincidunt augue pretium. Proin ultrices in erat ut tempor. Proin ac laoreet velit, sed tincidunt orci. Nam sed feugiat sem. Maecenas aliquet ante quis erat faucibus facilisis. Curabitur et tincidunt justo, non gravida ipsum. Nullam gravida risus mi, ac consequat massa viverra non. In eget diam sodales ligula bibendum eleifend sed at ante. Fusce egestas vestibulum diam quis viverra. Cras id viverra urna. Quisque lectus urna, blandit at gravida in, fringilla a risus. Nulla facilisi.
+
+						<br><br>
+
+						Aenean fermentum est ante, vel mattis massa tempus sodales. Etiam suscipit elit lacus, at laoreet enim consectetur accumsan. Vivamus vitae tincidunt lectus, in rhoncus nisl. Mauris tempor dolor sed libero iaculis faucibus. Morbi posuere lorem lobortis ligula venenatis porta. Duis ut dolor finibus lorem convallis rhoncus. Aliquam dapibus ante in faucibus porta. Quisque pulvinar porta purus, non lacinia est tempus vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consequat porttitor sapien sed vestibulum. Nunc aliquet congue consequat. Aliquam efficitur fermentum nisi non bibendum. Phasellus elit neque, pretium vitae turpis et, sodales pulvinar neque. Ut placerat consequat est, in convallis risus lobortis nec.
+
+						<br><br>
+
+						Integer id ipsum vestibulum, lobortis quam ut, tempor enim. Sed eu diam ante. Proin non dui placerat, commodo nulla ut, molestie nulla. Donec vulputate, lorem nec pellentesque gravida, tellus est imperdiet urna, a volutpat turpis tellus a purus. Duis semper tempus elit eget sollicitudin. Phasellus a leo purus. Duis posuere venenatis sapien, non consequat lectus dictum sed. Nam eu congue lacus. Morbi erat ex, euismod efficitur mauris vel, dignissim congue elit. Phasellus feugiat bibendum ex. Quisque vitae dictum risus, in mattis velit. Cras rutrum erat nulla, ut pretium felis luctus quis. Sed ut enim id nisl hendrerit varius sollicitudin non justo.
+
+
+					</div>
+					<div class="cndce-control-point-html-image">
+						<div class="cndce-control-point-html-image-container"></div>
+						<div class="cndce-control-point-html-image-label">
+							<div class="cndce-control-point-html-image-title"></div>
+							<div class="cndce-control-point-html-image-desc"></div>
+						</div>
+					</div>
+					<div class="cndce-control-point-div cndce-scrollbar scrollbar-macosx right">
+						Integer id ipsum vestibulum, lobortis quam ut, tempor enim. Sed eu diam ante. Proin non dui placerat, commodo nulla ut, molestie nulla. Donec vulputate, lorem nec pellentesque gravida, tellus est imperdiet urna, a volutpat turpis tellus a purus. Duis semper tempus elit eget sollicitudin. Phasellus a leo purus. Duis posuere venenatis sapien, non consequat lectus dictum sed. Nam eu congue lacus. Morbi erat ex, euismod efficitur mauris vel, dignissim congue elit. Phasellus feugiat bibendum ex. Quisque vitae dictum risus, in mattis velit. Cras rutrum erat nulla, ut pretium felis luctus quis. Sed ut enim id nisl hendrerit varius sollicitudin non justo.
+
+						<br><br>
+
+						Curabitur viverra augue justo, eu euismod enim hendrerit nec. Maecenas at ultrices erat, non efficitur turpis. Maecenas semper nisl quis libero tincidunt dignissim. Nunc ligula turpis, hendrerit ultricies vulputate vitae, dignissim et est. Vestibulum blandit enim non magna varius ornare. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel odio vel diam dapibus fringilla scelerisque sed odio. Vivamus in nisi nec arcu malesuada volutpat nec eu risus. Fusce blandit luctus lorem, et egestas est vehicula id. Pellentesque non dolor eget ante aliquam bibendum ac in mi. Aliquam faucibus eu velit id mollis. Donec sed orci venenatis, dignissim velit dignissim, eleifend est. Curabitur rutrum imperdiet porttitor.
+
+						<br><br>
+
+						Integer id ipsum vestibulum, lobortis quam ut, tempor enim. Sed eu diam ante. Proin non dui placerat, commodo nulla ut, molestie nulla. Donec vulputate, lorem nec pellentesque gravida, tellus est imperdiet urna, a volutpat turpis tellus a purus. Duis semper tempus elit eget sollicitudin. Phasellus a leo purus. Duis posuere venenatis sapien, non consequat lectus dictum sed. Nam eu congue lacus. Morbi erat ex, euismod efficitur mauris vel, dignissim congue elit. Phasellus feugiat bibendum ex. Quisque vitae dictum risus, in mattis velit. Cras rutrum erat nulla, ut pretium felis luctus quis. Sed ut enim id nisl hendrerit varius sollicitudin non justo.
+
+
+					</div>
+					<div class="cndce-control-point-arrow right" data-cndce-delta="1"></div>
+				</div>
+			</div>
+
+			<div class="cndce-control-points">
+				<!-- Control Point -->
+				<div id="control-point" class="cndce-control-point bottom" data-tag="tag1">
+					<div class="cndce-control-point-images cndce-scrollbar scrollbar-macosx"></div>
+					<div class="cndce-control-point-text">
+						Click here to toggle control point
+					</div>
+				</div>
+
+				<!-- Control Point -->
+				<div id="another-control-point" class="cndce-control-point bottom right" data-tag="tag2">
+					<div class="cndce-control-point-images cndce-scrollbar scrollbar-macosx"></div>
+					<div class="cndce-control-point-text">
+						I can be anywhere on the page
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+
+
+		<!-- Background -->
+		<div class="cndce-bg" style="background: url('./assets/img/bg.jpg')">
+			<div class="cndce-bg-overlay" style="opacity: 0.4; background: black"></div>
+			<div class="cndce-bg-overlay" style="background: url(./assets/img/checkered-pattern.png)"></div>
+		</div>
+
+
+		 <div class="cndce-hover-img-container">
+		 	
+		 </div>
+		
+
+
+		<!-- HTML Click Contents -->
+		<div id="html-1" class="cndce-html cndce-scrollbar scrollbar-macosx">
+			<h1>Lorem ipsum text</h1>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam bibendum consequat massa et convallis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras venenatis tristique lacus eu fermentum. Duis mattis, risus at dictum rutrum, felis tortor suscipit ipsum, in auctor augue lorem in arcu. Donec nec tortor nec urna lobortis blandit. Nam porttitor sem sit amet lectus rutrum, eu feugiat felis placerat. Curabitur nec odio rhoncus, ullamcorper nibh mollis, auctor tellus. Nulla sit amet urna nec lectus blandit tempus. Duis laoreet libero sed vehicula mollis.
+			<br><br>
+			Integer in nisl urna. Nullam at lectus vel velit laoreet imperdiet id et nisi. Mauris condimentum, metus vel tristique sodales, mi erat tristique arcu, ac semper ante mi ac nibh. Nullam elit enim, fermentum vel venenatis vel, pharetra id mauris. Praesent vitae metus a ante fringilla elementum nec quis mi. Duis rhoncus eros neque, euismod congue tortor tempus id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra diam eu efficitur dignissim. Aliquam erat volutpat. Sed nec dui ut odio bibendum dapibus. Aenean at accumsan libero. Fusce elementum velit tortor, non pulvinar massa pulvinar vel.
+			<br><br>
+			Maecenas quam dolor, vestibulum blandit sem et, tincidunt malesuada augue. Fusce et nulla aliquam, pulvinar augue vitae, volutpat mi. Sed tincidunt commodo urna et euismod. Aliquam vehicula ipsum nec lorem ultricies iaculis. Curabitur sit amet orci nec risus tincidunt sagittis non ut mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut consectetur id nibh ac ultrices. Nam suscipit eu nisl id consequat. Sed vel laoreet libero, ultrices sollicitudin orci. Etiam nec sodales sapien, sit amet eleifend ipsum.
+
+			<br><br>
+			Curabitur interdum sem in ornare tempus. Quisque eleifend finibus felis consequat commodo. Quisque dignissim porta enim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce tellus nisl, vestibulum ac aliquet ut, dapibus sed lectus. Nunc condimentum eleifend tortor. Morbi sed ex vitae sem feugiat malesuada. Sed nec rhoncus metus. Cras non lobortis urna. Aliquam maximus tempor orci, eget ultricies dolor maximus ut. Fusce a auctor sapien. Curabitur volutpat magna lacus, in volutpat justo facilisis vitae. Aliquam varius sem quis malesuada convallis. Fusce quis magna massa.
+
+			<br><br>
+			Donec at magna congue, consectetur ipsum quis, viverra nunc. Aenean pulvinar turpis erat, non hendrerit elit auctor nec. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce convallis nisi ut sollicitudin porta. In hac habitasse platea dictumst. Proin faucibus, turpis ac consequat molestie, libero nunc bibendum eros, a pellentesque lacus felis quis est. Nam in iaculis ante, sit amet varius orci. Nulla pretium sodales nisl sed consequat. Sed ipsum purus, accumsan vitae vehicula ultrices, dapibus sed massa. Quisque quis ex nisl. Suspendisse ultricies bibendum velit nec rutrum. Morbi dictum posuere malesuada. Maecenas bibendum rutrum metus, ac aliquet ex pulvinar eu.
+		</div>
+
+		<div id="html-2" class="cndce-html cndce-scrollbar scrollbar-macosx">
+			<h1>Another lorem ipsum text</h1>
+			
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet congue quam. Sed sed porta mauris. Morbi elementum condimentum egestas. Pellentesque quam odio, egestas quis fringilla at, pellentesque id mauris. Phasellus sed feugiat elit. Etiam auctor rutrum rutrum. Mauris molestie dolor at ullamcorper blandit. Etiam imperdiet nisl nunc, ut tincidunt urna sollicitudin vitae. Aliquam placerat eu magna ac ultricies. Suspendisse tristique efficitur est, eu pulvinar urna hendrerit vitae. Curabitur in est tortor. Duis tincidunt cursus felis in congue.
+			<br><br>
+
+			Donec ornare finibus metus. Donec feugiat erat eget sollicitudin finibus. Sed tellus sapien, mollis id interdum vel, tempus a leo. Quisque ut augue ut magna gravida tristique. Nulla facilisi. Aenean porttitor massa finibus mi pretium molestie. Phasellus ullamcorper consectetur ante sed gravida. Aenean nec molestie nunc. Phasellus vel tincidunt velit. Praesent ornare luctus velit, ac rutrum magna bibendum vitae. Phasellus accumsan velit eget eros vestibulum aliquam.
+			<br><br>
+
+			Fusce eleifend, sapien sagittis venenatis accumsan, sapien nunc condimentum urna, in pretium risus tellus interdum lectus. In facilisis faucibus orci, vel scelerisque sapien luctus at. Cras fringilla blandit eros, a dictum lacus consequat vitae. Mauris vitae est sed quam interdum condimentum. Integer mi lectus, molestie id metus vitae, egestas accumsan ante. Proin ornare nibh ac eros tristique, vitae feugiat ante hendrerit. Cras sed venenatis risus. Nullam quis congue nisi. Maecenas hendrerit nec lectus condimentum lobortis. Nunc finibus dolor massa, eu tempus dolor commodo pharetra. Integer id auctor nisl.
+			<br><br>
+
+			Praesent eget bibendum urna. Vestibulum porta efficitur orci, quis scelerisque massa. Etiam finibus consequat eleifend. Praesent posuere erat quis leo commodo, eu fringilla magna pellentesque. Sed blandit purus in justo scelerisque accumsan. Integer sit amet nunc eu sapien maximus vehicula. Vivamus lacinia nibh sed ligula congue feugiat id a ex. Vivamus cursus tempor faucibus. Vivamus augue odio, sodales nec enim vehicula, porta maximus magna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque pharetra consectetur felis rutrum sollicitudin. Proin scelerisque fringilla scelerisque. Sed mattis dapibus dui nec condimentum. Quisque ornare molestie venenatis.
+			<br><br>
+
+			Nulla et velit sit amet sem condimentum dictum faucibus eu erat. Pellentesque et odio facilisis, dapibus mauris et, condimentum dolor. Maecenas sollicitudin massa eget leo commodo, in ultrices nulla maximus. Phasellus hendrerit, diam vel lacinia tincidunt, lorem lectus vestibulum nisl, eget volutpat felis nibh sed quam. Nulla sagittis ac nulla sed hendrerit. Quisque mattis consectetur finibus. Aenean eget nulla maximus, blandit sapien et, venenatis odio. Quisque velit purus, egestas vel efficitur vitae, feugiat vitae quam. Aliquam sit amet eros ut metus varius euismod. Morbi cursus felis sem, sed condimentum tellus blandit ut. Vivamus ultricies massa at tellus ultricies tincidunt. Vestibulum gravida tincidunt ultricies. Nulla ultricies ex lorem. Praesent at tempus magna.
+			<br><br>
+
+			Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In hac habitasse platea dictumst. Nulla ac ante metus. Ut erat lacus, viverra sit amet dignissim et, ultrices vel ante. Integer elementum libero sit amet hendrerit feugiat. Nam vitae convallis mi. Donec ultrices tempus neque vel luctus.
+			<br><br>
+
+			Fusce blandit faucibus sapien vitae euismod. Sed euismod consectetur nisi, in tempus odio porta id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ullamcorper nulla vitae mattis fringilla. Sed gravida eros lacus, et hendrerit elit ultrices sit amet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas euismod pharetra ultricies. Donec faucibus dui sit amet sem ornare tincidunt.
+			<br><br>
+
+			Sed et diam diam. Mauris sit amet tortor in tortor dictum vulputate. Morbi gravida justo sed dignissim pharetra. In consectetur tincidunt orci, in semper metus rhoncus id. Fusce ultricies, sapien ac bibendum consectetur, augue eros interdum turpis, at posuere orci ipsum ac risus. Nam eu augue porttitor, semper dolor ac, volutpat sem. Nulla rutrum diam ut suscipit maximus. Etiam iaculis et urna sed convallis. Proin placerat lacus quis turpis pretium, at egestas est malesuada.
+			<br><br>
+
+			In risus felis, vestibulum ut porttitor ac, vehicula vel dui. Duis sit amet lacinia mi, eget egestas metus. Sed sit amet tellus in odio dapibus convallis. Nunc consequat rutrum ex, ac facilisis nibh dictum in. Sed finibus mollis leo, id vestibulum dui luctus sed. Phasellus viverra mauris sed egestas interdum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras non odio enim. Vestibulum ac turpis vehicula justo dignissim fermentum. Curabitur placerat, arcu et fringilla scelerisque, mauris ante posuere quam, eu aliquam ligula neque ac risus.
+			<br><br>
+
+			Curabitur eros nulla, pharetra convallis tincidunt quis, rutrum sit amet elit. Vestibulum faucibus vulputate mi et pharetra. Duis posuere ex at felis ornare, eu auctor orci vulputate. Nam ut lacus lectus. Praesent vestibulum hendrerit ex, vel elementum est cursus at. Mauris a orci lacus. Maecenas consectetur, augue vitae aliquet malesuada, ligula mi pulvinar quam, in pretium justo magna eget nibh. Suspendisse vitae lectus in justo scelerisque varius luctus at diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam fringilla nulla in urna mollis, rutrum finibus tortor eleifend. Curabitur gravida, orci quis tristique tempor, urna justo maximus arcu, ut dignissim orci urna vitae felis. Praesent volutpat tincidunt interdum. Ut nec placerat purus, in feugiat libero. Integer et ornare justo, non aliquet dolor. Pellentesque sed auctor orci. Donec consectetur eu sem ut suscipit.
+		</div>
+
+		<div id="html-3" class="cndce-html cndce-scrollbar scrollbar-macosx">
+			<h1>Here is a sample of a table</h1>
+
+			<table>
+				<tr>
+					<td>
+						<img src="./assets/img/data/1.jpg">
+					</td>
+
+					<td>
+						<img src="./assets/img/data/2.jpg">
+					</td>
+
+					<td>
+						<img src="./assets/img/data/3.jpg">
+					</td>
+				</tr>
+			</table>
+
+			<button>I DO NOTHING</button>
+		</div>
+	</div>
+
+
+	<!-- jQuery -->
+	<script src="http://code.jquery.com/jquery-3.2.1.min.js"
+	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+	<!-- ThreeJS -->
+	<script type="text/javascript" src="./assets/js/three.min.js"></script>
+	<script type="text/javascript" src="./assets/js/TTFLoader.js"></script>
+	<script type="text/javascript" src="./assets/js/opentype.min.js"></script>
+	<!-- <script type="text/javascript" src="./assets/js/TrackballControls.js"></script> -->
+	<script type="text/javascript" src="./assets/js/OrbitControls.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/16.3.5/Tween.min.js"></script>
+	
+
+
+	<!-- jQuery.Scrollbar -->
+	<script type="text/javascript" src="http://cdn.cndce.me/jquery.scrollbar.min.js"></script>
+
+
+	<!-- Self -->
+	<script type="text/javascript" src="cndce-photocloud.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>

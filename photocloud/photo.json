@@ -1,0 +1,392 @@
+[
+	{
+		"name": "Click Me",
+		"nameImage": "./assets/img/icon-image.png",
+		"photos":[
+			{
+				"url": "./assets/img/data/1.jpg",
+				"tooltip": "this is a tooltip",
+				"controlPointTitle": "I am a title1",
+				"controlPointDesc": "1I am a description. I am a description. I am a description",
+				"label": "I have long text. Hover on me!",
+				"longText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac enim ipsum. Quisque nec sem et neque sagittis lobortis. Etiam malesuada, orci sed tempor ultrices, nulla eros vehicula diam, vitae imperdiet diam eros et tortor. Aliquam vitae accumsan libero, elementum maximus ex. Fusce ut tempor nunc. Cras dignissim congue metus, in euismod eros lacinia quis. Etiam mi lorem, faucibus id augue quis, auctor feugiat ipsum. Vestibulum congue eros tellus, ac ullamcorper turpis rutrum pellentesque. Pellentesque posuere lacinia massa. Morbi vitae sapien id erat auctor sagittis id ullamcorper nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin lobortis sem ut sodales facilisis. Duis id faucibus leo. Ut convallis et eros ut posuere. Vestibulum dolor lacus, dictum ornare elit nec, tempor lacinia lectus. Praesent laoreet dignissim aliquam. Curabitur sit amet dignissim nibh. In ornare velit varius, eleifend risus sit amet, luctus quam. Sed in laoreet nulla, in consectetur nibh. Maecenas laoreet hendrerit volutpat. Maecenas tincidunt nisi mi, eu sodales eros ultricies ut. Fusce dignissim magna et ultricies cursus. Nullam eu enim accumsan, blandit erat sit amet, malesuada lacus. Aliquam et consectetur purus. Phasellus id facilisis est. Nunc lobortis varius felis sit amet feugiat. Phasellus mauris libero, facilisis sed maximus nec, tristique et lorem. Suspendisse rhoncus lobortis malesuada. Praesent orci diam, molestie eget tempus eget, tempus quis ipsum. Vestibulum vel dui id ex placerat vestibulum. Sed sed tellus quis turpis elementum sollicitudin quis id turpis. Proin sed ullamcorper nibh, porta cursus quam. Nullam placerat vitae lorem id aliquam. Morbi consequat bibendum leo, et viverra velit varius vitae. Nullam vitae tempus arcu, sed tincidunt sem. Vestibulum maximus volutpat urna, et eleifend odio vehicula a. Morbi ut eleifend orci. Vivamus euismod nunc et volutpat fringilla. Ut cursus massa enim, eget bibendum ligula rutrum consectetur. Nullam pellentesque orci euismod luctus malesuada. In ornare euismod justo ut bibendum. Praesent vel tincidunt neque. Etiam posuere rhoncus ex sit amet maximus. In imperdiet a tellus eu gravida. Curabitur finibus mi vel turpis suscipit, vel tristique sapien eleifend. Praesent nec ipsum urna. Pellentesque accumsan mi felis, at convallis magna venenatis at. Ut viverra scelerisque libero, in fermentum arcu maximus in. Aenean mollis viverra eros, ac fermentum eros maximus quis. Vivamus consectetur metus nec rutrum laoreet. Nunc in dui ac ex dapibus lacinia. Duis nec eros turpis. Curabitur vel magna quis libero sollicitudin consectetur sed at odio. Praesent tempus euismod lacus, nec consectetur nisi condimentum in. Donec venenatis egestas quam ac sagittis. Sed vel enim vel ligula molestie auctor et ac massa. Maecenas est massa, commodo quis suscipit eget, lobortis a nunc. Curabitur ut neque viverra, rhoncus ex in, ornare sem. In eu orci suscipit, faucibus magna quis, ultricies ex. Aliquam sed semper sapien. In quis ipsum sed nunc pharetra sollicitudin in vitae risus. Fusce venenatis sed mauris et finibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce vel quam finibus, scelerisque elit a, interdum quam. Ut non imperdiet ligula. Sed felis urna, pellentesque ac tortor eget, vestibulum tempor.",
+				"hoverText": "I have a bigger hover font size",
+				"labelFontSize": 150,
+				"hoverFontSize": 85,
+				"labelHoverScale": 0.75,
+				"quadrant": 1
+			},
+			{
+				"url": "./assets/img/data/2.jpg",
+				"tooltip": "this is a tooltip",
+				"controlPointTitle": "I am a title2",
+				"controlPointDesc": "2I am a description. I am a description. I am a description",
+				"label": "I have long text. Hover on me!",
+				"longText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac enim ipsum. Quisque nec sem et neque sagittis lobortis. Etiam malesuada, orci sed tempor ultrices, nulla eros vehicula diam, vitae imperdiet diam eros et tortor. Aliquam vitae accumsan libero, elementum maximus ex. Fusce ut tempor nunc. Cras dignissim congue metus, in euismod eros lacinia quis. Etiam mi lorem, faucibus id augue quis, auctor feugiat ipsum. Vestibulum congue eros tellus, ac ullamcorper turpis rutrum pellentesque. Pellentesque posuere lacinia massa. Morbi vitae sapien id erat auctor sagittis id ullamcorper nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin lobortis sem ut sodales facilisis. Duis id faucibus leo. Ut convallis et eros ut posuere. Vestibulum dolor lacus, dictum ornare elit nec, tempor lacinia lectus. Praesent laoreet dignissim aliquam. Curabitur sit amet dignissim nibh. In ornare velit varius, eleifend risus sit amet, luctus quam. Sed in laoreet nulla, in consectetur nibh. Maecenas laoreet hendrerit volutpat. Maecenas tincidunt nisi mi, eu sodales eros ultricies ut. Fusce dignissim magna et ultricies cursus. Nullam eu enim accumsan, blandit erat sit amet, malesuada lacus. Aliquam et consectetur purus. Phasellus id facilisis est. Nunc lobortis varius felis sit amet feugiat. Phasellus mauris libero, facilisis sed maximus nec, tristique et lorem. Suspendisse rhoncus lobortis malesuada. Praesent orci diam, molestie eget tempus eget, tempus quis ipsum. Vestibulum vel dui id ex placerat vestibulum. Sed sed tellus quis turpis elementum sollicitudin quis id turpis. Proin sed ullamcorper nibh, porta cursus quam. Nullam placerat vitae lorem id aliquam. Morbi consequat bibendum leo, et viverra velit varius vitae. Nullam vitae tempus arcu, sed tincidunt sem. Vestibulum maximus volutpat urna, et eleifend odio vehicula a. Morbi ut eleifend orci. Vivamus euismod nunc et volutpat fringilla. Ut cursus massa enim, eget bibendum ligula rutrum consectetur. Nullam pellentesque orci euismod luctus malesuada. In ornare euismod justo ut bibendum. Praesent vel tincidunt neque. Etiam posuere rhoncus ex sit amet maximus. In imperdiet a tellus eu gravida. Curabitur finibus mi vel turpis suscipit, vel tristique sapien eleifend. Praesent nec ipsum urna. Pellentesque accumsan mi felis, at convallis magna venenatis at. Ut viverra scelerisque libero, in fermentum arcu maximus in. Aenean mollis viverra eros, ac fermentum eros maximus quis. Vivamus consectetur metus nec rutrum laoreet. Nunc in dui ac ex dapibus lacinia. Duis nec eros turpis. Curabitur vel magna quis libero sollicitudin consectetur sed at odio. Praesent tempus euismod lacus, nec consectetur nisi condimentum in. Donec venenatis egestas quam ac sagittis. Sed vel enim vel ligula molestie auctor et ac massa. Maecenas est massa, commodo quis suscipit eget, lobortis a nunc. Curabitur ut neque viverra, rhoncus ex in, ornare sem. In eu orci suscipit, faucibus magna quis, ultricies ex. Aliquam sed semper sapien. In quis ipsum sed nunc pharetra sollicitudin in vitae risus. Fusce venenatis sed mauris et finibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce vel quam finibus, scelerisque elit a, interdum quam. Ut non imperdiet ligula. Sed felis urna, pellentesque ac tortor eget, vestibulum tempor.",
+				"hoverText": "I have a bigger hover font size",
+				"labelFontSize": 150,
+				"hoverFontSize": 85,
+				"labelHoverScale": 0.75,
+				"quadrant": 1
+			},
+			{
+				"url": "./assets/img/data/3.jpg",
+				"tooltip": "this is a tooltip",
+				"controlPointTitle": "I am a title3",
+				"controlPointDesc": "3I am a description. I am a description. I am a description",
+				"label": "I have long text. Hover on me!",
+				"longText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac enim ipsum. Quisque nec sem et neque sagittis lobortis. Etiam malesuada, orci sed tempor ultrices, nulla eros vehicula diam, vitae imperdiet diam eros et tortor. Aliquam vitae accumsan libero, elementum maximus ex. Fusce ut tempor nunc. Cras dignissim congue metus, in euismod eros lacinia quis. Etiam mi lorem, faucibus id augue quis, auctor feugiat ipsum. Vestibulum congue eros tellus, ac ullamcorper turpis rutrum pellentesque. Pellentesque posuere lacinia massa. Morbi vitae sapien id erat auctor sagittis id ullamcorper nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin lobortis sem ut sodales facilisis. Duis id faucibus leo. Ut convallis et eros ut posuere. Vestibulum dolor lacus, dictum ornare elit nec, tempor lacinia lectus. Praesent laoreet dignissim aliquam. Curabitur sit amet dignissim nibh. In ornare velit varius, eleifend risus sit amet, luctus quam. Sed in laoreet nulla, in consectetur nibh. Maecenas laoreet hendrerit volutpat. Maecenas tincidunt nisi mi, eu sodales eros ultricies ut. Fusce dignissim magna et ultricies cursus. Nullam eu enim accumsan, blandit erat sit amet, malesuada lacus. Aliquam et consectetur purus. Phasellus id facilisis est. Nunc lobortis varius felis sit amet feugiat. Phasellus mauris libero, facilisis sed maximus nec, tristique et lorem. Suspendisse rhoncus lobortis malesuada. Praesent orci diam, molestie eget tempus eget, tempus quis ipsum. Vestibulum vel dui id ex placerat vestibulum. Sed sed tellus quis turpis elementum sollicitudin quis id turpis. Proin sed ullamcorper nibh, porta cursus quam. Nullam placerat vitae lorem id aliquam. Morbi consequat bibendum leo, et viverra velit varius vitae. Nullam vitae tempus arcu, sed tincidunt sem. Vestibulum maximus volutpat urna, et eleifend odio vehicula a. Morbi ut eleifend orci. Vivamus euismod nunc et volutpat fringilla. Ut cursus massa enim, eget bibendum ligula rutrum consectetur. Nullam pellentesque orci euismod luctus malesuada. In ornare euismod justo ut bibendum. Praesent vel tincidunt neque. Etiam posuere rhoncus ex sit amet maximus. In imperdiet a tellus eu gravida. Curabitur finibus mi vel turpis suscipit, vel tristique sapien eleifend. Praesent nec ipsum urna. Pellentesque accumsan mi felis, at convallis magna venenatis at. Ut viverra scelerisque libero, in fermentum arcu maximus in. Aenean mollis viverra eros, ac fermentum eros maximus quis. Vivamus consectetur metus nec rutrum laoreet. Nunc in dui ac ex dapibus lacinia. Duis nec eros turpis. Curabitur vel magna quis libero sollicitudin consectetur sed at odio. Praesent tempus euismod lacus, nec consectetur nisi condimentum in. Donec venenatis egestas quam ac sagittis. Sed vel enim vel ligula molestie auctor et ac massa. Maecenas est massa, commodo quis suscipit eget, lobortis a nunc. Curabitur ut neque viverra, rhoncus ex in, ornare sem. In eu orci suscipit, faucibus magna quis, ultricies ex. Aliquam sed semper sapien. In quis ipsum sed nunc pharetra sollicitudin in vitae risus. Fusce venenatis sed mauris et finibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce vel quam finibus, scelerisque elit a, interdum quam. Ut non imperdiet ligula. Sed felis urna, pellentesque ac tortor eget, vestibulum tempor.",
+				"hoverText": "I have a bigger hover font size",
+				"labelFontSize": 150,
+				"hoverFontSize": 85,
+				"labelHoverScale": 0.75,
+				"quadrant": 1
+			},
+			{
+				"url": "./assets/img/data/4.jpg",
+				"tooltip": "this is a tooltip",
+				"controlPointTitle": "I am a title4",
+				"controlPointDesc": "4I am a description. I am a description. I am a description",
+				"label": "I have long text. Hover on me!",
+				"longText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac enim ipsum. Quisque nec sem et neque sagittis lobortis. Etiam malesuada, orci sed tempor ultrices, nulla eros vehicula diam, vitae imperdiet diam eros et tortor. Aliquam vitae accumsan libero, elementum maximus ex. Fusce ut tempor nunc. Cras dignissim congue metus, in euismod eros lacinia quis. Etiam mi lorem, faucibus id augue quis, auctor feugiat ipsum. Vestibulum congue eros tellus, ac ullamcorper turpis rutrum pellentesque. Pellentesque posuere lacinia massa. Morbi vitae sapien id erat auctor sagittis id ullamcorper nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin lobortis sem ut sodales facilisis. Duis id faucibus leo. Ut convallis et eros ut posuere. Vestibulum dolor lacus, dictum ornare elit nec, tempor lacinia lectus. Praesent laoreet dignissim aliquam. Curabitur sit amet dignissim nibh. In ornare velit varius, eleifend risus sit amet, luctus quam. Sed in laoreet nulla, in consectetur nibh. Maecenas laoreet hendrerit volutpat. Maecenas tincidunt nisi mi, eu sodales eros ultricies ut. Fusce dignissim magna et ultricies cursus. Nullam eu enim accumsan, blandit erat sit amet, malesuada lacus. Aliquam et consectetur purus. Phasellus id facilisis est. Nunc lobortis varius felis sit amet feugiat. Phasellus mauris libero, facilisis sed maximus nec, tristique et lorem. Suspendisse rhoncus lobortis malesuada. Praesent orci diam, molestie eget tempus eget, tempus quis ipsum. Vestibulum vel dui id ex placerat vestibulum. Sed sed tellus quis turpis elementum sollicitudin quis id turpis. Proin sed ullamcorper nibh, porta cursus quam. Nullam placerat vitae lorem id aliquam. Morbi consequat bibendum leo, et viverra velit varius vitae. Nullam vitae tempus arcu, sed tincidunt sem. Vestibulum maximus volutpat urna, et eleifend odio vehicula a. Morbi ut eleifend orci. Vivamus euismod nunc et volutpat fringilla. Ut cursus massa enim, eget bibendum ligula rutrum consectetur. Nullam pellentesque orci euismod luctus malesuada. In ornare euismod justo ut bibendum. Praesent vel tincidunt neque. Etiam posuere rhoncus ex sit amet maximus. In imperdiet a tellus eu gravida. Curabitur finibus mi vel turpis suscipit, vel tristique sapien eleifend. Praesent nec ipsum urna. Pellentesque accumsan mi felis, at convallis magna venenatis at. Ut viverra scelerisque libero, in fermentum arcu maximus in. Aenean mollis viverra eros, ac fermentum eros maximus quis. Vivamus consectetur metus nec rutrum laoreet. Nunc in dui ac ex dapibus lacinia. Duis nec eros turpis. Curabitur vel magna quis libero sollicitudin consectetur sed at odio. Praesent tempus euismod lacus, nec consectetur nisi condimentum in. Donec venenatis egestas quam ac sagittis. Sed vel enim vel ligula molestie auctor et ac massa. Maecenas est massa, commodo quis suscipit eget, lobortis a nunc. Curabitur ut neque viverra, rhoncus ex in, ornare sem. In eu orci suscipit, faucibus magna quis, ultricies ex. Aliquam sed semper sapien. In quis ipsum sed nunc pharetra sollicitudin in vitae risus. Fusce venenatis sed mauris et finibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce vel quam finibus, scelerisque elit a, interdum quam. Ut non imperdiet ligula. Sed felis urna, pellentesque ac tortor eget, vestibulum tempor.",
+				"hoverText": "I have a bigger hover font size",
+				"labelFontSize": 150,
+				"hoverFontSize": 85,
+				"labelHoverScale": 0.75,
+				"quadrant": 1
+			},
+			{
+				"url": "./assets/img/data/5.jpg",
+				"tooltip": "this is a tooltip",
+				"controlPointTitle": "I am a title5",
+				"controlPointDesc": "5I am a description. I am a description. I am a description",
+				"label": "I have long text. Hover on me!",
+				"longText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac enim ipsum. Quisque nec sem et neque sagittis lobortis. Etiam malesuada, orci sed tempor ultrices, nulla eros vehicula diam, vitae imperdiet diam eros et tortor. Aliquam vitae accumsan libero, elementum maximus ex. Fusce ut tempor nunc. Cras dignissim congue metus, in euismod eros lacinia quis. Etiam mi lorem, faucibus id augue quis, auctor feugiat ipsum. Vestibulum congue eros tellus, ac ullamcorper turpis rutrum pellentesque. Pellentesque posuere lacinia massa. Morbi vitae sapien id erat auctor sagittis id ullamcorper nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin lobortis sem ut sodales facilisis. Duis id faucibus leo. Ut convallis et eros ut posuere. Vestibulum dolor lacus, dictum ornare elit nec, tempor lacinia lectus. Praesent laoreet dignissim aliquam. Curabitur sit amet dignissim nibh. In ornare velit varius, eleifend risus sit amet, luctus quam. Sed in laoreet nulla, in consectetur nibh. Maecenas laoreet hendrerit volutpat. Maecenas tincidunt nisi mi, eu sodales eros ultricies ut. Fusce dignissim magna et ultricies cursus. Nullam eu enim accumsan, blandit erat sit amet, malesuada lacus. Aliquam et consectetur purus. Phasellus id facilisis est. Nunc lobortis varius felis sit amet feugiat. Phasellus mauris libero, facilisis sed maximus nec, tristique et lorem. Suspendisse rhoncus lobortis malesuada. Praesent orci diam, molestie eget tempus eget, tempus quis ipsum. Vestibulum vel dui id ex placerat vestibulum. Sed sed tellus quis turpis elementum sollicitudin quis id turpis. Proin sed ullamcorper nibh, porta cursus quam. Nullam placerat vitae lorem id aliquam. Morbi consequat bibendum leo, et viverra velit varius vitae. Nullam vitae tempus arcu, sed tincidunt sem. Vestibulum maximus volutpat urna, et eleifend odio vehicula a. Morbi ut eleifend orci. Vivamus euismod nunc et volutpat fringilla. Ut cursus massa enim, eget bibendum ligula rutrum consectetur. Nullam pellentesque orci euismod luctus malesuada. In ornare euismod justo ut bibendum. Praesent vel tincidunt neque. Etiam posuere rhoncus ex sit amet maximus. In imperdiet a tellus eu gravida. Curabitur finibus mi vel turpis suscipit, vel tristique sapien eleifend. Praesent nec ipsum urna. Pellentesque accumsan mi felis, at convallis magna venenatis at. Ut viverra scelerisque libero, in fermentum arcu maximus in. Aenean mollis viverra eros, ac fermentum eros maximus quis. Vivamus consectetur metus nec rutrum laoreet. Nunc in dui ac ex dapibus lacinia. Duis nec eros turpis. Curabitur vel magna quis libero sollicitudin consectetur sed at odio. Praesent tempus euismod lacus, nec consectetur nisi condimentum in. Donec venenatis egestas quam ac sagittis. Sed vel enim vel ligula molestie auctor et ac massa. Maecenas est massa, commodo quis suscipit eget, lobortis a nunc. Curabitur ut neque viverra, rhoncus ex in, ornare sem. In eu orci suscipit, faucibus magna quis, ultricies ex. Aliquam sed semper sapien. In quis ipsum sed nunc pharetra sollicitudin in vitae risus. Fusce venenatis sed mauris et finibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce vel quam finibus, scelerisque elit a, interdum quam. Ut non imperdiet ligula. Sed felis urna, pellentesque ac tortor eget, vestibulum tempor.",
+				"hoverText": "I have a bigger hover font size",
+				"labelFontSize": 150,
+				"hoverFontSize": 85,
+				"labelHoverScale": 0.75,
+				"quadrant": 1
+			},
+			{
+				"url": "./assets/img/data/6.jpg",
+				"tooltip": "this is a tooltip",
+				"controlPointTitle": "I am a title6",
+				"controlPointDesc": "6I am a description. I am a description. I am a description",
+				"label": "I have long text. Hover on me!",
+				"longText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac enim ipsum. Quisque nec sem et neque sagittis lobortis. Etiam malesuada, orci sed tempor ultrices, nulla eros vehicula diam, vitae imperdiet diam eros et tortor. Aliquam vitae accumsan libero, elementum maximus ex. Fusce ut tempor nunc. Cras dignissim congue metus, in euismod eros lacinia quis. Etiam mi lorem, faucibus id augue quis, auctor feugiat ipsum. Vestibulum congue eros tellus, ac ullamcorper turpis rutrum pellentesque. Pellentesque posuere lacinia massa. Morbi vitae sapien id erat auctor sagittis id ullamcorper nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin lobortis sem ut sodales facilisis. Duis id faucibus leo. Ut convallis et eros ut posuere. Vestibulum dolor lacus, dictum ornare elit nec, tempor lacinia lectus. Praesent laoreet dignissim aliquam. Curabitur sit amet dignissim nibh. In ornare velit varius, eleifend risus sit amet, luctus quam. Sed in laoreet nulla, in consectetur nibh. Maecenas laoreet hendrerit volutpat. Maecenas tincidunt nisi mi, eu sodales eros ultricies ut. Fusce dignissim magna et ultricies cursus. Nullam eu enim accumsan, blandit erat sit amet, malesuada lacus. Aliquam et consectetur purus. Phasellus id facilisis est. Nunc lobortis varius felis sit amet feugiat. Phasellus mauris libero, facilisis sed maximus nec, tristique et lorem. Suspendisse rhoncus lobortis malesuada. Praesent orci diam, molestie eget tempus eget, tempus quis ipsum. Vestibulum vel dui id ex placerat vestibulum. Sed sed tellus quis turpis elementum sollicitudin quis id turpis. Proin sed ullamcorper nibh, porta cursus quam. Nullam placerat vitae lorem id aliquam. Morbi consequat bibendum leo, et viverra velit varius vitae. Nullam vitae tempus arcu, sed tincidunt sem. Vestibulum maximus volutpat urna, et eleifend odio vehicula a. Morbi ut eleifend orci. Vivamus euismod nunc et volutpat fringilla. Ut cursus massa enim, eget bibendum ligula rutrum consectetur. Nullam pellentesque orci euismod luctus malesuada. In ornare euismod justo ut bibendum. Praesent vel tincidunt neque. Etiam posuere rhoncus ex sit amet maximus. In imperdiet a tellus eu gravida. Curabitur finibus mi vel turpis suscipit, vel tristique sapien eleifend. Praesent nec ipsum urna. Pellentesque accumsan mi felis, at convallis magna venenatis at. Ut viverra scelerisque libero, in fermentum arcu maximus in. Aenean mollis viverra eros, ac fermentum eros maximus quis. Vivamus consectetur metus nec rutrum laoreet. Nunc in dui ac ex dapibus lacinia. Duis nec eros turpis. Curabitur vel magna quis libero sollicitudin consectetur sed at odio. Praesent tempus euismod lacus, nec consectetur nisi condimentum in. Donec venenatis egestas quam ac sagittis. Sed vel enim vel ligula molestie auctor et ac massa. Maecenas est massa, commodo quis suscipit eget, lobortis a nunc. Curabitur ut neque viverra, rhoncus ex in, ornare sem. In eu orci suscipit, faucibus magna quis, ultricies ex. Aliquam sed semper sapien. In quis ipsum sed nunc pharetra sollicitudin in vitae risus. Fusce venenatis sed mauris et finibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce vel quam finibus, scelerisque elit a, interdum quam. Ut non imperdiet ligula. Sed felis urna, pellentesque ac tortor eget, vestibulum tempor.",
+				"hoverText": "I have a bigger hover font size",
+				"labelFontSize": 150,
+				"hoverFontSize": 85,
+				"labelHoverScale": 0.75,
+				"quadrant": 1
+			},
+			{
+				"url": "./assets/img/data/10.jpg",
+				"tooltip": "this is a tooltip",
+				"controlPointTitle": "I am a title7",
+				"controlPointDesc": "7I am a description. I am a description. I am a description",
+				"label": "I have long text. Hover on me!",
+				"longText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac enim ipsum. Quisque nec sem et neque sagittis lobortis. Etiam malesuada, orci sed tempor ultrices, nulla eros vehicula diam, vitae imperdiet diam eros et tortor. Aliquam vitae accumsan libero, elementum maximus ex. Fusce ut tempor nunc. Cras dignissim congue metus, in euismod eros lacinia quis. Etiam mi lorem, faucibus id augue quis, auctor feugiat ipsum. Vestibulum congue eros tellus, ac ullamcorper turpis rutrum pellentesque. Pellentesque posuere lacinia massa. Morbi vitae sapien id erat auctor sagittis id ullamcorper nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin lobortis sem ut sodales facilisis. Duis id faucibus leo. Ut convallis et eros ut posuere. Vestibulum dolor lacus, dictum ornare elit nec, tempor lacinia lectus. Praesent laoreet dignissim aliquam. Curabitur sit amet dignissim nibh. In ornare velit varius, eleifend risus sit amet, luctus quam. Sed in laoreet nulla, in consectetur nibh. Maecenas laoreet hendrerit volutpat. Maecenas tincidunt nisi mi, eu sodales eros ultricies ut. Fusce dignissim magna et ultricies cursus. Nullam eu enim accumsan, blandit erat sit amet, malesuada lacus. Aliquam et consectetur purus. Phasellus id facilisis est. Nunc lobortis varius felis sit amet feugiat. Phasellus mauris libero, facilisis sed maximus nec, tristique et lorem. Suspendisse rhoncus lobortis malesuada. Praesent orci diam, molestie eget tempus eget, tempus quis ipsum. Vestibulum vel dui id ex placerat vestibulum. Sed sed tellus quis turpis elementum sollicitudin quis id turpis. Proin sed ullamcorper nibh, porta cursus quam. Nullam placerat vitae lorem id aliquam. Morbi consequat bibendum leo, et viverra velit varius vitae. Nullam vitae tempus arcu, sed tincidunt sem. Vestibulum maximus volutpat urna, et eleifend odio vehicula a. Morbi ut eleifend orci. Vivamus euismod nunc et volutpat fringilla. Ut cursus massa enim, eget bibendum ligula rutrum consectetur. Nullam pellentesque orci euismod luctus malesuada. In ornare euismod justo ut bibendum. Praesent vel tincidunt neque. Etiam posuere rhoncus ex sit amet maximus. In imperdiet a tellus eu gravida. Curabitur finibus mi vel turpis suscipit, vel tristique sapien eleifend. Praesent nec ipsum urna. Pellentesque accumsan mi felis, at convallis magna venenatis at. Ut viverra scelerisque libero, in fermentum arcu maximus in. Aenean mollis viverra eros, ac fermentum eros maximus quis. Vivamus consectetur metus nec rutrum laoreet. Nunc in dui ac ex dapibus lacinia. Duis nec eros turpis. Curabitur vel magna quis libero sollicitudin consectetur sed at odio. Praesent tempus euismod lacus, nec consectetur nisi condimentum in. Donec venenatis egestas quam ac sagittis. Sed vel enim vel ligula molestie auctor et ac massa. Maecenas est massa, commodo quis suscipit eget, lobortis a nunc. Curabitur ut neque viverra, rhoncus ex in, ornare sem. In eu orci suscipit, faucibus magna quis, ultricies ex. Aliquam sed semper sapien. In quis ipsum sed nunc pharetra sollicitudin in vitae risus. Fusce venenatis sed mauris et finibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce vel quam finibus, scelerisque elit a, interdum quam. Ut non imperdiet ligula. Sed felis urna, pellentesque ac tortor eget, vestibulum tempor.",
+				"hoverText": "I have a bigger hover font size",
+				"labelFontSize": 150,
+				"hoverFontSize": 85,
+				"labelHoverScale": 0.75,
+				"quadrant": 1
+			},
+			{
+				"url": "./assets/img/data/11.jpg",
+				"tooltip": "this is a tooltip",
+				"controlPointTitle": "I am a title8",
+				"controlPointDesc": "8I am a description. I am a description. I am a description",
+				"label": "I have long text. Hover on me!",
+				"longText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac enim ipsum. Quisque nec sem et neque sagittis lobortis. Etiam malesuada, orci sed tempor ultrices, nulla eros vehicula diam, vitae imperdiet diam eros et tortor. Aliquam vitae accumsan libero, elementum maximus ex. Fusce ut tempor nunc. Cras dignissim congue metus, in euismod eros lacinia quis. Etiam mi lorem, faucibus id augue quis, auctor feugiat ipsum. Vestibulum congue eros tellus, ac ullamcorper turpis rutrum pellentesque. Pellentesque posuere lacinia massa. Morbi vitae sapien id erat auctor sagittis id ullamcorper nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin lobortis sem ut sodales facilisis. Duis id faucibus leo. Ut convallis et eros ut posuere. Vestibulum dolor lacus, dictum ornare elit nec, tempor lacinia lectus. Praesent laoreet dignissim aliquam. Curabitur sit amet dignissim nibh. In ornare velit varius, eleifend risus sit amet, luctus quam. Sed in laoreet nulla, in consectetur nibh. Maecenas laoreet hendrerit volutpat. Maecenas tincidunt nisi mi, eu sodales eros ultricies ut. Fusce dignissim magna et ultricies cursus. Nullam eu enim accumsan, blandit erat sit amet, malesuada lacus. Aliquam et consectetur purus. Phasellus id facilisis est. Nunc lobortis varius felis sit amet feugiat. Phasellus mauris libero, facilisis sed maximus nec, tristique et lorem. Suspendisse rhoncus lobortis malesuada. Praesent orci diam, molestie eget tempus eget, tempus quis ipsum. Vestibulum vel dui id ex placerat vestibulum. Sed sed tellus quis turpis elementum sollicitudin quis id turpis. Proin sed ullamcorper nibh, porta cursus quam. Nullam placerat vitae lorem id aliquam. Morbi consequat bibendum leo, et viverra velit varius vitae. Nullam vitae tempus arcu, sed tincidunt sem. Vestibulum maximus volutpat urna, et eleifend odio vehicula a. Morbi ut eleifend orci. Vivamus euismod nunc et volutpat fringilla. Ut cursus massa enim, eget bibendum ligula rutrum consectetur. Nullam pellentesque orci euismod luctus malesuada. In ornare euismod justo ut bibendum. Praesent vel tincidunt neque. Etiam posuere rhoncus ex sit amet maximus. In imperdiet a tellus eu gravida. Curabitur finibus mi vel turpis suscipit, vel tristique sapien eleifend. Praesent nec ipsum urna. Pellentesque accumsan mi felis, at convallis magna venenatis at. Ut viverra scelerisque libero, in fermentum arcu maximus in. Aenean mollis viverra eros, ac fermentum eros maximus quis. Vivamus consectetur metus nec rutrum laoreet. Nunc in dui ac ex dapibus lacinia. Duis nec eros turpis. Curabitur vel magna quis libero sollicitudin consectetur sed at odio. Praesent tempus euismod lacus, nec consectetur nisi condimentum in. Donec venenatis egestas quam ac sagittis. Sed vel enim vel ligula molestie auctor et ac massa. Maecenas est massa, commodo quis suscipit eget, lobortis a nunc. Curabitur ut neque viverra, rhoncus ex in, ornare sem. In eu orci suscipit, faucibus magna quis, ultricies ex. Aliquam sed semper sapien. In quis ipsum sed nunc pharetra sollicitudin in vitae risus. Fusce venenatis sed mauris et finibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce vel quam finibus, scelerisque elit a, interdum quam. Ut non imperdiet ligula. Sed felis urna, pellentesque ac tortor eget, vestibulum tempor.",
+				"hoverText": "I have a bigger hover font size",
+				"labelFontSize": 150,
+				"hoverFontSize": 85,
+				"labelHoverScale": 0.75,
+				"quadrant": 1
+			},
+			{
+				"url": "./assets/img/data/12.jpg",
+				"tooltip": "this is a tooltip",
+				"controlPointTitle": "I am a title9",
+				"controlPointDesc": "9I am a description. I am a description. I am a description",
+				"label": "I have long text. Hover on me!",
+				"longText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac enim ipsum. Quisque nec sem et neque sagittis lobortis. Etiam malesuada, orci sed tempor ultrices, nulla eros vehicula diam, vitae imperdiet diam eros et tortor. Aliquam vitae accumsan libero, elementum maximus ex. Fusce ut tempor nunc. Cras dignissim congue metus, in euismod eros lacinia quis. Etiam mi lorem, faucibus id augue quis, auctor feugiat ipsum. Vestibulum congue eros tellus, ac ullamcorper turpis rutrum pellentesque. Pellentesque posuere lacinia massa. Morbi vitae sapien id erat auctor sagittis id ullamcorper nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin lobortis sem ut sodales facilisis. Duis id faucibus leo. Ut convallis et eros ut posuere. Vestibulum dolor lacus, dictum ornare elit nec, tempor lacinia lectus. Praesent laoreet dignissim aliquam. Curabitur sit amet dignissim nibh. In ornare velit varius, eleifend risus sit amet, luctus quam. Sed in laoreet nulla, in consectetur nibh. Maecenas laoreet hendrerit volutpat. Maecenas tincidunt nisi mi, eu sodales eros ultricies ut. Fusce dignissim magna et ultricies cursus. Nullam eu enim accumsan, blandit erat sit amet, malesuada lacus. Aliquam et consectetur purus. Phasellus id facilisis est. Nunc lobortis varius felis sit amet feugiat. Phasellus mauris libero, facilisis sed maximus nec, tristique et lorem. Suspendisse rhoncus lobortis malesuada. Praesent orci diam, molestie eget tempus eget, tempus quis ipsum. Vestibulum vel dui id ex placerat vestibulum. Sed sed tellus quis turpis elementum sollicitudin quis id turpis. Proin sed ullamcorper nibh, porta cursus quam. Nullam placerat vitae lorem id aliquam. Morbi consequat bibendum leo, et viverra velit varius vitae. Nullam vitae tempus arcu, sed tincidunt sem. Vestibulum maximus volutpat urna, et eleifend odio vehicula a. Morbi ut eleifend orci. Vivamus euismod nunc et volutpat fringilla. Ut cursus massa enim, eget bibendum ligula rutrum consectetur. Nullam pellentesque orci euismod luctus malesuada. In ornare euismod justo ut bibendum. Praesent vel tincidunt neque. Etiam posuere rhoncus ex sit amet maximus. In imperdiet a tellus eu gravida. Curabitur finibus mi vel turpis suscipit, vel tristique sapien eleifend. Praesent nec ipsum urna. Pellentesque accumsan mi felis, at convallis magna venenatis at. Ut viverra scelerisque libero, in fermentum arcu maximus in. Aenean mollis viverra eros, ac fermentum eros maximus quis. Vivamus consectetur metus nec rutrum laoreet. Nunc in dui ac ex dapibus lacinia. Duis nec eros turpis. Curabitur vel magna quis libero sollicitudin consectetur sed at odio. Praesent tempus euismod lacus, nec consectetur nisi condimentum in. Donec venenatis egestas quam ac sagittis. Sed vel enim vel ligula molestie auctor et ac massa. Maecenas est massa, commodo quis suscipit eget, lobortis a nunc. Curabitur ut neque viverra, rhoncus ex in, ornare sem. In eu orci suscipit, faucibus magna quis, ultricies ex. Aliquam sed semper sapien. In quis ipsum sed nunc pharetra sollicitudin in vitae risus. Fusce venenatis sed mauris et finibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce vel quam finibus, scelerisque elit a, interdum quam. Ut non imperdiet ligula. Sed felis urna, pellentesque ac tortor eget, vestibulum tempor.",
+				"hoverText": "I have a bigger hover font size",
+				"labelFontSize": 150,
+				"hoverFontSize": 85,
+				"labelHoverScale": 0.75,
+				"quadrant": 1
+			},
+			{
+				"url": "./assets/img/data/13.jpg",
+				"tooltip": "this is a tooltip",
+				"controlPointTitle": "I am a title10",
+				"controlPointDesc": "10I am a description. I am a description. I am a description",
+				"label": "label1 hello world hello world hello world hello world",
+				"hoverText": "I am a hover text. I am similar to label but appear only on hover",
+				"tags": ["tag1"],
+				"quadrant": 2
+			},
+			{
+				"url": "./assets/img/data/14.jpg",
+				"tooltip": "this is a tooltip",
+				"controlPointTitle": "I am a title11",
+				"controlPointDesc": "11I am a description. I am a description. I am a description",
+				"label": "label1 hello world hello world hello world hello world",
+				"hoverText": "I am a hover text. I am similar to label but appear only on hover",
+				"tags": ["tag1"],
+				"quadrant": 2
+			},
+			{
+				"url": "./assets/img/data/15.jpg",
+				"tooltip": "this is a tooltip",
+				"controlPointTitle": "I am a title12",
+				"controlPointDesc": "12I am a description. I am a description. I am a description",
+				"label": "label1 hello world hello world hello world hello world",
+				"hoverText": "I am a hover text. I am similar to label but appear only on hover",
+				"tags": ["tag1"],
+				"quadrant": 2
+			},
+			{
+				"url": "./assets/img/data/16.jpg",
+				"tooltip": "this is a tooltip",
+				"controlPointTitle": "I am a title13",
+				"controlPointDesc": "13I am a description. I am a description. I am a description",
+				"label": "label1 hello world hello world hello world hello world",
+				"hoverText": "I am a hover text. I am similar to label but appear only on hover",
+				"tags": ["tag1"],
+				"quadrant": 2
+			},
+			{
+				"url": "./assets/img/data/17.jpg",
+				"tooltip": "this is a tooltip",
+				"controlPointTitle": "I am a title14",
+				"controlPointDesc": "14I am a description. I am a description. I am a description",
+				"label": "label1 hello world hello world hello world hello world",
+				"hoverText": "I am a hover text. I am similar to label but appear only on hover",
+				"tags": ["tag1"],
+				"quadrant": 2
+			},
+			{
+				"url": "./assets/img/data/18.jpg",
+				"tooltip": "this is a tooltip",
+				"controlPointTitle": "I am a title15",
+				"controlPointDesc": "15I am a description. I am a description. I am a description",
+				"label": "label1 hello world hello world hello world hello world",
+				"hoverText": "I am a hover text. I am similar to label but appear only on hover",
+				"tags": ["tag1"],
+				"quadrant": 2
+			},
+			{
+				"url": "./assets/img/data/19.jpg",
+				"tooltip": "this is a tooltip",
+				"controlPointTitle": "I am a title16",
+				"controlPointDesc": "16I am a description. I am a description. I am a description",
+				"label": "label1 hello world hello world hello world hello world",
+				"hoverText": "I am a hover text. I am similar to label but appear only on hover",
+				"tags": ["tag1"],
+				"quadrant": 3
+			},
+			{
+				"url": "./assets/img/data/20.jpg",
+				"tooltip": "this is a tooltip",
+				"controlPointTitle": "I am a title17",
+				"controlPointDesc": "17I am a description. I am a description. I am a description",
+				"label": "label1 hello world hello world hello world hello world",
+				"hoverText": "I am a hover text. I am similar to label but appear only on hover",
+				"tags": ["tag2"],
+				"quadrant": 3
+			},
+			{
+				"url": "./assets/img/data/1.jpg",
+				"tooltip": "this is a tooltip",
+				"controlPointTitle": "I am a title18",
+				"controlPointDesc": "18I am a description. I am a description. I am a description",
+				"label": "label1 hello world hello world hello world hello world",
+				"hoverText": "I am a hover text. I am similar to label but appear only on hover",
+				"tags": ["tag2"],
+				"quadrant": 3
+			},
+			{
+				"url": "./assets/img/data/2.jpg",
+				"tooltip": "this is a tooltip",
+				"controlPointTitle": "I am a title19",
+				"controlPointDesc": "19I am a description. I am a description. I am a description",
+				"label": "label1 hello world hello world hello world hello world",
+				"hoverText": "I am a hover text. I am similar to label but appear only on hover",
+				"tags": ["tag2"],
+				"quadrant": 3
+			},
+			{
+				"url": "./assets/img/data/3.jpg",
+				"tooltip": "this is a tooltip",
+				"controlPointTitle": "I am a title20",
+				"controlPointDesc": "20I am a description. I am a description. I am a description",
+				"label": "label1 hello world hello world hello world hello world",
+				"hoverText": "I am a hover text. I am similar to label but appear only on hover",
+				"tags": ["tag2"],
+				"quadrant": 3
+			},
+			{
+				"url": "./assets/img/data/4.jpg",
+				"tooltip": "this is a tooltip",
+				"controlPointTitle": "I am a title21",
+				"controlPointDesc": "21I am a description. I am a description. I am a description",
+				"label": "label1 hello world hello world hello world hello world",
+				"hoverText": "I am a hover text. I am similar to label but appear only on hover",
+				"tags": ["tag2"],
+				"quadrant": 3
+			},
+			{
+				"url": "./assets/img/data/5.jpg",
+				"tooltip": "this is a tooltip",
+				"controlPointTitle": "I am a title22",
+				"controlPointDesc": "22I am a description. I am a description. I am a description",
+				"label": "label1 hello world hello world hello world hello world",
+				"hoverText": "I am a hover text. I am similar to label but appear only on hover",
+				"quadrant": 4
+			},
+			{
+				"url": "./assets/img/data/6.jpg",
+				"tooltip": "this is a tooltip",
+				"controlPointTitle": "I am a title23",
+				"controlPointDesc": "23I am a description. I am a description. I am a description",
+				"label": "label1 hello world hello world hello world hello world",
+				"hoverText": "I am a hover text. I am similar to label but appear only on hover",
+				"quadrant": 4
+			},
+			{
+				"url": "./assets/img/data/10.jpg",
+				"tooltip": "this is a tooltip",
+				"controlPointTitle": "I am a title24",
+				"controlPointDesc": "24I am a description. I am a description. I am a description",
+				"label": "label1 hello world hello world hello world hello world",
+				"hoverText": "I am a hover text. I am similar to label but appear only on hover",
+				"quadrant": 4
+			},
+			{
+				"url": "./assets/img/data/11.jpg",
+				"tooltip": "this is a tooltip",
+				"controlPointTitle": "I am a title25",
+				"controlPointDesc": "25I am a description. I am a description. I am a description",
+				"label": "label1 hello world hello world hello world hello world",
+				"hoverText": "I am a hover text. I am similar to label but appear only on hover",
+				"quadrant": 4
+			},
+			{
+				"url": "./assets/img/data/12.jpg",
+				"tooltip": "this is a tooltip",
+				"controlPointTitle": "I am a title26",
+				"controlPointDesc": "26I am a description. I am a description. I am a description",
+				"label": "label1 hello world hello world hello world hello world",
+				"hoverText": "I am a hover text. I am similar to label but appear only on hover",
+				"quadrant": 4
+			},
+			{
+				"url": "./assets/img/data/13.jpg",
+				"tooltip": "this is a tooltip",
+				"controlPointTitle": "I am a title27",
+				"controlPointDesc": "27I am a description. I am a description. I am a description",
+				"label": "label1 hello world hello world hello world hello world",
+				"hoverText": "I am a hover text. I am similar to label but appear only on hover",
+				"quadrant": 4
+			},
+			{
+				"url": "./assets/img/data/14.jpg",
+				"tooltip": "this is a tooltip",
+				"controlPointTitle": "I am a title28",
+				"controlPointDesc": "28I am a description. I am a description. I am a description",
+				"label": "label1 hello world hello world hello world hello world",
+				"hoverText": "I am a hover text. I am similar to label but appear only on hover",
+				"quadrant": 4
+			},
+			{
+				"url": "./assets/img/data/15.jpg",
+				"tooltip": "this is a tooltip",
+				"controlPointTitle": "I am a title29",
+				"controlPointDesc": "29I am a description. I am a description. I am a description",
+				"label": "label1 hello world hello world hello world hello world",
+				"hoverText": "I am a hover text. I am similar to label but appear only on hover",
+				"quadrant": 4
+			},
+			{
+				"url": "./assets/img/data/16.jpg",
+				"tooltip": "this is a tooltip",
+				"controlPointTitle": "I am a title30",
+				"controlPointDesc": "30I am a description. I am a description. I am a description",
+				"label": "label1 hello world hello world hello world hello world",
+				"hoverText": "I am a hover text. I am similar to label but appear only on hover",
+				"quadrant": 4
+			},
+			{
+				"url": "./assets/img/data/17.jpg",
+				"tooltip": "this is a tooltip",
+				"controlPointTitle": "I am a title31",
+				"controlPointDesc": "31I am a description. I am a description. I am a description",
+				"label": "label1 hello world hello world hello world hello world",
+				"hoverText": "I am a hover text. I am similar to label but appear only on hover",
+				"quadrant": 4
+			},
+			{
+				"url": "./assets/img/data/18.jpg",
+				"tooltip": "this is a tooltip",
+				"controlPointTitle": "I am a title32",
+				"controlPointDesc": "32I am a description. I am a description. I am a description",
+				"label": "label1 hello world hello world hello world hello world",
+				"hoverText": "I am a hover text. I am similar to label but appear only on hover",
+				"quadrant": 4
+			},
+			{
+				"url": "./assets/img/data/19.jpg",
+				"tooltip": "this is a tooltip",
+				"controlPointTitle": "I am a title33",
+				"controlPointDesc": "33I am a description. I am a description. I am a description",
+				"label": "label1 hello world hello world hello world hello world",
+				"hoverText": "I am a hover text. I am similar to label but appear only on hover",
+				"quadrant": 4
+			},
+			{
+				"url": "./assets/img/data/20.jpg",
+				"tooltip": "this is a tooltip",
+				"controlPointTitle": "I am a title34",
+				"controlPointDesc": "I34 am a description. I am a description. I am a description",
+				"label": "label1 hello world hello world hello world hello world",
+				"hoverText": "I am a hover text. I am similar to label but appear only on hover",
+				"quadrant": 4
+			}
+		]
+	},
+	{
+		"name": "HTML Click",
+		"photos": [
+			{
+				"url": "./assets/img/data/7.jpg",
+				"tooltip": "this is a tooltip1",
+				"controlPointTitle": "I am a title35",
+				"controlPointDesc": "35I am a description. I am a description. I am a description",
+				"html": "html-1",
+				"label": "It's ok to not have label"
+			},
+			{
+				"url": "./assets/img/data/8.jpg",
+				"tooltip": "this is a tooltip2",
+				"controlPointTitle": "I am a title35",
+				"controlPointDesc": "35I am a description. I am a description. I am a description",
+				"html": "html-2",
+				"label": "It's also ok to not have an html or tooltip"
+
+			},
+			{
+				"url": "./assets/img/data/9.jpg",
+				"tooltip": "hello world",
+				"controlPointTitle": "I am a title36",
+				"controlPointDesc": "36I am a description. I am a description. I am a description",
+				"html": "html-3"
+
+			}
+		]
+	}
+]
