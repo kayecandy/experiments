@@ -1,0 +1,183 @@
+{
+	"colors": {
+		"plain": {
+			"label": "Plain",
+			"material": {
+				"metalness": 0,
+				"emissive": 0,
+				"emissiveIntensity": 1
+			},
+			"colors": [
+				{
+					"name"		: "Blue",
+					"color"		: "#1851ee"
+				},
+				{
+					"name"		: "Red",
+					"color"		: "#cc0000"
+				},
+				{
+					"name"		: "White",
+					"color"		: "#eeeeee"
+				},
+				{
+					"name"		: "Gray",
+					"color"		: "#aaaaaa"
+				},
+				{
+					"name"		: "Black",
+					"color"		: "#111111"
+				},
+				{
+					"name"		: "Dark Blue",
+					"color"		: "#142E7B"
+				},
+				{
+					"name"		: "Orange",
+					"color"		: "#ff4800"
+				},
+				{
+					"name"		: "Purple",
+					"color"		: "#36005b"
+				}
+			]
+		},
+		"metallic": {
+			"label": "Metallic",
+			"material": {
+				"metalness": 0.2,
+				"emissive": 0,
+				"emissiveIntensity": 1
+			},
+			"colors": [
+				{
+					"name"		: "Blue",
+					"color"		: "#00379d",
+					"price"		: 3
+				},
+				{
+					"name"		: "Green",
+					"color"		: "#007c3d",
+					"price"		: 3
+				},
+				{
+					"name"		: "Red",
+					"color"		: "#cc0000",
+					"price"		: 3
+				},
+				{
+					"name"		: "Silver",
+					"color"		: "#bbbbbb",
+					"price"		: 3
+				},
+				{
+					"name"		: "Gold",
+					"color"		: "#cb8f00",
+					"price"		: 3
+				}
+			]
+		},
+		"flourescent": {
+			"label": "Flourescent",
+			"material": {
+				"metalness": 0,
+				"emissive": 16730112,
+				"emissiveIntensity": 0.1
+			},
+			"colors": [
+				{
+					"name"		: "Orange",
+					"color"		: "#ff4800",
+					"price"		: 3
+				},
+				{
+					"name"		: "Pink",
+					"color"		: "#ff3f75",
+					"price"		: 3
+				},
+				{
+					"name"		: "Green",
+					"color"		: "#007c3d",
+					"price"		: 3
+				},
+				{
+					"name"		: "Yellow",
+					"color"		: "#f5f500",
+					"price"		: 3
+				}
+			]
+		}
+	},
+	"fontColors":{
+		"colors": [
+			{
+				"name"		: "Blue",
+				"color"		: "#1851ee"
+			},
+			{
+				"name"		: "Red",
+				"color"		: "#cc0000"
+			},
+			{
+				"name"		: "White",
+				"color"		: "#eeeeee"
+			},
+			{
+				"name"		: "Gray",
+				"color"		: "#aaaaaa"
+			},
+			{
+				"name"		: "Black",
+				"color"		: "#111111"
+			},
+			{
+				"name"		: "Navy",
+				"color"		: "#005079"
+			},
+			{
+				"name"		: "Orange",
+				"color"		: "#ff4800"
+			},
+			{
+				"name"		: "Purple",
+				"color"		: "#36005b"
+			}
+		]
+	},
+	"outlineColors":{
+		"colors": [
+			{
+				"name"		: "Blue",
+				"color"		: "#1851ee"
+			},
+			{
+				"name"		: "Red",
+				"color"		: "#cc0000"
+			},
+			{
+				"name"		: "White",
+				"color"		: "#eeeeee"
+			},
+			{
+				"name"		: "Gray",
+				"color"		: "#aaaaaa"
+			},
+			{
+				"name"		: "Black",
+				"color"		: "#111111"
+			},
+			{
+				"name"		: "Navy",
+				"color"		: "#005079"
+			},
+			{
+				"name"		: "Orange",
+				"color"		: "#ff4800"
+			},
+			{
+				"name"		: "Purple",
+				"color"		: "#36005b"
+			}
+		]
+	}
+}
