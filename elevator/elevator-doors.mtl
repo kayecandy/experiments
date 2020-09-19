@@ -1,0 +1,12 @@
+# Blender MTL File: 'elevator.blend'
+# Material Count: 1
+
+newmtl DoorMaterial
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.334322 0.334322 0.334322
+Ks 0.800000 0.800000 0.800000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2

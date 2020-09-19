@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Candice Experiments - Photocloud</title>
+	<link rel="icon" href="http://cndce.me/favicon.png">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+
+	<!-- Font -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet">
+	
+
+	<!-- Self -->
+	<link rel="stylesheet" type="text/css" href="./cndce-elevator.css">
+
+</head>
+<body>
+
+	<h1 class="cndce-title">Elevators</h1>
+
+
+	<canvas id="cndce-elevator-canvas"></canvas>
+
+	<div id="cndce-controls">
+
+		<div class="cndce-elevator">
+			<div>ELEVATOR</div>
+			<select class="cndce-elevator-num">
+				<option data-elevator="1">1</option>
+				<option data-elevator="2">2</option>
+
+			</select>
+
+			<br>
+
+			<div><button class="cndce-remove-elevator">Remove Elevator</button></div>
+
+			<div><button class="cndce-add-elevator">Add Elevator</button></div>
+
+			<br>
+
+
+		</div>
+
+		<div class="cndce-elevator-floors">
+			LEVEL
+			<ul>
+				<li><div class="cndce-floor" data-floor="4">4</div></li>
+				<li><div class="cndce-floor" data-floor="3">3</div></li>
+				<li><div class="cndce-floor" data-floor="2">2</div></li>
+				<li><div class="cndce-floor active" data-floor="1">1</div></li>
+			</ul>
+		</div>
+		<button class="cndce-toggle-wireframe hidden">Toggle Wireframe</button>
+
+		<button class="cndce-toggle-door-open">Toggle Door</button>
+
+
+	</div>
+
+
+
+	<!-- jQuery -->
+	<script src="http://code.jquery.com/jquery-3.2.1.min.js"
+	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+	<!-- ThreeJS -->
+	<script type="text/javascript" src="http://cdn.cndce.me/threejs/r102/three.min.js"></script>
+	<script type="text/javascript" src="http://cdn.cndce.me/threejs/r102/loaders/OBJLoader.js"></script>
+	<script type="text/javascript" src="http://cdn.cndce.me/threejs/r102/loaders/MTLLoader.js"></script>
+	<script type="text/javascript" src="http://cdn.cndce.me/threejs/r102/controls/OrbitControls.js"></script>
+
+
+	<!-- TweenJS -->
+	<script type="text/javascript" src="http://cdn.cndce.me/Tween.js"></script>
+
+
+	<!-- Self -->
+	<script type="text/javascript" src="./cndce-elevator.js"></script>
+
+	<script type="text/javascript">
+		$(function(){
+			$('#cndce-elevator-canvas').cndceElevator({});
+		});
+	</script>
+
+</body>
+</html>
