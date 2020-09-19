@@ -1,0 +1,122 @@
+[
+	{
+		"firstName": "Marco",
+		"lastName": "Kuiper",
+		"profilePicture": "./images/profile-pictures/1.jpg",
+		"status": "online",
+		"statusMessage": "Marcofolio.net - The place to be! This crazy Skype example was created by me.",
+		"location": "(GMT+2) Arnhem, The Netherlands"
+	},
+	{
+		"firstName": "Adelle",
+		"lastName": "Charles",
+		"profilePicture": "./images/profile-pictures/2.jpg",
+		"status": "offline",
+		"statusMessage": "Co-Founder + Creative Director at Fuel Brand Inc / Creators of the fuelbrandnetwork.com",
+		"location": "New York City"
+	},
+	{
+		"firstName": "Angie",
+		"lastName": "Bowen",
+		"profilePicture": "./images/profile-pictures/3.jpg",
+		"status": "busy",
+		"statusMessage": "I'm a 32 year old artist, designer & web developer living in the mountains of Colorado.",
+		"location": "Mountains of Colorado"
+	},
+	{
+		"firstName": "Aravind",
+		"lastName": "Ajith",
+		"profilePicture": "./images/profile-pictures/4.jpg",
+		"status": "busy",
+		"statusMessage": "Hard core designer, blogger, coder. Loves Drupal and Wordpress.",
+		"location": "India"
+	},
+	{
+		"firstName": "Chris",
+		"lastName": "Coyier",
+		"profilePicture": "./images/profile-pictures/5.jpg",
+		"status": "offline",
+		"statusMessage": "Lead cascader. Head tag closer.",
+		"location": "Chicago, IL"
+	},
+	{
+		"firstName": "Chris",
+		"lastName": "Spooner",
+		"profilePicture": "./images/profile-pictures/1.jpg",
+		"status": "offline",
+		"statusMessage": "I'm a freelance graphic and web designer, who enjoys publishing design tutorials and articles on his site.",
+		"location": "Sheffield, UK"
+	},
+	{
+		"firstName": "David",
+		"lastName": "Leggett",
+		"profilePicture": "./images/profile-pictures/2.jpg",
+		"status": "offline",
+		"statusMessage": "Tutorial9 is a blog that teaches about Photoshop, Blogging, and Photography. We share loads of freebies.",
+		"location": ""
+	},
+	{
+		"firstName": "Francesco",
+		"lastName": "Mugnai",
+		"profilePicture": "./images/profile-pictures/3.jpg",
+		"status": "away",
+		"statusMessage": "I'm a web/graphic designer and currently, I teach Graphic Design in a renowned Italian institute of Art and Design",
+		"location": "Florence, Italy"
+	},
+	{
+		"firstName": "Franz",
+		"lastName": "Jeitz",
+		"profilePicture": "./images/profile-pictures/4.jpg",
+		"status": "online",
+		"statusMessage": "Freelance graphic designer. Founder of the design blog fudgegraphics. Tea lover.",
+		"location": "London, Luxembourg"
+	},
+	{
+		"firstName": "Gaya",
+		"lastName": "Kessler",
+		"profilePicture": "./images/profile-pictures/5.jpg",
+		"status": "online",
+		"statusMessage": "eb developer, Nintendo fan, CMD dude, likes jQuery, part of Fuel Brand Network and writer / owner of Gaya Design",
+		"location": "(GMT+2) Boxmeer, The Netherlands"
+	},
+	{
+		"firstName": "Jacob",
+		"lastName": "Gube",
+		"profilePicture": "./images/profile-pictures/1.jpg",
+		"status": "busy",
+		"statusMessage": "Web developer/designer and founder of Six Revisions.",
+		"location": "Bloomington"
+	},
+	{
+		"firstName": "Janko",
+		"lastName": "Jovanovic",
+		"profilePicture": "./images/profile-pictures/2.jpg",
+		"status": "offline",
+		"statusMessage": "Solutions architect, developer and web designer, dad and husband that writes on JankoAtWarpSpeed.com.",
+		"location": "Belgrade"
+	},
+	{
+		"firstName": "Max",
+		"lastName": "Stanworth",
+		"profilePicture": "./images/profile-pictures/3.jpg",
+		"status": "offline",
+		"statusMessage": "Lover of Typography, Web Design, CSS, XHTML , Illustration, Rock Music",
+		"location": "York, United Kingdom"
+	},
+	{
+		"firstName": "Navdeep",
+		"lastName": "Raj",
+		"profilePicture": "./images/profile-pictures/4.jpg",
+		"status": "away",
+		"statusMessage": "Web Design Freak... oh! and a Practice Lead.",
+		"location": "Bangalore, India"
+	},
+	{
+		"firstName": "Noura",
+		"lastName": "Yehia",
+		"profilePicture": "./images/profile-pictures/5.jpg",
+		"status": "offline",
+		"statusMessage": "Noupe.com passionately delivers stylish and dynamic news for designers and web-developers on all subjects of design",
+		"location": "Egypt"
+	}
+]
