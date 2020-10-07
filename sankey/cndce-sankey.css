@@ -2,6 +2,8 @@ html, body{
 	width: 100%;
 	height: 100%;
 	margin: 0;
+
+	font-family: sans-serif;
 }
 
 /*cndce-sankey, .cndce-sankey svg{
@@ -11,6 +13,30 @@ html, body{
 
 .cndce-sankey{
 	position: relative;
+}
+
+
+.cndce-sankey__instructions{
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	letter-spacing: 2px;
+
+	z-index: 1000;
+	background: #ffffffbf;
+
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.cndce-sankey__instructions > div{
+	padding: 2rem;
+	background: white;
+	border-radius: 1rem;
 }
 
 .cndce-sankey canvas{

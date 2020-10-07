@@ -1,7 +1,5 @@
 
 (()=>{
-	console.log(document.body.clientWidth)
-
 	const WIDTH = Math.max(1300, document.body.clientWidth - 40);
 	const HEIGHT = 3000;
 	const MARGIN = {
@@ -18,6 +16,7 @@
 
 	var NODE_TRANSITION_LIMIT = 400;
 	var TRANSITION_DURATION = 500;
+	var INSTRUCTION_DURATION = 3000;
 
 
 	var cndceSankey;
@@ -43,6 +42,18 @@
 		initSankey();
 		initD3();
 		drawCanvas();
+
+		setTimeout(()=>{
+			d3.select('.cndce-sankey__instructions')
+				.transition()
+				.style('opacity', 0)
+				.on('end', function () {
+					d3.select(this).remove()
+					// console.log(this);
+				})
+
+		}, INSTRUCTION_DURATION)
+		
 	})();
 
 
@@ -64,7 +75,8 @@
 
 	function initD3(){		
 
-		cndceSankey = d3.select('.cndce-sankey');
+		cndceSankey = d3.select('.cndce-sankey')
+			.on('click', handleEmptyClick);
 
 		sankey
 			.nodes(data.nodes)
@@ -100,7 +112,6 @@
 
 		const {nodes, links} = sankey();
 
-		console.log(nodes);
 
 		const svgLabels = svg.select('.cndce-sankey__labels')
 			.selectAll('.cndce-sankey__label')
@@ -378,10 +389,36 @@
 		return raw;
 	}
 
+	function handleEmptyClick(e){
+		persistActive = false;
+
+		sankey
+			.nodes(data.nodes)
+			.links(data.links)
+			.nodeAlign(customNodeAlign)
+			.extent([[MARGIN.LEFT, MARGIN.TOP],[WIDTH + MARGIN.LEFT, HEIGHT + MARGIN.TOP]]);
+
+		svg
+		.attr('width', WIDTH + MARGIN.LEFT + MARGIN.RIGHT)
+		.attr('height', HEIGHT + MARGIN.TOP + MARGIN.BOTTOM);
+
+		canvas
+		.attr('width', WIDTH + MARGIN.LEFT + MARGIN.RIGHT)
+		.attr('height', HEIGHT + MARGIN.TOP + MARGIN.BOTTOM);
+
+
+		resetActiveGraph();
+
+		console.log('empty click');
+
+		updateD3();
+		drawCanvas();
+	}
+
 	function handleNodeClick(e, d){
 		persistActive = !persistActive;
 
-		if(persistActive){
+		// if(persistActive){
 
 			const height = Math.max(document.documentElement.clientHeight - MARGIN.TOP - MARGIN.BOTTOM, HEIGHT * activeGraph.nodes.length * 0.0015);
 
@@ -406,26 +443,13 @@
 				l.active = false;
 			})
 
-		}else{
+		// }else{
 
-			sankey
-				.nodes(data.nodes)
-				.links(data.links)
-				.nodeAlign(customNodeAlign)
-				.extent([[MARGIN.LEFT, MARGIN.TOP],[WIDTH + MARGIN.LEFT, HEIGHT + MARGIN.TOP]]);
+		
 
-			svg
-			.attr('width', WIDTH + MARGIN.LEFT + MARGIN.RIGHT)
-			.attr('height', HEIGHT + MARGIN.TOP + MARGIN.BOTTOM);
+		// }
 
-			canvas
-			.attr('width', WIDTH + MARGIN.LEFT + MARGIN.RIGHT)
-			.attr('height', HEIGHT + MARGIN.TOP + MARGIN.BOTTOM);
-
-
-			resetActiveGraph();
-
-		}
+		e.stopPropagation();
 
 		updateD3();
 		drawCanvas();
