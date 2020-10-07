@@ -3,1227 +3,1227 @@
     {
       "id": 0,
       "name": "None",
-      "layer": 0
+      "custLayer": 0
     },
     {
       "id": 1,
       "name": "Natural cover change",
-      "layer": 0
+      "custLayer": 0
     },
     {
       "id": 2,
       "name": "Drought",
-      "layer": 0
+      "custLayer": 0
     },
     {
       "id": 3,
       "name": "Warming",
-      "layer": 0
+      "custLayer": 0
     },
     {
       "id": 4,
       "name": "Heatwaves",
-      "layer": 0
+      "custLayer": 0
     },
     {
       "id": 5,
       "name": "Storms",
-      "layer": 0
+      "custLayer": 0
     },
     {
       "id": 6,
       "name": "Precipitation",
-      "layer": 0
+      "custLayer": 0
     },
     {
       "id": 7,
       "name": "Floods",
-      "layer": 0
+      "custLayer": 0
     },
     {
       "id": 8,
       "name": "Fires",
-      "layer": 0
+      "custLayer": 0
     },
     {
       "id": 9,
       "name": "Sea level",
-      "layer": 0
+      "custLayer": 0
     },
     {
       "id": 10,
       "name": "Ocean climate change",
-      "layer": 0
+      "custLayer": 0
     },
     {
       "id": 28,
       "ttgen_id": 43,
       "name": "Contact",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 66,
       "ttgen_id": 43,
       "name": "No-specified",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 72,
       "ttgen_id": 43,
       "name": "Livestock",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 243,
       "ttgen_id": 43,
       "name": "Fecal-oral route",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 30,
       "ttgen_id": 29,
       "name": "Ticks",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 32,
       "ttgen_id": 29,
       "name": "Mosquito",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 35,
       "ttgen_id": 29,
       "name": "Biting flies",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 36,
       "ttgen_id": 29,
       "name": "Fleas",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 39,
       "ttgen_id": 29,
       "name": "Rodents",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 46,
       "ttgen_id": 29,
       "name": "Bats",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 64,
       "ttgen_id": 29,
       "name": "No-specified",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 71,
       "ttgen_id": 29,
       "name": "Livestock",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 75,
       "ttgen_id": 29,
       "name": "Marmots",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 89,
       "ttgen_id": 29,
       "name": "Dinoflagellate",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 92,
       "ttgen_id": 29,
       "name": "Biting midges",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 96,
       "ttgen_id": 29,
       "name": "Snails",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 98,
       "ttgen_id": 29,
       "name": "Reindeer",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 104,
       "ttgen_id": 29,
       "name": "Felids",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 111,
       "ttgen_id": 29,
       "name": "Birds",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 113,
       "ttgen_id": 29,
       "name": "Monkey",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 118,
       "ttgen_id": 29,
       "name": "Sand flies",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 120,
       "ttgen_id": 29,
       "name": "Insects",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 141,
       "ttgen_id": 29,
       "name": "Tsetse fly",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 143,
       "ttgen_id": 29,
       "name": "Voles",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 155,
       "ttgen_id": 29,
       "name": "Beetle",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 160,
       "ttgen_id": 29,
       "name": "Chiggers",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 161,
       "ttgen_id": 29,
       "name": "Mice",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 171,
       "ttgen_id": 29,
       "name": "Mite",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 187,
       "ttgen_id": 29,
       "name": "Canids",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 193,
       "ttgen_id": 29,
       "name": "Hare",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 199,
       "ttgen_id": 29,
       "name": "Gerbils",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 214,
       "ttgen_id": 29,
       "name": "Lice",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 253,
       "ttgen_id": 29,
       "name": "Flatworm",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 265,
       "ttgen_id": 29,
       "name": "Hookworms",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 266,
       "ttgen_id": 29,
       "name": "Black flies",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 279,
       "ttgen_id": 29,
       "name": "Roundworm",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 293,
       "ttgen_id": 29,
       "name": "Flies",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 26,
       "ttgen_id": 25,
       "name": "Contact",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 42,
       "ttgen_id": 25,
       "name": "Drinking water",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 64,
       "ttgen_id": 25,
       "name": "No-specified",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 88,
       "ttgen_id": 25,
       "name": "Household use",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 145,
       "ttgen_id": 25,
       "name": "Recreational exposure",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 244,
       "ttgen_id": 25,
       "name": "Fecal-oral route",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 28,
       "ttgen_id": 27,
       "name": "Contact",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 47,
       "ttgen_id": 27,
       "name": "Ingestion",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 65,
       "ttgen_id": 27,
       "name": "No-specified",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 245,
       "ttgen_id": 27,
       "name": "Fecal-oral route",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 62,
       "ttgen_id": 48,
       "name": "Inhalation",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 63,
       "ttgen_id": 48,
       "name": "No-specified",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 87,
       "ttgen_id": 48,
       "name": "Dust storm",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 90,
       "ttgen_id": 48,
       "name": "Spores",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 133,
       "ttgen_id": 48,
       "name": "Rodent",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 228,
       "ttgen_id": 48,
       "name": "Pollen",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 246,
       "ttgen_id": 48,
       "name": "Respiratory droplets",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 68,
       "ttgen_id": 67,
       "name": "Touching",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 103,
       "ttgen_id": 67,
       "name": "No-specified",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 162,
       "ttgen_id": 67,
       "name": "Blood",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 181,
       "ttgen_id": 67,
       "name": "Bodily Fluids",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 232,
       "ttgen_id": 67,
       "name": "Biting",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 233,
       "ttgen_id": 67,
       "name": "Stings",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 242,
       "ttgen_id": 67,
       "name": "Fecal-oral route",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 286,
       "ttgen_id": 67,
       "name": "Infected urine",
-      "layer": 1.0
+      "custLayer": 1.0
     },
     {
       "id": 271,
       "ttspec_id": 66,
       "ttgen_id": 43,
       "name": "Fungus",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 61,
       "ttspec_id": 30,
       "ttgen_id": 29,
       "name": "Ixodes",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 78,
       "ttspec_id": 30,
       "ttgen_id": 29,
       "name": "Hyalomma spp.",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 85,
       "ttspec_id": 30,
       "ttgen_id": 29,
       "name": "Ixodes ricinus",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 131,
       "ttspec_id": 30,
       "ttgen_id": 29,
       "name": "Alectorobius sonrai ",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 148,
       "ttspec_id": 30,
       "ttgen_id": 29,
       "name": "Ixodes scapularis",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 151,
       "ttspec_id": 30,
       "ttgen_id": 29,
       "name": "Not Specified",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 163,
       "ttspec_id": 30,
       "ttgen_id": 29,
       "name": "Haemaphysalis longicornis",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 219,
       "ttspec_id": 30,
       "ttgen_id": 29,
       "name": "Haemaphysalis spp.",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 220,
       "ttspec_id": 30,
       "ttgen_id": 29,
       "name": "Rhipicephalus sanguineus",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 221,
       "ttspec_id": 30,
       "ttgen_id": 29,
       "name": "Dermacentor variabilis",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 238,
       "ttspec_id": 30,
       "ttgen_id": 29,
       "name": "Ixodes spp.",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 251,
       "ttspec_id": 30,
       "ttgen_id": 29,
       "name": "Dermacentor marginatus",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 257,
       "ttspec_id": 30,
       "ttgen_id": 29,
       "name": "Amblyomma americanum",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 258,
       "ttspec_id": 30,
       "ttgen_id": 29,
       "name": "Dermacentor sp",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 280,
       "ttspec_id": 30,
       "ttgen_id": 29,
       "name": "Ixodes pacificus ",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 298,
       "ttspec_id": 30,
       "ttgen_id": 29,
       "name": "Amblyomma maculatum",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 301,
       "ttspec_id": 30,
       "ttgen_id": 29,
       "name": "Dermacentor reticulatus",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 57,
       "ttspec_id": 32,
       "ttgen_id": 29,
       "name": "Culex",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 58,
       "ttspec_id": 32,
       "ttgen_id": 29,
       "name": "Anopheles",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 60,
       "ttspec_id": 32,
       "ttgen_id": 29,
       "name": "Aedes aegypti",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 79,
       "ttspec_id": 32,
       "ttgen_id": 29,
       "name": "Culex pipiens",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 83,
       "ttspec_id": 32,
       "ttgen_id": 29,
       "name": "Culex restuans",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 94,
       "ttspec_id": 32,
       "ttgen_id": 29,
       "name": "No-specified",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 95,
       "ttspec_id": 32,
       "ttgen_id": 29,
       "name": "Aedes albopictus",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 108,
       "ttspec_id": 32,
       "ttgen_id": 29,
       "name": "Haemagogus leucocelaenus",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 114,
       "ttspec_id": 32,
       "ttgen_id": 29,
       "name": "Aedes spp.",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 129,
       "ttspec_id": 32,
       "ttgen_id": 29,
       "name": "Anopheles funestus",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 130,
       "ttspec_id": 32,
       "ttgen_id": 29,
       "name": "Anopheles arabiensis",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 137,
       "ttspec_id": 32,
       "ttgen_id": 29,
       "name": "Culex tritaeniorhynchus",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 142,
       "ttspec_id": 32,
       "ttgen_id": 29,
       "name": "Culex gelidus",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 149,
       "ttspec_id": 32,
       "ttgen_id": 29,
       "name": "Culex modestus",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 159,
       "ttspec_id": 32,
       "ttgen_id": 29,
       "name": "Anopheles sundaicus",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 179,
       "ttspec_id": 32,
       "ttgen_id": 29,
       "name": "Anopheles vestipennis",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 184,
       "ttspec_id": 32,
       "ttgen_id": 29,
       "name": "Anopheles culicifacies",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 186,
       "ttspec_id": 32,
       "ttgen_id": 29,
       "name": "Culex nigripalpus",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 191,
       "ttspec_id": 32,
       "ttgen_id": 29,
       "name": "Aedes camptorhynchus",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 204,
       "ttspec_id": 32,
       "ttgen_id": 29,
       "name": "Anopheles gambiae",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 205,
       "ttspec_id": 32,
       "ttgen_id": 29,
       "name": "Culex annulirostris",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 206,
       "ttspec_id": 32,
       "ttgen_id": 29,
       "name": "Aedes notoscriptus",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 207,
       "ttspec_id": 32,
       "ttgen_id": 29,
       "name": "Aedes vigilax",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 208,
       "ttspec_id": 32,
       "ttgen_id": 29,
       "name": "Culex univittatus",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 212,
       "ttspec_id": 32,
       "ttgen_id": 29,
       "name": "Aedes taeniorhynchus",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 213,
       "ttspec_id": 32,
       "ttgen_id": 29,
       "name": "Psorophora confinnis",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 216,
       "ttspec_id": 32,
       "ttgen_id": 29,
       "name": "Ochlerotatus vigilax",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 237,
       "ttspec_id": 32,
       "ttgen_id": 29,
       "name": "Haemagogus janthinomys",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 278,
       "ttspec_id": 32,
       "ttgen_id": 29,
       "name": " C. tarsalis",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 283,
       "ttspec_id": 32,
       "ttgen_id": 29,
       "name": "Culex spp.",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 115,
       "ttspec_id": 35,
       "ttgen_id": 29,
       "name": "Lutzomyia spp",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 183,
       "ttspec_id": 35,
       "ttgen_id": 29,
       "name": "Simulium spp",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 225,
       "ttspec_id": 35,
       "ttgen_id": 29,
       "name": "phlebotomine sandflies",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 300,
       "ttspec_id": 36,
       "ttgen_id": 29,
       "name": "Xenopsylla cheopis",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 132,
       "ttspec_id": 39,
       "ttgen_id": 29,
       "name": "Calomys musculinus",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 147,
       "ttspec_id": 39,
       "ttgen_id": 29,
       "name": "Mastomys natalensis",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 152,
       "ttspec_id": 39,
       "ttgen_id": 29,
       "name": "Deer mice (Peromyscus)",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 158,
       "ttspec_id": 39,
       "ttgen_id": 29,
       "name": "Peromyscus maniculatus",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 189,
       "ttspec_id": 39,
       "ttgen_id": 29,
       "name": "Rats",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 196,
       "ttspec_id": 39,
       "ttgen_id": 29,
       "name": "Not Specified",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 252,
       "ttspec_id": 39,
       "ttgen_id": 29,
       "name": "Prairie dogs",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 122,
       "ttspec_id": 46,
       "ttgen_id": 29,
       "name": "Fruitbats",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 167,
       "ttspec_id": 46,
       "ttgen_id": 29,
       "name": "African fruit bat",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 198,
       "ttspec_id": 46,
       "ttgen_id": 29,
       "name": "Flying fox",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 168,
       "ttspec_id": 71,
       "ttgen_id": 29,
       "name": "Horses",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 211,
       "ttspec_id": 71,
       "ttgen_id": 29,
       "name": "Pigs",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 91,
       "ttspec_id": 89,
       "ttgen_id": 29,
       "name": "Ostreopsis ovata",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 93,
       "ttspec_id": 92,
       "ttgen_id": 29,
       "name": "Culicoides",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 97,
       "ttspec_id": 96,
       "ttgen_id": 29,
       "name": "No-specified",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 292,
       "ttspec_id": 96,
       "ttgen_id": 29,
       "name": "Bulinus pfeifferi",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 299,
       "ttspec_id": 96,
       "ttgen_id": 29,
       "name": "Schistosoma spp.",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 119,
       "ttspec_id": 118,
       "ttgen_id": 29,
       "name": "phlebotomine sand flies",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 166,
       "ttspec_id": 118,
       "ttgen_id": 29,
       "name": "Lutzomyia spp",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 182,
       "ttspec_id": 118,
       "ttgen_id": 29,
       "name": "Not Specified",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 294,
       "ttspec_id": 118,
       "ttgen_id": 29,
       "name": "Phlebotomus sp.",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 121,
       "ttspec_id": 120,
       "ttgen_id": 29,
       "name": " Rhodnius prolixus",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 140,
       "ttspec_id": 120,
       "ttgen_id": 29,
       "name": "Triatomine insects",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 274,
       "ttspec_id": 120,
       "ttgen_id": 29,
       "name": "Dermatobia hominis",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 164,
       "ttspec_id": 141,
       "ttgen_id": 29,
       "name": "Glossina",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 302,
       "ttspec_id": 141,
       "ttgen_id": 29,
       "name": "Glossina pallidipes",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 144,
       "ttspec_id": 143,
       "ttgen_id": 29,
       "name": "Myodes glareolu",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 156,
       "ttspec_id": 155,
       "ttgen_id": 29,
       "name": "Paederus beetles",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 188,
       "ttspec_id": 161,
       "ttgen_id": 29,
       "name": "Deer mouse",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 172,
       "ttspec_id": 171,
       "ttgen_id": 29,
       "name": "Sarcoptes scabiei var. hominis",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 209,
       "ttspec_id": 187,
       "ttgen_id": 29,
       "name": "Dogs",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 210,
       "ttspec_id": 187,
       "ttgen_id": 29,
       "name": "Foxes",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 200,
       "ttspec_id": 199,
       "ttgen_id": 29,
       "name": "Rhombomys opimus",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 295,
       "ttspec_id": 253,
       "ttgen_id": 29,
       "name": "Schistosomes",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 296,
       "ttspec_id": 253,
       "ttgen_id": 29,
       "name": "Schistosoma japonicum",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 267,
       "ttspec_id": 266,
       "ttgen_id": 29,
       "name": "Cerqueirellum argentiscutum",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 281,
       "ttspec_id": 266,
       "ttgen_id": 29,
       "name": "Spp. Simuliidae",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 297,
       "ttspec_id": 279,
       "ttgen_id": 29,
       "name": "Dracunculus medinensis",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 215,
       "ttspec_id": 88,
       "ttgen_id": 25,
       "name": "Pig",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 86,
       "ttspec_id": 47,
       "ttgen_id": 27,
       "name": "Chicken",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 99,
       "ttspec_id": 47,
       "ttgen_id": 27,
       "name": "Seafood",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 125,
       "ttspec_id": 47,
       "ttgen_id": 27,
       "name": "Milk",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 126,
       "ttspec_id": 47,
       "ttgen_id": 27,
       "name": "Pork",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 157,
       "ttspec_id": 47,
       "ttgen_id": 27,
       "name": "Game",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 174,
       "ttspec_id": 47,
       "ttgen_id": 27,
       "name": "Shellfish",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 217,
       "ttspec_id": 47,
       "ttgen_id": 27,
       "name": "Snail - freshwater",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 269,
       "ttspec_id": 47,
       "ttgen_id": 27,
       "name": "Oysters",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 290,
       "ttspec_id": 47,
       "ttgen_id": 27,
       "name": "Fish",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 240,
       "ttspec_id": 65,
       "ttgen_id": 27,
       "name": " Aspergillus flavus",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 134,
       "ttspec_id": 133,
       "ttgen_id": 48,
       "name": "Calomys callosus ",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 135,
       "ttspec_id": 133,
       "ttgen_id": 48,
       "name": "Mastomys natalensis",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 229,
       "ttspec_id": 228,
       "ttgen_id": 48,
       "name": "Parthenium hysterophorus",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 226,
       "ttspec_id": 68,
       "ttgen_id": 67,
       "name": "Paederus beetles",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 227,
       "ttspec_id": 68,
       "ttgen_id": 67,
       "name": "Ancylostoma caninum",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 230,
       "ttspec_id": 68,
       "ttgen_id": 67,
       "name": "Parthenium hysterophorus",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 285,
       "ttspec_id": 68,
       "ttgen_id": 67,
       "name": "Amphibians",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 289,
       "ttspec_id": 103,
       "ttgen_id": 67,
       "name": "rove beetles",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 248,
       "ttspec_id": 232,
       "ttgen_id": 67,
       "name": "Dogs",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 268,
       "ttspec_id": 232,
       "ttgen_id": 67,
       "name": "Rhipicephalus sanguineus",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 272,
       "ttspec_id": 232,
       "ttgen_id": 67,
       "name": "Snakes",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 234,
       "ttspec_id": 233,
       "ttgen_id": 67,
       "name": "Fire ants",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 282,
       "ttspec_id": 233,
       "ttgen_id": 67,
       "name": "Portuguese man-of-war",
-      "layer": 2
+      "custLayer": 2
     },
     {
       "id": 84,
@@ -1231,7 +1231,7 @@
       "ttspec_id": 30,
       "ttgen_id": 29,
       "name": "Dogs",
-      "layer": 3
+      "custLayer": 3
     },
     {
       "id": 177,
@@ -1239,7 +1239,7 @@
       "ttspec_id": 30,
       "ttgen_id": 29,
       "name": "Rodents",
-      "layer": 3
+      "custLayer": 3
     },
     {
       "id": 177,
@@ -1247,7 +1247,7 @@
       "ttspec_id": 30,
       "ttgen_id": 29,
       "name": "Rodents",
-      "layer": 3
+      "custLayer": 3
     },
     {
       "id": 138,
@@ -1255,7 +1255,7 @@
       "ttspec_id": 32,
       "ttgen_id": 29,
       "name": "Not Specified",
-      "layer": 3
+      "custLayer": 3
     },
     {
       "id": 222,
@@ -1263,7 +1263,7 @@
       "ttspec_id": 32,
       "ttgen_id": 29,
       "name": "Mosquito",
-      "layer": 3
+      "custLayer": 3
     },
     {
       "id": 222,
@@ -1271,7 +1271,7 @@
       "ttspec_id": 32,
       "ttgen_id": 29,
       "name": "Mosquito",
-      "layer": 3
+      "custLayer": 3
     },
     {
       "id": 222,
@@ -1279,7 +1279,7 @@
       "ttspec_id": 32,
       "ttgen_id": 29,
       "name": "Mosquito",
-      "layer": 3
+      "custLayer": 3
     },
     {
       "id": 222,
@@ -1287,7 +1287,7 @@
       "ttspec_id": 32,
       "ttgen_id": 29,
       "name": "Mosquito",
-      "layer": 3
+      "custLayer": 3
     },
     {
       "id": 112,
@@ -1295,7 +1295,7 @@
       "ttspec_id": 39,
       "ttgen_id": 29,
       "name": "Urine contact",
-      "layer": 3
+      "custLayer": 3
     },
     {
       "id": 136,
@@ -1303,7 +1303,7 @@
       "ttspec_id": 46,
       "ttgen_id": 29,
       "name": "Pigs",
-      "layer": 3
+      "custLayer": 3
     },
     {
       "id": 197,
@@ -1311,7 +1311,7 @@
       "ttspec_id": 46,
       "ttgen_id": 29,
       "name": "Horse",
-      "layer": 3
+      "custLayer": 3
     },
     {
       "id": 275,
@@ -1319,7 +1319,7 @@
       "ttspec_id": 120,
       "ttgen_id": 29,
       "name": "Insects",
-      "layer": 3
+      "custLayer": 3
     },
     {
       "id": 201,
@@ -1327,7 +1327,7 @@
       "ttspec_id": 199,
       "ttgen_id": 29,
       "name": "Fleas",
-      "layer": 3
+      "custLayer": 3
     },
     {
       "id": 218,
@@ -1335,7 +1335,7 @@
       "ttspec_id": 47,
       "ttgen_id": 27,
       "name": "Fish - freshwater",
-      "layer": 3
+      "custLayer": 3
     },
     {
       "id": 249,
@@ -1343,7 +1343,7 @@
       "ttspec_id": 232,
       "ttgen_id": 67,
       "name": "Biting",
-      "layer": 3
+      "custLayer": 3
     },
     {
       "id": 235,
@@ -1351,7 +1351,7 @@
       "ttspec_id": 233,
       "ttgen_id": 67,
       "name": "Stings",
-      "layer": 3
+      "custLayer": 3
     },
     {
       "id": 223,
@@ -1360,7 +1360,7 @@
       "ttspec_id": 32,
       "ttgen_id": 29,
       "name": "Aedes sp.",
-      "layer": 4
+      "custLayer": 4
     },
     {
       "id": 256,
@@ -1369,7 +1369,7 @@
       "ttspec_id": 32,
       "ttgen_id": 29,
       "name": "Anopheles funestus",
-      "layer": 4
+      "custLayer": 4
     },
     {
       "id": 277,
@@ -1378,7 +1378,7 @@
       "ttspec_id": 32,
       "ttgen_id": 29,
       "name": "C.tarsalis",
-      "layer": 4
+      "custLayer": 4
     },
     {
       "id": 276,
@@ -1387,7 +1387,7 @@
       "ttspec_id": 120,
       "ttgen_id": 29,
       "name": "Cordylobia anthropohaga",
-      "layer": 4
+      "custLayer": 4
     },
     {
       "id": 202,
@@ -1396,7 +1396,7 @@
       "ttspec_id": 199,
       "ttgen_id": 29,
       "name": "Xenopsylla",
-      "layer": 4
+      "custLayer": 4
     },
     {
       "id": 250,
@@ -1405,7 +1405,7 @@
       "ttspec_id": 232,
       "ttgen_id": 67,
       "name": "Cats",
-      "layer": 4
+      "custLayer": 4
     },
     {
       "id": 236,
@@ -1414,4212 +1414,4212 @@
       "ttspec_id": 233,
       "ttgen_id": 67,
       "name": "Hymenoptera",
-      "layer": 4
+      "custLayer": 4
     },
     {
       "id": "d20",
       "diseasegen_id": "d19",
       "name": "Diarrhea",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d20",
       "diseasegen_id": "d58",
       "name": "Diarrhea",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d27",
       "diseasegen_id": "d22",
       "name": "Dengue",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d29",
       "diseasegen_id": "d19",
       "name": "Lyme disease",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d36",
       "diseasegen_id": "d19",
       "name": "Tularemia",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d37",
       "diseasegen_id": "d19",
       "name": "Leptospirosis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d39",
       "diseasegen_id": "d22",
       "name": "St. Louis encephalitis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d45",
       "diseasegen_id": "d22",
       "name": "Hantavirus diseases",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d47",
       "diseasegen_id": "d19",
       "name": "Plague",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d54",
       "diseasegen_id": "d22",
       "name": "Hepatitis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d60",
       "diseasegen_id": "d58",
       "name": "Respiratory disease",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d61",
       "diseasegen_id": "d58",
       "name": "Skin disease",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d63",
       "diseasegen_id": "d62",
       "name": "Fungal infection",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d65",
       "diseasegen_id": "d58",
       "name": "Diarrhea",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d66",
       "diseasegen_id": "d19",
       "name": "Cholera",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d66",
       "diseasegen_id": "d22",
       "name": "Cholera",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d68",
       "diseasegen_id": "d19",
       "name": "Shigellosis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d69",
       "diseasegen_id": "d19",
       "name": "Typhoid Fever",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d71",
       "diseasegen_id": "d19",
       "name": "Para Typhoid Fever",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d76",
       "diseasegen_id": "d19",
       "name": "Campylobacteriosis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d76",
       "diseasegen_id": "d22",
       "name": "Campylobacteriosis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d80",
       "diseasegen_id": "d33",
       "name": "Malaria",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d81",
       "diseasegen_id": "d22",
       "name": "Rift Valley Fever",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d82",
       "diseasegen_id": "d22",
       "name": "West Nile Fever",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d83",
       "diseasegen_id": "d19",
       "name": "Cyanotoxin",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d85",
       "diseasegen_id": "d22",
       "name": "Nipah Virus",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d87",
       "diseasegen_id": "d58",
       "name": "Not Specified",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d89",
       "diseasegen_id": "d19",
       "name": "Anthrax",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d92",
       "diseasegen_id": "d19",
       "name": "Salmonellosis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d94",
       "diseasegen_id": "d19",
       "name": "Gastroenteritis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d94",
       "diseasegen_id": "d58",
       "name": "Gastroenteritis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d97",
       "diseasegen_id": "d458",
       "name": "Paralytic shellfish poisoning",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d99",
       "diseasegen_id": "d19",
       "name": "Botulism",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d103",
       "diseasegen_id": "d33",
       "name": "Diarrhea",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d109",
       "diseasegen_id": "d19",
       "name": "Rickettsial diseases",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d113",
       "diseasegen_id": "d22",
       "name": "Tick-borne encephalitis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d119",
       "diseasegen_id": "d19",
       "name": "Legionellosis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d122",
       "diseasegen_id": "d22",
       "name": "Zika ",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d123",
       "diseasegen_id": "d22",
       "name": "Yellow fever",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d124",
       "diseasegen_id": "d19",
       "name": "Skin disease",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d126",
       "diseasegen_id": "d22",
       "name": "Cocoliztli",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d127",
       "diseasegen_id": "d58",
       "name": "Unspecified",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d132",
       "diseasegen_id": "d22",
       "name": "Japanese encephalitis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d135",
       "diseasegen_id": "d33",
       "name": "Cryptosporidiosis ",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d137",
       "diseasegen_id": "d33",
       "name": "Giardiasis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d141",
       "diseasegen_id": "d62",
       "name": "Rhino-orbital-cerebral-mucormycosis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d143",
       "diseasegen_id": "d22",
       "name": "Norovirus",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d146",
       "diseasegen_id": "d19",
       "name": "Meningitis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d148",
       "diseasegen_id": "d22",
       "name": "Hand foot and mouth disease",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d149",
       "diseasegen_id": "d62",
       "name": "Valley Fever",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d153",
       "diseasegen_id": "d151",
       "name": "Filariasis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d159",
       "diseasegen_id": "d19",
       "name": "Vibriosis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d162",
       "diseasegen_id": "d58",
       "name": "Acute febrile illness",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d163",
       "diseasegen_id": "d33",
       "name": "Toxoplasmosis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d165",
       "diseasegen_id": "d19",
       "name": "Unspecified",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d177",
       "diseasegen_id": "d58",
       "name": "Gastroenteritis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d179",
       "diseasegen_id": "d19",
       "name": "Impetigo",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d180",
       "diseasegen_id": "d58",
       "name": "Conjunctivitis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d185",
       "diseasegen_id": "d22",
       "name": "Rotavirus",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d187",
       "diseasegen_id": "d58",
       "name": "Eye infections",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d188",
       "diseasegen_id": "d22",
       "name": "Oropouche virus",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d189",
       "diseasegen_id": "d22",
       "name": "Chikungunya",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d190",
       "diseasegen_id": "d22",
       "name": "Ross River disease",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d193",
       "diseasegen_id": "d22",
       "name": "Arboviral disease ",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d194",
       "diseasegen_id": "d22",
       "name": "Hemorrhagic Fever with Renal Syndrome",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d196",
       "diseasegen_id": "d33",
       "name": "Leishmaniasis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d197",
       "diseasegen_id": "d22",
       "name": "Ebola",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d198",
       "diseasegen_id": "d33",
       "name": "Trypanosomiasis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d203",
       "diseasegen_id": "d33",
       "name": "Chagas disease (American trypanosomiasis)",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d205",
       "diseasegen_id": "d22",
       "name": "Paramyxovirus",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d206",
       "diseasegen_id": "d22",
       "name": "Eastern Equine Encephalitis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d208",
       "diseasegen_id": "d62",
       "name": "Black mold",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d210",
       "diseasegen_id": "d62",
       "name": "Talaromycosis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d214",
       "diseasegen_id": "d19",
       "name": "Tetanus",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d216",
       "diseasegen_id": "d19",
       "name": "Cellulitis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d220",
       "diseasegen_id": "d19",
       "name": "Soft-tissue infection",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d224",
       "diseasegen_id": "d19",
       "name": "Melioidosis ",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d226",
       "diseasegen_id": "d19",
       "name": "Escherichia coli",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d228",
       "diseasegen_id": "d22",
       "name": "Gastroenteritis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d231",
       "diseasegen_id": "d62",
       "name": "Mold",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d235",
       "diseasegen_id": "d351",
       "name": "Snail fever/Schistosomiasis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d238",
       "diseasegen_id": "d33",
       "name": "Amoebiasis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d239",
       "diseasegen_id": "d22",
       "name": "Hendra virus",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d240",
       "diseasegen_id": "d22",
       "name": "Argentine hemorrhagic fever",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d242",
       "diseasegen_id": "d22",
       "name": "Bolivian hemorrhagic fever",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d243",
       "diseasegen_id": "d22",
       "name": "Lassa fever virus",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d244",
       "diseasegen_id": "d22",
       "name": "Monkeypox",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d245",
       "diseasegen_id": "d58",
       "name": "Gastroenteritis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d248",
       "diseasegen_id": "d19",
       "name": "Noma",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d252",
       "diseasegen_id": "d19",
       "name": "Keratitis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d256",
       "diseasegen_id": "d33",
       "name": "Babesiosis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d262",
       "diseasegen_id": "d62",
       "name": "Not-specified",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d263",
       "diseasegen_id": "d22",
       "name": "Influenza",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d265",
       "diseasegen_id": "d151",
       "name": "Hookworm infections",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d268",
       "diseasegen_id": "d267",
       "name": "Asthma ",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d270",
       "diseasegen_id": "d151",
       "name": "Dirofilariasis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d272",
       "diseasegen_id": "d22",
       "name": "Rabies",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d274",
       "diseasegen_id": "d19",
       "name": "Listeriosis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d276",
       "diseasegen_id": "d22",
       "name": "Murray Valley Encephalitis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d281",
       "diseasegen_id": "d22",
       "name": "Sapovirus Infection",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d287",
       "diseasegen_id": "d19",
       "name": "Staphylococcus",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d292",
       "diseasegen_id": "d19",
       "name": "Trachoma",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d294",
       "diseasegen_id": "d33",
       "name": "Cyclosporiasis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d298",
       "diseasegen_id": "d58",
       "name": "Dermatitis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d299",
       "diseasegen_id": "d22",
       "name": "Crimean-Congo Hemorrhagic Fever",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d301",
       "diseasegen_id": "d22",
       "name": "Hepatitis A",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d303",
       "diseasegen_id": "d22",
       "name": "Hepatitis E",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d305",
       "diseasegen_id": "d22",
       "name": "Adenovirus Infection",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d310",
       "diseasegen_id": "d19",
       "name": "Necrotizing fasciitis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d312",
       "diseasegen_id": "d19",
       "name": "Necrotizing myositis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d314",
       "diseasegen_id": "d19",
       "name": "Osteomyelitis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d323",
       "diseasegen_id": "d19",
       "name": "Buruli ulcer",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d325",
       "diseasegen_id": "d62",
       "name": "Wound infection",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d330",
       "diseasegen_id": "d62",
       "name": "Mucormycosis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d332",
       "diseasegen_id": "d62",
       "name": "Blastomycosis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d334",
       "diseasegen_id": "d19",
       "name": "Methicillin-resistant Staphylococcus aureus (MRSA)",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d336",
       "diseasegen_id": "d22",
       "name": "Measles",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d348",
       "diseasegen_id": "d22",
       "name": "Pneumonia ",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d349",
       "diseasegen_id": "d19",
       "name": "Dysentery",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d352",
       "diseasegen_id": "d351",
       "name": "Echinococcosis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d358",
       "diseasegen_id": "d19",
       "name": "Septicemia",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d362",
       "diseasegen_id": "d22",
       "name": "Hantavirus Pulmonary Syndrome",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d368",
       "diseasegen_id": "d33",
       "name": "No-specified",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d370",
       "diseasegen_id": "d22",
       "name": "No-specified",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d371",
       "diseasegen_id": "d22",
       "name": "Enterovirus Infection",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d372",
       "diseasegen_id": "d19",
       "name": "Tsutsugamushi disease/Scrub Typhus",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d376",
       "diseasegen_id": "d22",
       "name": "Henipavirus Infection",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d377",
       "diseasegen_id": "d151",
       "name": "Angiostrongyliasis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d379",
       "diseasegen_id": "d22",
       "name": "Severe Fever with Thrombocytopenia Syndrome",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d381",
       "diseasegen_id": "d19",
       "name": "Tuberculosis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d385",
       "diseasegen_id": "d22",
       "name": "Enterovirus 71 encephalitis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d388",
       "diseasegen_id": "d22",
       "name": "Marburg hemorrhagic fever",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d402",
       "diseasegen_id": "d22",
       "name": "HIV",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d405",
       "diseasegen_id": "d151",
       "name": "Guinea worm disease",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d407",
       "diseasegen_id": "d151",
       "name": "Onchocerciasis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d410",
       "diseasegen_id": "d151",
       "name": "Roundworm",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d413",
       "diseasegen_id": "d19",
       "name": "Chlamyidia ",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d414",
       "diseasegen_id": "d19",
       "name": "Acanthamoebiasis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d415",
       "diseasegen_id": "d22",
       "name": "Avian bird flu",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d417",
       "diseasegen_id": "d19",
       "name": "Necrotizing soft tissue infection",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d421",
       "diseasegen_id": "d22",
       "name": "Respiratory Syncytial Virus Infection",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d422",
       "diseasegen_id": "d22",
       "name": "Western Equine Encephalitis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d426",
       "diseasegen_id": "d22",
       "name": "SARS",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d429",
       "diseasegen_id": "d22",
       "name": "Utusu Virus Infection",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d432",
       "diseasegen_id": "d19",
       "name": "Pneumococcal disease",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d441",
       "diseasegen_id": "d22",
       "name": "Poliomyelitis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d445",
       "diseasegen_id": "d22",
       "name": "Mumps",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d447",
       "diseasegen_id": "d19",
       "name": "Acute Gastrointestinal Illness",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d449",
       "diseasegen_id": "d22",
       "name": "Puulmala Virus Infection",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d451",
       "diseasegen_id": "d22",
       "name": "Sindbis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d456",
       "diseasegen_id": "d455",
       "name": "Scabies",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d459",
       "diseasegen_id": "d458",
       "name": "Ciguatera",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d461",
       "diseasegen_id": "d19",
       "name": "Hemolytic uremic syndrome",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d463",
       "diseasegen_id": "d455",
       "name": "Dermatitis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d465",
       "diseasegen_id": "d458",
       "name": "neurotoxic shellfish poisoning",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d468",
       "diseasegen_id": "d19",
       "name": "Relapsing fever",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d480",
       "diseasegen_id": "d62",
       "name": "Dermatophytosis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d488",
       "diseasegen_id": "d22",
       "name": "Venezuelan equine encephalitis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d490",
       "diseasegen_id": "d19",
       "name": "Bacillus cereus food poisoning",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d492",
       "diseasegen_id": "d19",
       "name": "Clostridial food poisoning",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d495",
       "diseasegen_id": "d33",
       "name": "Balantidiasis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d497",
       "diseasegen_id": "d22",
       "name": "Barmah Forest Disase",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d499",
       "diseasegen_id": "d351",
       "name": "Clonorchiasis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d501",
       "diseasegen_id": "d58",
       "name": "Kawasaki Disease",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d502",
       "diseasegen_id": "d58",
       "name": "Intestinal Parasite",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d505",
       "diseasegen_id": "d22",
       "name": "Kyasanur Forest Disease",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d508",
       "diseasegen_id": "d33",
       "name": "Acanthamebiasis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d510",
       "diseasegen_id": "d58",
       "name": "Naegleriasis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d513",
       "diseasegen_id": "d33",
       "name": "Primary amoebic meningoencephalitis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d517",
       "diseasegen_id": "d267",
       "name": "Respiratory disease",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d519",
       "diseasegen_id": "d62",
       "name": "Respiratory disease",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d522",
       "diseasegen_id": "d151",
       "name": "Geohelminth infection",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d525",
       "diseasegen_id": "d19",
       "name": "Dysbiosis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d528",
       "diseasegen_id": "d22",
       "name": "Lassa fever",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d530",
       "diseasegen_id": "d351",
       "name": "Diphyllobothrium pacificum infection",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d532",
       "diseasegen_id": "d351",
       "name": "Diphyllobothrium latum infection",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d534",
       "diseasegen_id": "d151",
       "name": "Anisakiasis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d539",
       "diseasegen_id": "d19",
       "name": "A. phagocytophilum",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d540",
       "diseasegen_id": "d19",
       "name": " E. chaffeensis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d541",
       "diseasegen_id": "d62",
       "name": "Cryptococcosis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d543",
       "diseasegen_id": "d22",
       "name": "Guillain-Barre syndrome",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d545",
       "diseasegen_id": "d58",
       "name": "Asthma",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d547",
       "diseasegen_id": "d19",
       "name": "Q Fever",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d549",
       "diseasegen_id": "d19",
       "name": "Meningococcus",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d551",
       "diseasegen_id": "d22",
       "name": "Mediterranean spotted fever (Boutonneuse fever)",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d553",
       "diseasegen_id": "d22",
       "name": "Rocky mountain spotted fever (tick typhus)",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d556",
       "diseasegen_id": "d19",
       "name": "Scarlet fever",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d557",
       "diseasegen_id": "d58",
       "name": "Pneumonia",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d558",
       "diseasegen_id": "d19",
       "name": "Yaws",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d564",
       "diseasegen_id": "d22",
       "name": "Warts",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d566",
       "diseasegen_id": "d151",
       "name": "Trichinellosis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d568",
       "diseasegen_id": "d19",
       "name": "Mycoplasma pneumonia",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d570",
       "diseasegen_id": "d62",
       "name": "Pneumocystis pneumonia",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d575",
       "diseasegen_id": "d33",
       "name": "Tegumentary leishmaniasis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d577",
       "diseasegen_id": "d455",
       "name": "Head lice",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d581",
       "diseasegen_id": "d351",
       "name": "Swimmer's Itch/Cercarial dermatitis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d584",
       "diseasegen_id": "d58",
       "name": "Irritant Contact Dermatitis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d585",
       "diseasegen_id": "d58",
       "name": "Parthenium dermatitis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d587",
       "diseasegen_id": "d58",
       "name": "Immersion foot/trench foot",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d588",
       "diseasegen_id": "d58",
       "name": "Acute urticaria",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d590",
       "diseasegen_id": "d58",
       "name": "Alopecia areata",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d591",
       "diseasegen_id": "d58",
       "name": "angioedema",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d592",
       "diseasegen_id": "d58",
       "name": "Vitiligo",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d593",
       "diseasegen_id": "d58",
       "name": "Psoriasis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d594",
       "diseasegen_id": "d58",
       "name": "Severe Diarrhea",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d595",
       "diseasegen_id": "d58",
       "name": "Liver cancer",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d596",
       "diseasegen_id": "d22",
       "name": "Sin Nombre virus",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d598",
       "diseasegen_id": "d22",
       "name": "Venezuelan Hemorrhagic Fever",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d600",
       "diseasegen_id": "d455",
       "name": "Black Fly Bites",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d602",
       "diseasegen_id": "d455",
       "name": "Hymenopterans",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d603",
       "diseasegen_id": "d58",
       "name": "Dog bites",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d604",
       "diseasegen_id": "d58",
       "name": "Snake bites",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d605",
       "diseasegen_id": "d19",
       "name": "Mediterranean spotted fever",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d607",
       "diseasegen_id": "d19",
       "name": "Boutonneuse Fever",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d608",
       "diseasegen_id": "d58",
       "name": "Encephalitis ",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d609",
       "diseasegen_id": "d22",
       "name": "Common Cold",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d611",
       "diseasegen_id": "d151",
       "name": "Not specified",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d612",
       "diseasegen_id": "d58",
       "name": "Cardiovascular disease",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d613",
       "diseasegen_id": "d58",
       "name": "Chronic obstructive pulmonary disease (COPD))",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d614",
       "diseasegen_id": "d58",
       "name": "Acute coronary syndrome",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d615",
       "diseasegen_id": "d151",
       "name": "Strongyloidiasis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d617",
       "diseasegen_id": "d22",
       "name": "Mayaro Virus Disease",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d619",
       "diseasegen_id": "d151",
       "name": "Schistosomiasis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d621",
       "diseasegen_id": "d351",
       "name": "Liver fluke infection",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d622",
       "diseasegen_id": "d62",
       "name": "Immune system suppression",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d624",
       "diseasegen_id": "d62",
       "name": "Cancer",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d626",
       "diseasegen_id": "d22",
       "name": "West Nile Virus",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d627",
       "diseasegen_id": "d19",
       "name": "Pertussis (Whooping Cough)",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d629",
       "diseasegen_id": "d22",
       "name": "Infectious mononucleosis (mono)",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d632",
       "diseasegen_id": "d58",
       "name": "Al Eskan Disease",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d633",
       "diseasegen_id": "d19",
       "name": "Desert Lung Syndrome",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d634",
       "diseasegen_id": "d62",
       "name": "Coccidioidomycosis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d636",
       "diseasegen_id": "d19",
       "name": "Pyomyositis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d641",
       "diseasegen_id": "d455",
       "name": "Tungiasis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d643",
       "diseasegen_id": "d19",
       "name": "Streptococcus pneumoniae",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d644",
       "diseasegen_id": "d22",
       "name": "South American hemorrhagic fever (SAHF)",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d646",
       "diseasegen_id": "d58",
       "name": "Mold allergies",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d647",
       "diseasegen_id": "d455",
       "name": "Stinging and biting ",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d648",
       "diseasegen_id": "d455",
       "name": "Diptera",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d649",
       "diseasegen_id": "d455",
       "name": "Acarina ",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d650",
       "diseasegen_id": "d58",
       "name": "Animal bites",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d653",
       "diseasegen_id": "d652",
       "name": "Ocular rhinosporidiosis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d655",
       "diseasegen_id": "d62",
       "name": "Aspergillosis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d657",
       "diseasegen_id": "d58",
       "name": "Acute respiratory tract infections",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d659",
       "diseasegen_id": "d22",
       "name": "Wesselsbron virus",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d662",
       "diseasegen_id": "d22",
       "name": "Powassan Virus",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d664",
       "diseasegen_id": "d351",
       "name": "Trematodiases ",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d668",
       "diseasegen_id": "d58",
       "name": "Heat Stroke",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d669",
       "diseasegen_id": "d62",
       "name": "Rhinosporidiosis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d671",
       "diseasegen_id": "d19",
       "name": "Ehrlichiosis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d673",
       "diseasegen_id": "d19",
       "name": "Rocky Mountain spotted fever",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d676",
       "diseasegen_id": "d22",
       "name": "Encephalitis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d680",
       "diseasegen_id": "d679",
       "name": "Fascioliasis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d682",
       "diseasegen_id": "d151",
       "name": "Human cutaneous larva migrans",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d684",
       "diseasegen_id": "d151",
       "name": "Mansonelliasis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d685",
       "diseasegen_id": "d58",
       "name": "Acute diarrhoeal diseases",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d686",
       "diseasegen_id": "d19",
       "name": "Typhus",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d687",
       "diseasegen_id": "d58",
       "name": "Tick-borne encephalitis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d688",
       "diseasegen_id": "d679",
       "name": "Schistosomiasis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d689",
       "diseasegen_id": "d58",
       "name": "Leishmaniasis ",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d690",
       "diseasegen_id": "d19",
       "name": "Spotted Fever Group Rickettsioses (SFGR)",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d691",
       "diseasegen_id": "d58",
       "name": "Carbon Monoxide Poisoning",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d692",
       "diseasegen_id": "d22",
       "name": "Meningitis ",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d694",
       "diseasegen_id": "d455",
       "name": "Myiasis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d695",
       "diseasegen_id": "d151",
       "name": "Ascarididae",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d696",
       "diseasegen_id": "d22",
       "name": "Smallpox",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d698",
       "diseasegen_id": "d22",
       "name": "Chikungunya fever ",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d700",
       "diseasegen_id": "d699",
       "name": "Granulomatous amoebic encephalitis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d703",
       "diseasegen_id": "d19",
       "name": "Gonorrhea",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d705",
       "diseasegen_id": "d22",
       "name": "Aseptic meningitis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d707",
       "diseasegen_id": "d19",
       "name": "Escherichia coli (E. coli)",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d708",
       "diseasegen_id": "d58",
       "name": "Insect bites",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d710",
       "diseasegen_id": "d709",
       "name": "Envenomization",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d712",
       "diseasegen_id": "d22",
       "name": "Murray Valley virus",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d713",
       "diseasegen_id": "d33",
       "name": "Visceral leishmaniasis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d716",
       "diseasegen_id": "d58",
       "name": "Cutaneous ulcers ",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d718",
       "diseasegen_id": "d62",
       "name": "Tsunami lung",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d720",
       "diseasegen_id": "d151",
       "name": "Dracunculiasis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d724",
       "diseasegen_id": "d62",
       "name": "Kawasaki Disease",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d726",
       "diseasegen_id": "d19",
       "name": "Leprosy",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d728",
       "diseasegen_id": "d58",
       "name": "Gangrene",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d731",
       "diseasegen_id": "d58",
       "name": "Rhinitis ",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d732",
       "diseasegen_id": "d58",
       "name": "Hypertension",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d737",
       "diseasegen_id": "d19",
       "name": "Tsunami lung",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d738",
       "diseasegen_id": "d58",
       "name": "Upper respiratory infections",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d739",
       "diseasegen_id": "d19",
       "name": "Shellfish poisoning",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d741",
       "diseasegen_id": "d458",
       "name": "Amnesic shellfish poisoning",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d744",
       "diseasegen_id": "d267",
       "name": "Phytophotodermatitis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d746",
       "diseasegen_id": "d267",
       "name": "Allergic diseases",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d748",
       "diseasegen_id": "d19",
       "name": "Yersiniosis ",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d749",
       "diseasegen_id": "d22",
       "name": "COVID-19",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d755",
       "diseasegen_id": "d58",
       "name": "Respiratory infections",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d756",
       "diseasegen_id": "d58",
       "name": "Vomiting",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d757",
       "diseasegen_id": "d58",
       "name": "Skin irritation",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d758",
       "diseasegen_id": "d58",
       "name": "Intestinal infectious diseases",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d759",
       "diseasegen_id": "d58",
       "name": "Infectious diarrhea",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d761",
       "diseasegen_id": "d58",
       "name": "Cerebrovascular disease",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d762",
       "diseasegen_id": "d58",
       "name": "Tonsillitis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d763",
       "diseasegen_id": "d58",
       "name": "Skin infection",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d764",
       "diseasegen_id": "d58",
       "name": "Reproductive system diseases",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d765",
       "diseasegen_id": "d19",
       "name": "Pneumonic plague",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d767",
       "diseasegen_id": "d455",
       "name": "Nonscabetic mites",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d772",
       "diseasegen_id": "d19",
       "name": "Aspiration pneumonic melioidosis ",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d775",
       "diseasegen_id": "d62",
       "name": "Chromoblastomycosis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d776",
       "diseasegen_id": "d58",
       "name": "Miliaria ",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d777",
       "diseasegen_id": "d58",
       "name": "Insect stings",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d778",
       "diseasegen_id": "d58",
       "name": "Papular urticaria",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d780",
       "diseasegen_id": "d58",
       "name": "Multi-organ dysfunction syndrome",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d784",
       "diseasegen_id": "d151",
       "name": "Trichuriasis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d787",
       "diseasegen_id": "d151",
       "name": "Ternidens deminatus infection",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d793",
       "diseasegen_id": "d62",
       "name": "Microsporidia",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d797",
       "diseasegen_id": "d796",
       "name": "Naegleriasis (Primary amoebic meningoencephalitis)",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d800",
       "diseasegen_id": "d58",
       "name": "Tick-borne diseases",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d802",
       "diseasegen_id": "d19",
       "name": "Candidatus Neoehrlichia mikurensis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d804",
       "diseasegen_id": "d19",
       "name": "Borrelia miyamotoi Disease",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d807",
       "diseasegen_id": "d22",
       "name": "Omsk haemorrhagic fever",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d812",
       "diseasegen_id": "d33",
       "name": "Human African trypanosomiasis",
-      "layer": 5
+      "custLayer": 5
     },
     {
       "id": "d21",
       "disease_id": 20,
       "diseasegen_id": "d19",
       "name": "Escherichia coli",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d28",
       "disease_id": 27,
       "diseasegen_id": "d22",
       "name": "Dengue virus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d30",
       "disease_id": 29,
       "diseasegen_id": "d19",
       "name": "Borrelia bacterium",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d38",
       "disease_id": 37,
       "diseasegen_id": "d19",
       "name": "Leptospira",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d38",
       "disease_id": 66,
       "diseasegen_id": "d19",
       "name": "Leptospira",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d41",
       "disease_id": 39,
       "diseasegen_id": "d22",
       "name": "Flavivirus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d46",
       "disease_id": 45,
       "diseasegen_id": "d22",
       "name": "Hantavirus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d48",
       "disease_id": 47,
       "diseasegen_id": "d19",
       "name": "Yersinia pestis",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d49",
       "disease_id": 20,
       "diseasegen_id": "d19",
       "name": "Vibrio cholerae",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d52",
       "disease_id": 20,
       "diseasegen_id": "d19",
       "name": "Shigella",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d55",
       "disease_id": 54,
       "diseasegen_id": "d22",
       "name": "Hepatitis",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d64",
       "disease_id": 63,
       "diseasegen_id": "d62",
       "name": "Unspecified",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d67",
       "disease_id": 66,
       "diseasegen_id": "d19",
       "name": "Vibrio cholerae",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d70",
       "disease_id": 69,
       "diseasegen_id": "d19",
       "name": "Salmonella typhi",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d72",
       "disease_id": 71,
       "diseasegen_id": "d19",
       "name": "Salmonella sp.",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d77",
       "disease_id": 76,
       "diseasegen_id": "d19",
       "name": "Campylobacter",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d77",
       "disease_id": 76,
       "diseasegen_id": "d22",
       "name": "Campylobacter",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d84",
       "disease_id": 83,
       "diseasegen_id": "d19",
       "name": "Cyanobacteria",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d88",
       "disease_id": 87,
       "diseasegen_id": "d58",
       "name": "Naegleria fowleri",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d90",
       "disease_id": 89,
       "diseasegen_id": "d19",
       "name": "Bacillus anthracis",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d91",
       "disease_id": 20,
       "diseasegen_id": "d19",
       "name": "Clostridium perfringens",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d93",
       "disease_id": 92,
       "diseasegen_id": "d19",
       "name": "Salmonella",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d95",
       "disease_id": 94,
       "diseasegen_id": "d19",
       "name": "Vibrio parahaemolyticus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d98",
       "disease_id": 97,
       "diseasegen_id": "d458",
       "name": "Dinofagellates",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d100",
       "disease_id": 99,
       "diseasegen_id": "d19",
       "name": "Clostridium botulinum",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d104",
       "disease_id": 103,
       "diseasegen_id": "d33",
       "name": "Cryptosporidium parvum",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d105",
       "disease_id": 82,
       "diseasegen_id": "d22",
       "name": "Flaviviridae",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d110",
       "disease_id": 109,
       "diseasegen_id": "d19",
       "name": "Rickettsia",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d120",
       "disease_id": 119,
       "diseasegen_id": "d19",
       "name": "Legionella sp.",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d125",
       "disease_id": 124,
       "diseasegen_id": "d19",
       "name": "Vibrio parahemolyticus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d133",
       "disease_id": 132,
       "diseasegen_id": "d22",
       "name": "Japanese encephalitis",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d134",
       "disease_id": 80,
       "diseasegen_id": "d33",
       "name": "Plasmodium falciparum",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d136",
       "disease_id": 92,
       "diseasegen_id": "d19",
       "name": "Cryptosporidium",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d136",
       "disease_id": 135,
       "diseasegen_id": "d33",
       "name": "Cryptosporidium",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d138",
       "disease_id": 137,
       "diseasegen_id": "d33",
       "name": "Giardia lambia",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d139",
       "disease_id": 137,
       "diseasegen_id": "d33",
       "name": "Giardia",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d140",
       "disease_id": 103,
       "diseasegen_id": "d33",
       "name": "Giardia lambia",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d142",
       "disease_id": 141,
       "diseasegen_id": "d62",
       "name": "Rhizopus oryzae",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d144",
       "disease_id": 124,
       "diseasegen_id": "d19",
       "name": "Vibrio sp.",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d147",
       "disease_id": 146,
       "diseasegen_id": "d19",
       "name": "Neisseria meningitidis",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d150",
       "disease_id": 149,
       "diseasegen_id": "d62",
       "name": "Coccidioides immitis",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d154",
       "disease_id": 153,
       "diseasegen_id": "d151",
       "name": "Mansonella perstans",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d155",
       "disease_id": 80,
       "diseasegen_id": "d33",
       "name": "Plasmodium vivax",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d156",
       "disease_id": 122,
       "diseasegen_id": "d22",
       "name": "Flavivirus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d160",
       "disease_id": 159,
       "diseasegen_id": "d19",
       "name": "Vibrio sp.",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d160",
       "disease_id": 358,
       "diseasegen_id": "d19",
       "name": "Vibrio sp.",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d164",
       "disease_id": 163,
       "diseasegen_id": "d33",
       "name": "Toxoplasma gondii",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d166",
       "disease_id": 165,
       "diseasegen_id": "d19",
       "name": "Vibrio sp.",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d167",
       "disease_id": 124,
       "diseasegen_id": "d19",
       "name": "Vibrio vulnificus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d168",
       "disease_id": 165,
       "diseasegen_id": "d19",
       "name": "Vibrio vulnificus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d173",
       "disease_id": 226,
       "diseasegen_id": "d19",
       "name": "Not Specified",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d176",
       "disease_id": 94,
       "diseasegen_id": "d19",
       "name": "Not Specified",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d178",
       "disease_id": 68,
       "diseasegen_id": "d19",
       "name": "Shigella",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d186",
       "disease_id": 185,
       "diseasegen_id": "d22",
       "name": "Reoviridae",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d195",
       "disease_id": 194,
       "diseasegen_id": "d22",
       "name": "Hantaviruses ",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d199",
       "disease_id": 198,
       "diseasegen_id": "d33",
       "name": "Trypanosoma spp.",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d204",
       "disease_id": 203,
       "diseasegen_id": "d33",
       "name": "Trypanosoma cruzi",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d207",
       "disease_id": 206,
       "diseasegen_id": "d22",
       "name": "Togavirus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d209",
       "disease_id": 208,
       "diseasegen_id": "d62",
       "name": "Aspergillus niger",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d211",
       "disease_id": 210,
       "diseasegen_id": "d62",
       "name": "Penicillium sp.",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d212",
       "disease_id": 63,
       "diseasegen_id": "d62",
       "name": "Trichoderma",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d213",
       "disease_id": 63,
       "diseasegen_id": "d62",
       "name": "Paecilomyces",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d215",
       "disease_id": 214,
       "diseasegen_id": "d19",
       "name": "Clostridium tetani",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d217",
       "disease_id": 216,
       "diseasegen_id": "d19",
       "name": "Staphylococcus aureus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d218",
       "disease_id": 216,
       "diseasegen_id": "d19",
       "name": "Streptococcus pyogenes",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d219",
       "disease_id": 124,
       "diseasegen_id": "d19",
       "name": "Aeromonas",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d221",
       "disease_id": 220,
       "diseasegen_id": "d19",
       "name": "Shewanella spp.",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d222",
       "disease_id": 220,
       "diseasegen_id": "d19",
       "name": "Leclercia adecarboxylata",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d223",
       "disease_id": 220,
       "diseasegen_id": "d19",
       "name": "Chromobacterium violaceum",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d225",
       "disease_id": 224,
       "diseasegen_id": "d19",
       "name": "Burkholderia pseudomallei",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d227",
       "disease_id": 226,
       "diseasegen_id": "d19",
       "name": "Escherichia coli",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d229",
       "disease_id": 228,
       "diseasegen_id": "d22",
       "name": "Norovirus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d230",
       "disease_id": 189,
       "diseasegen_id": "d22",
       "name": "Chikungunya virus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d232",
       "disease_id": 231,
       "diseasegen_id": "d62",
       "name": "Aflatoxicosis",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d233",
       "disease_id": 149,
       "diseasegen_id": "d62",
       "name": "Coccidioides",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d236",
       "disease_id": 235,
       "diseasegen_id": "d351",
       "name": "Schistosoma haematobium",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d237",
       "disease_id": 235,
       "diseasegen_id": "d351",
       "name": "Schistosomiasis ",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d241",
       "disease_id": 240,
       "diseasegen_id": "d22",
       "name": "Junin virus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d247",
       "disease_id": 63,
       "diseasegen_id": "d62",
       "name": "Cladosporium sp.",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d249",
       "disease_id": 248,
       "diseasegen_id": "d19",
       "name": "Kocuria sp.",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d250",
       "disease_id": 248,
       "diseasegen_id": "d19",
       "name": "Microbacterium arborescens",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d251",
       "disease_id": 149,
       "diseasegen_id": "d62",
       "name": "Cocciodioides immitis",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d253",
       "disease_id": 252,
       "diseasegen_id": "d19",
       "name": "Gram-positive cocci",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d254",
       "disease_id": 252,
       "diseasegen_id": "d19",
       "name": "Pseudomonas",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d255",
       "disease_id": 113,
       "diseasegen_id": "d22",
       "name": "Flaviviridae",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d257",
       "disease_id": 256,
       "diseasegen_id": "d33",
       "name": "Babesia",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d260",
       "disease_id": 238,
       "diseasegen_id": "d33",
       "name": "Entamoeba histolytica",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d269",
       "disease_id": 268,
       "diseasegen_id": "d267",
       "name": "Pollen",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d273",
       "disease_id": 272,
       "diseasegen_id": "d22",
       "name": "Lyssaviruses",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d275",
       "disease_id": 274,
       "diseasegen_id": "d19",
       "name": "Listeria monocytogenes",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d278",
       "disease_id": 197,
       "diseasegen_id": "d22",
       "name": "Ebola virus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d279",
       "disease_id": 80,
       "diseasegen_id": "d33",
       "name": "Not Specified",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d280",
       "disease_id": 20,
       "diseasegen_id": "d19",
       "name": "Not Specified",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d282",
       "disease_id": 20,
       "diseasegen_id": "d19",
       "name": "Escherichia coli 0157:H7",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d285",
       "disease_id": 159,
       "diseasegen_id": "d19",
       "name": "Vibrio vulnificus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d286",
       "disease_id": 159,
       "diseasegen_id": "d19",
       "name": "Vibrio parahaemolyticus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d288",
       "disease_id": 287,
       "diseasegen_id": "d19",
       "name": "Staphylococcus aureus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d289",
       "disease_id": 153,
       "diseasegen_id": "d151",
       "name": "Wuchereria bancrofti",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d293",
       "disease_id": 292,
       "diseasegen_id": "d19",
       "name": "Chlamydia trachomatis",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d295",
       "disease_id": 294,
       "diseasegen_id": "d33",
       "name": "Cyclospora",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d296",
       "disease_id": 81,
       "diseasegen_id": "d22",
       "name": "Phlebovirus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d297",
       "disease_id": 190,
       "diseasegen_id": "d22",
       "name": "Ross River Virus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d300",
       "disease_id": 299,
       "diseasegen_id": "d22",
       "name": "Bunyaviridae",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d302",
       "disease_id": 301,
       "diseasegen_id": "d22",
       "name": "Hepatitis A virus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d304",
       "disease_id": 303,
       "diseasegen_id": "d22",
       "name": "Hepatitis E virus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d306",
       "disease_id": 305,
       "diseasegen_id": "d22",
       "name": "Adenovirus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d309",
       "disease_id": 220,
       "diseasegen_id": "d19",
       "name": "Aeromonas",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d311",
       "disease_id": 310,
       "diseasegen_id": "d19",
       "name": "Aeromonas",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d313",
       "disease_id": 312,
       "diseasegen_id": "d19",
       "name": "Aeromonas",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d315",
       "disease_id": 314,
       "diseasegen_id": "d19",
       "name": "Aeromonas",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d316",
       "disease_id": 220,
       "diseasegen_id": "d19",
       "name": "Klebsiella",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d317",
       "disease_id": 220,
       "diseasegen_id": "d19",
       "name": "Escherichia coli",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d318",
       "disease_id": 220,
       "diseasegen_id": "d19",
       "name": "Pseudomonas aeruginosa",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d319",
       "disease_id": 220,
       "diseasegen_id": "d19",
       "name": "Proteus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d320",
       "disease_id": 220,
       "diseasegen_id": "d19",
       "name": "Staphylococcus sp.",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d321",
       "disease_id": 220,
       "diseasegen_id": "d19",
       "name": "Vibrio vulnificus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d322",
       "disease_id": 220,
       "diseasegen_id": "d19",
       "name": "Vibrio parahaemolyticus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d324",
       "disease_id": 323,
       "diseasegen_id": "d19",
       "name": "Mycobacterium ulcerans",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d326",
       "disease_id": 325,
       "diseasegen_id": "d62",
       "name": "Cladophialophora bantiana",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d327",
       "disease_id": 325,
       "diseasegen_id": "d62",
       "name": "Mucor sp.",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d328",
       "disease_id": 325,
       "diseasegen_id": "d62",
       "name": "Apophysomyces elegans",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d331",
       "disease_id": 330,
       "diseasegen_id": "d62",
       "name": "Mucormycetes",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d333",
       "disease_id": 332,
       "diseasegen_id": "d62",
       "name": "Blastomyces dermatitidis",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d337",
       "disease_id": 336,
       "diseasegen_id": "d22",
       "name": "Measles virus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d342",
       "disease_id": 196,
       "diseasegen_id": "d33",
       "name": "Leishmania genus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d350",
       "disease_id": 349,
       "diseasegen_id": "d19",
       "name": "Shigella",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d353",
       "disease_id": 352,
       "diseasegen_id": "d351",
       "name": "E. granulosis",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d354",
       "disease_id": 352,
       "diseasegen_id": "d351",
       "name": "E. multilocularis",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d357",
       "disease_id": 235,
       "diseasegen_id": "d351",
       "name": "Schistosoma japonicum",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d363",
       "disease_id": 362,
       "diseasegen_id": "d22",
       "name": "Hantavirus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d364",
       "disease_id": 80,
       "diseasegen_id": "d33",
       "name": "Plasmodium",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d365",
       "disease_id": 148,
       "diseasegen_id": "d22",
       "name": "Enteroviruses",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d373",
       "disease_id": 372,
       "diseasegen_id": "d19",
       "name": "Orientia tsutsugamushi",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d375",
       "disease_id": 29,
       "diseasegen_id": "d19",
       "name": "Borrelia burgdorferi",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d378",
       "disease_id": 377,
       "diseasegen_id": "d151",
       "name": "Angiostrongylus cantonensis",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d380",
       "disease_id": 379,
       "diseasegen_id": "d22",
       "name": "Phlebovirus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d382",
       "disease_id": 381,
       "diseasegen_id": "d19",
       "name": "Mycobacterium tuberculosis complex",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d383",
       "disease_id": 362,
       "diseasegen_id": "d22",
       "name": "Sin Nombre hantavirus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d384",
       "disease_id": 132,
       "diseasegen_id": "d22",
       "name": "Japanese encephalitis virus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d386",
       "disease_id": 385,
       "diseasegen_id": "d22",
       "name": "Enterovirus 71",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d387",
       "disease_id": 276,
       "diseasegen_id": "d22",
       "name": "Flaviviridae",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d389",
       "disease_id": 388,
       "diseasegen_id": "d22",
       "name": "Marburg virus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d390",
       "disease_id": 239,
       "diseasegen_id": "d22",
       "name": "Paramyxoviridae",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d391",
       "disease_id": 85,
       "diseasegen_id": "d22",
       "name": "Paramyxoviridae",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d403",
       "disease_id": 402,
       "diseasegen_id": "d22",
       "name": "Lentivirus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d404",
       "disease_id": 153,
       "diseasegen_id": "d151",
       "name": "Not Specified",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d406",
       "disease_id": 405,
       "diseasegen_id": "d151",
       "name": "Dracunculus medinensis",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d408",
       "disease_id": 407,
       "diseasegen_id": "d151",
       "name": "Onchocerca volvulus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d409",
       "disease_id": 235,
       "diseasegen_id": "d351",
       "name": "Schistosoma mansoni",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d411",
       "disease_id": 410,
       "diseasegen_id": "d151",
       "name": "Ascaris lumbricoides",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d412",
       "disease_id": 410,
       "diseasegen_id": "d151",
       "name": "Toxocara",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d416",
       "disease_id": 220,
       "diseasegen_id": "d19",
       "name": "Klebsiella pneumoniae",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d418",
       "disease_id": 417,
       "diseasegen_id": "d19",
       "name": "Streptococcus pyogenes",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d419",
       "disease_id": 417,
       "diseasegen_id": "d19",
       "name": "Vibrio vulnificus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d420",
       "disease_id": 20,
       "diseasegen_id": "d19",
       "name": "Clostridium difficile",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d423",
       "disease_id": 422,
       "diseasegen_id": "d22",
       "name": "WEE virus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d427",
       "disease_id": 426,
       "diseasegen_id": "d22",
       "name": "SARS-CoV",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d430",
       "disease_id": 429,
       "diseasegen_id": "d22",
       "name": "Flavivirus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d434",
       "disease_id": 432,
       "diseasegen_id": "d19",
       "name": "Streptococcus pneumoniae",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d435",
       "disease_id": 135,
       "diseasegen_id": "d33",
       "name": "Cryptosporidium parvum",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d439",
       "disease_id": 348,
       "diseasegen_id": "d22",
       "name": "Pneumocystis jirovecii",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d442",
       "disease_id": 441,
       "diseasegen_id": "d22",
       "name": "Poliovirus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d443",
       "disease_id": 36,
       "diseasegen_id": "d19",
       "name": "Francisella tularensis",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d444",
       "disease_id": 421,
       "diseasegen_id": "d22",
       "name": "Human orthopneumovirus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d446",
       "disease_id": 445,
       "diseasegen_id": "d22",
       "name": "Mump virus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d448",
       "disease_id": 447,
       "diseasegen_id": "d19",
       "name": "Not Specified",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d452",
       "disease_id": 263,
       "diseasegen_id": "d22",
       "name": "Influenza A",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d453",
       "disease_id": 263,
       "diseasegen_id": "d22",
       "name": "Influenza B",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d457",
       "disease_id": 456,
       "diseasegen_id": "d455",
       "name": "Sarcoptes scabiei",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d460",
       "disease_id": 459,
       "diseasegen_id": "d458",
       "name": "Gambierdiscus toxicus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d464",
       "disease_id": 463,
       "diseasegen_id": "d455",
       "name": "Paederus dermatitis",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d466",
       "disease_id": 465,
       "diseasegen_id": "d458",
       "name": "Karenia mikimotoi",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d467",
       "disease_id": 381,
       "diseasegen_id": "d19",
       "name": "Mycobacterium tuberculosis",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d469",
       "disease_id": 468,
       "diseasegen_id": "d19",
       "name": "Borrelia miyamotoi",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d470",
       "disease_id": 92,
       "diseasegen_id": "d19",
       "name": "Salmonella enteritidis",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d471",
       "disease_id": 76,
       "diseasegen_id": "d19",
       "name": "Campylobacter jejuni",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d472",
       "disease_id": 226,
       "diseasegen_id": "d19",
       "name": "Escherichia coli O157:h7 ",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d474",
       "disease_id": 146,
       "diseasegen_id": "d19",
       "name": "No-specified",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d476",
       "disease_id": 281,
       "diseasegen_id": "d22",
       "name": "Sapovirus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d477",
       "disease_id": 449,
       "diseasegen_id": "d22",
       "name": "Puumala orthohantavirus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d478",
       "disease_id": 449,
       "diseasegen_id": "d22",
       "name": "Puumala sp.",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d479",
       "disease_id": 194,
       "diseasegen_id": "d22",
       "name": "Nephropathia epidemica",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d481",
       "disease_id": 480,
       "diseasegen_id": "d62",
       "name": "Tinea corporis",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d482",
       "disease_id": 480,
       "diseasegen_id": "d62",
       "name": "Tinea pedis",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d483",
       "disease_id": 82,
       "diseasegen_id": "d22",
       "name": "West Nile Virus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d484",
       "disease_id": 196,
       "diseasegen_id": "d33",
       "name": "American cutaneous leishmaniasis ",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d486",
       "disease_id": 153,
       "diseasegen_id": "d151",
       "name": "Lymphatic filariasis",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d487",
       "disease_id": 153,
       "diseasegen_id": "d151",
       "name": "Bancroftian filariasis",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d489",
       "disease_id": 488,
       "diseasegen_id": "d22",
       "name": "Arbovirus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d491",
       "disease_id": 490,
       "diseasegen_id": "d19",
       "name": "B. cereus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d493",
       "disease_id": 492,
       "diseasegen_id": "d19",
       "name": "C. perfringens",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d494",
       "disease_id": 124,
       "diseasegen_id": "d19",
       "name": "Bartonella quintana",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d496",
       "disease_id": 495,
       "diseasegen_id": "d33",
       "name": "Balantidium coli",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d498",
       "disease_id": 497,
       "diseasegen_id": "d22",
       "name": "Barmah Forest virus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d500",
       "disease_id": 499,
       "diseasegen_id": "d351",
       "name": "Clonorchis sinensis",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d503",
       "disease_id": 502,
       "diseasegen_id": "d58",
       "name": "Unspecified",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d504",
       "disease_id": 103,
       "diseasegen_id": "d33",
       "name": "Not Specified",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d506",
       "disease_id": 505,
       "diseasegen_id": "d22",
       "name": "Flavivirus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d507",
       "disease_id": 20,
       "diseasegen_id": "d19",
       "name": "Yersinia enterocolitica",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d509",
       "disease_id": 508,
       "diseasegen_id": "d33",
       "name": "Acanthamoeba spp.",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d511",
       "disease_id": 510,
       "diseasegen_id": "d58",
       "name": "Naegleria spp.",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d514",
       "disease_id": 513,
       "diseasegen_id": "d33",
       "name": "Naegleria fowleri",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d518",
       "disease_id": 517,
       "diseasegen_id": "d267",
       "name": "Pollen",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d520",
       "disease_id": 519,
       "diseasegen_id": "d62",
       "name": "Mold",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d521",
       "disease_id": 29,
       "diseasegen_id": "d19",
       "name": "Ticks",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d523",
       "disease_id": 522,
       "diseasegen_id": "d151",
       "name": "Geohelminths",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d524",
       "disease_id": 94,
       "diseasegen_id": "d19",
       "name": "Plesiomonas",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d526",
       "disease_id": 525,
       "diseasegen_id": "d19",
       "name": "Plesiomonas",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d527",
       "disease_id": 525,
       "diseasegen_id": "d19",
       "name": "Trabulsiella",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d529",
       "disease_id": 528,
       "diseasegen_id": "d22",
       "name": "Lassa fever virus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d531",
       "disease_id": 530,
       "diseasegen_id": "d351",
       "name": "Diphyllobothrium pacificum",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d533",
       "disease_id": 532,
       "diseasegen_id": "d351",
       "name": "Diphyllobothrium latum",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d535",
       "disease_id": 534,
       "diseasegen_id": "d151",
       "name": "Anisakis simplex",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d536",
       "disease_id": 534,
       "diseasegen_id": "d151",
       "name": "Pseudoterranova decipiens",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d537",
       "disease_id": 63,
       "diseasegen_id": "d62",
       "name": "Candida auris",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d538",
       "disease_id": 231,
       "diseasegen_id": "d62",
       "name": "Not Specified",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d542",
       "disease_id": 541,
       "diseasegen_id": "d62",
       "name": "Cryptococcosis gatti",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d544",
       "disease_id": 543,
       "diseasegen_id": "d22",
       "name": "Flavivirus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d546",
       "disease_id": 545,
       "diseasegen_id": "d58",
       "name": "Not Specified",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d548",
       "disease_id": 547,
       "diseasegen_id": "d19",
       "name": "Coxiella burnetii",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d550",
       "disease_id": 149,
       "diseasegen_id": "d62",
       "name": "coccidioido mycosis",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d552",
       "disease_id": 551,
       "diseasegen_id": "d22",
       "name": "Rickettsia conorii",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d554",
       "disease_id": 553,
       "diseasegen_id": "d22",
       "name": "Rickettsia rickettsii",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d555",
       "disease_id": 497,
       "diseasegen_id": "d22",
       "name": "Togaviridae",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d559",
       "disease_id": 558,
       "diseasegen_id": "d19",
       "name": "Treponema pallidum pertenue",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d560",
       "disease_id": 480,
       "diseasegen_id": "d62",
       "name": "Tinea",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d561",
       "disease_id": 63,
       "diseasegen_id": "d62",
       "name": "Malassezia",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d562",
       "disease_id": 61,
       "diseasegen_id": "d58",
       "name": "Miliaria",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d565",
       "disease_id": 564,
       "diseasegen_id": "d22",
       "name": "Human Papillomavirus (HPV)",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d567",
       "disease_id": 109,
       "diseasegen_id": "d19",
       "name": "Rickettsia africae",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d569",
       "disease_id": 568,
       "diseasegen_id": "d19",
       "name": "Mycoplasma pneumoniae",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d571",
       "disease_id": 570,
       "diseasegen_id": "d62",
       "name": "Pneumocystis jirovecii",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d572",
       "disease_id": 63,
       "diseasegen_id": "d62",
       "name": "Tinea corporis",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d573",
       "disease_id": 63,
       "diseasegen_id": "d62",
       "name": "Tinea pedis",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d576",
       "disease_id": 575,
       "diseasegen_id": "d33",
       "name": "Leishmania genus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d578",
       "disease_id": 577,
       "diseasegen_id": "d455",
       "name": "Pediculosis capitis",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d579",
       "disease_id": 265,
       "diseasegen_id": "d151",
       "name": "Ancylostoma caninum",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d582",
       "disease_id": 581,
       "diseasegen_id": "d351",
       "name": "Schistosoma spindale",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d583",
       "disease_id": 581,
       "diseasegen_id": "d351",
       "name": "Trichobilharzia",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d586",
       "disease_id": 585,
       "diseasegen_id": "d58",
       "name": "Parthenin",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d597",
       "disease_id": 596,
       "diseasegen_id": "d22",
       "name": "Bunyaviridae Hantavirus pathogen",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d599",
       "disease_id": 598,
       "diseasegen_id": "d22",
       "name": "Guanarito virus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d601",
       "disease_id": 600,
       "diseasegen_id": "d455",
       "name": "Simulium damnosum senso lato",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d606",
       "disease_id": 605,
       "diseasegen_id": "d19",
       "name": "Rickettsia conorii conorii",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d610",
       "disease_id": 153,
       "diseasegen_id": "d151",
       "name": " Setaria tundrae",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d616",
       "disease_id": 615,
       "diseasegen_id": "d151",
       "name": "Strongyloides",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d618",
       "disease_id": 617,
       "diseasegen_id": "d22",
       "name": "Mayaro Virus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d620",
       "disease_id": 619,
       "diseasegen_id": "d151",
       "name": "Schistosoma sp.",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d623",
       "disease_id": 622,
       "diseasegen_id": "d62",
       "name": "aflatoxins",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d625",
       "disease_id": 624,
       "diseasegen_id": "d62",
       "name": "aflatoxins",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d628",
       "disease_id": 627,
       "diseasegen_id": "d19",
       "name": "Bordetella pertussis",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d635",
       "disease_id": 634,
       "diseasegen_id": "d62",
       "name": "Coccidioides immitis",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d637",
       "disease_id": 636,
       "diseasegen_id": "d19",
       "name": "Staphylococcus aureus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d638",
       "disease_id": 238,
       "diseasegen_id": "d33",
       "name": "Entamoeba dispar",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d639",
       "disease_id": 294,
       "diseasegen_id": "d33",
       "name": "Cyclospora cayetanensis",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d640",
       "disease_id": 137,
       "diseasegen_id": "d33",
       "name": "Giardia lamblia",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d642",
       "disease_id": 641,
       "diseasegen_id": "d455",
       "name": "Tunga penetrans",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d645",
       "disease_id": 549,
       "diseasegen_id": "d19",
       "name": "Neisseria meningitidis",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d651",
       "disease_id": 626,
       "diseasegen_id": "d22",
       "name": "Flaviviridae",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d654",
       "disease_id": 653,
       "diseasegen_id": "d652",
       "name": "Rhinosporidium seeberi",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d656",
       "disease_id": 655,
       "diseasegen_id": "d62",
       "name": "Aspergillus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d658",
       "disease_id": 508,
       "diseasegen_id": "d33",
       "name": "Acanthamoeba keratitis",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d660",
       "disease_id": 659,
       "diseasegen_id": "d22",
       "name": "Flavivirus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d661",
       "disease_id": 510,
       "diseasegen_id": "d58",
       "name": "Naegleria fowleri",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d663",
       "disease_id": 662,
       "diseasegen_id": "d22",
       "name": "Flavivirus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d665",
       "disease_id": 664,
       "diseasegen_id": "d351",
       "name": "Trematode",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d670",
       "disease_id": 669,
       "diseasegen_id": "d62",
       "name": "Rhinosporidium seeberi",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d672",
       "disease_id": 671,
       "diseasegen_id": "d19",
       "name": "Ehrlichia spp",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d674",
       "disease_id": 673,
       "diseasegen_id": "d19",
       "name": "Rickettsia rickettsii ",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d675",
       "disease_id": 45,
       "diseasegen_id": "d22",
       "name": "Sin Nombre virus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d677",
       "disease_id": 676,
       "diseasegen_id": "d22",
       "name": "Encephalitis Flavivirus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d683",
       "disease_id": 153,
       "diseasegen_id": "d151",
       "name": "Mansonella ozzardi",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d693",
       "disease_id": 45,
       "diseasegen_id": "d22",
       "name": "Nephropathia epidemica",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d697",
       "disease_id": 696,
       "diseasegen_id": "d22",
       "name": "Variola virus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d701",
       "disease_id": 700,
       "diseasegen_id": "d699",
       "name": "Balamuthia mandrillaris",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d702",
       "disease_id": 159,
       "diseasegen_id": "d19",
       "name": "vibrio alginolyticus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d704",
       "disease_id": 137,
       "diseasegen_id": "d33",
       "name": "Giardia intestinalis",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d706",
       "disease_id": 705,
       "diseasegen_id": "d22",
       "name": "Enteroviruses",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d711",
       "disease_id": 684,
       "diseasegen_id": "d151",
       "name": "Mansonella perstans",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d715",
       "disease_id": 119,
       "diseasegen_id": "d19",
       "name": "Legionella pneumophila",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d717",
       "disease_id": 330,
       "diseasegen_id": "d62",
       "name": "Apophysomyces trapeziformis",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d719",
       "disease_id": 695,
       "diseasegen_id": "d151",
       "name": "A. lumbricoides",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d721",
       "disease_id": 720,
       "diseasegen_id": "d151",
       "name": "guinea worm",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d722",
       "disease_id": 109,
       "diseasegen_id": "d19",
       "name": "Rickettsia conorii",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d725",
       "disease_id": 724,
       "diseasegen_id": "d62",
       "name": "Candida",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d727",
       "disease_id": 726,
       "diseasegen_id": "d19",
       "name": "Mycobacterium spp.",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d729",
       "disease_id": 728,
       "diseasegen_id": "d58",
       "name": "Vibrio Species",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d730",
       "disease_id": 61,
       "diseasegen_id": "d58",
       "name": "Hookworm parasite",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d735",
       "disease_id": 124,
       "diseasegen_id": "d19",
       "name": "Pseudomonas aeruginosa",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d736",
       "disease_id": 712,
       "diseasegen_id": "d22",
       "name": "Flavivirus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d740",
       "disease_id": 739,
       "diseasegen_id": "d19",
       "name": "Cyanobacteria",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d742",
       "disease_id": 741,
       "diseasegen_id": "d458",
       "name": "Pseudonitzschia spp.",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d743",
       "disease_id": 647,
       "diseasegen_id": "d455",
       "name": " Thaumetopoea pityocampa",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d745",
       "disease_id": 744,
       "diseasegen_id": "d267",
       "name": "Phototoxic sap",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d747",
       "disease_id": 746,
       "diseasegen_id": "d267",
       "name": "Ambrosia artemisiifolia pollen",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d750",
       "disease_id": 749,
       "diseasegen_id": "d22",
       "name": "SARS-CoV-2",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d751",
       "disease_id": 686,
       "diseasegen_id": "d19",
       "name": "Orientia tsutsugamushi",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d752",
       "disease_id": 682,
       "diseasegen_id": "d151",
       "name": "Hookworm larvae",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d753",
       "disease_id": 270,
       "diseasegen_id": "d151",
       "name": "Dirofilaria immitis",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d754",
       "disease_id": 20,
       "diseasegen_id": "d19",
       "name": "Aeromonas sp.",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d760",
       "disease_id": 349,
       "diseasegen_id": "d19",
       "name": "bacillary dysentery",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d766",
       "disease_id": 220,
       "diseasegen_id": "d19",
       "name": "Streptococcus spp.",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d768",
       "disease_id": 220,
       "diseasegen_id": "d19",
       "name": "M. abscessus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d769",
       "disease_id": 220,
       "diseasegen_id": "d19",
       "name": "M. fortuitum",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d770",
       "disease_id": 220,
       "diseasegen_id": "d19",
       "name": "M. peregrinum",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d773",
       "disease_id": 220,
       "diseasegen_id": "d19",
       "name": "B. pseudomallei",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d774",
       "disease_id": 37,
       "diseasegen_id": "d19",
       "name": "Leptospira interrogans",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d779",
       "disease_id": 66,
       "diseasegen_id": "d19",
       "name": "V. cholerae serotype O1",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d781",
       "disease_id": 688,
       "diseasegen_id": "d679",
       "name": "Schistosoma mansoni",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d785",
       "disease_id": 784,
       "diseasegen_id": "d151",
       "name": "Trichuris trichiura",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d786",
       "disease_id": 713,
       "diseasegen_id": "d33",
       "name": "Leishmania sp.",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d788",
       "disease_id": 787,
       "diseasegen_id": "d151",
       "name": "Ternidens deminatus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d789",
       "disease_id": 688,
       "diseasegen_id": "d679",
       "name": "Schisto- soma haematobium",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d790",
       "disease_id": 414,
       "diseasegen_id": "d19",
       "name": "A. polyphaga",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d791",
       "disease_id": 720,
       "diseasegen_id": "d151",
       "name": "Dracunculus medinensis",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d792",
       "disease_id": 352,
       "diseasegen_id": "d351",
       "name": "Echinococcus spp.",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d794",
       "disease_id": 793,
       "diseasegen_id": "d62",
       "name": "Enterocytozoon bieneusi ",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d795",
       "disease_id": 793,
       "diseasegen_id": "d62",
       "name": "Encephalitozoon hellem",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d798",
       "disease_id": 797,
       "diseasegen_id": "d796",
       "name": "Naegleria fowleri",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d799",
       "disease_id": 688,
       "diseasegen_id": "d679",
       "name": "Schistosoma spp.",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d801",
       "disease_id": 109,
       "diseasegen_id": "d19",
       "name": "Rickettsia Helvetica",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d803",
       "disease_id": 802,
       "diseasegen_id": "d19",
       "name": "Neoehrlichia mikurensis",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d805",
       "disease_id": 804,
       "diseasegen_id": "d19",
       "name": "Borrelia miyamotoi",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d806",
       "disease_id": 748,
       "diseasegen_id": "d19",
       "name": "Yersinia pestis",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d808",
       "disease_id": 807,
       "diseasegen_id": "d22",
       "name": "Flavivirus",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d809",
       "disease_id": 109,
       "diseasegen_id": "d19",
       "name": "Rickettsia slovaca",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d810",
       "disease_id": 109,
       "diseasegen_id": "d19",
       "name": "Rickettsia raoultii",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d811",
       "disease_id": 109,
       "diseasegen_id": "d19",
       "name": "Anaplasma marginale",
-      "layer": 6
+      "custLayer": 6
     },
     {
       "id": "d814",
       "disease_id": 812,
       "diseasegen_id": "d33",
       "name": "Trypanosoma brucei.",
-      "layer": 6
+      "custLayer": 6
     }
   ],
   "links": [
