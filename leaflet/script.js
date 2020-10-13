@@ -10,10 +10,9 @@ $( document ).ready( function(  ){
 
 		mapAccessToken: 'pk.eyJ1Ijoia2F5ZWNhbmR5IiwiYSI6ImNqaDJ6bDM0eTA2b3UyeG8zdzR0Ym93MTgifQ.fBEF7oQTjBLfW3rIsR2wag',
 
-		// mapLayer: 'https://api.mapbox.com/styles/v1/kayecandy/cjh32l8f10mnm2sqoxaaknmb9/tiles/256/{z}/{x}/{y}?access_token={accessToken}',
-		mapLayer: 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}',
+		mapLayer: 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}',
 
-		mapStyle: 'mapbox.streets',
+		mapStyle: 'mapbox/streets-v11',
 		// mapStyle: 'mapbox://styles/kayecandy/cjh32l8f10mnm2sqoxaaknmb9',
 
 
