@@ -2,8 +2,8 @@ jQuery.fn.extend({
 	cndceMap: function(params){
 		var defaults = {
 			accessToken: 'pk.eyJ1Ijoia2F5ZWNhbmR5IiwiYSI6ImNqaDJ6bDM0eTA2b3UyeG8zdzR0Ym93MTgifQ.fBEF7oQTjBLfW3rIsR2wag',
-			mapLayer:  'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}',
-			mapStyle: 'mapbox.light',
+			mapLayer: 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}',			
+			mapStyle: 'mapbox/streets-v11',
 			statesLayerURL: './us-states.json',
 			dataURL: './elections.csv',
 			paletteRed: ['#fee0d2', '#fc9272', '#de2d26'],
