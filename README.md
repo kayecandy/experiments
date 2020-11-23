@@ -20,6 +20,7 @@ Just a compilation of various contest entries and small experiments
 * [/cndce-map](http://experiments.cndce.me/cndce-map)
 * [/conway-game-of-life](http://experiments.cndce.me/conway-game-of-life)
 * [/cuep](http://experiments.cndce.me/cuep)
+* [/earth](http://experiments.cndce.me/earth)
 * [/elevator](http://experiments.cndce.me/elevator)
 * [/leaflet](http://experiments.cndce.me/leaflet)
 * [/line](http://experiments.cndce.me/line)
