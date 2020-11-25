@@ -22,6 +22,7 @@ Just a compilation of various contest entries and small experiments
 * [/cuep](http://experiments.cndce.me/cuep)
 * [/earth](http://experiments.cndce.me/earth)
 * [/elevator](http://experiments.cndce.me/elevator)
+* [/input-presets](http://experiments.cndce.me/input-presets)
 * [/leaflet](http://experiments.cndce.me/leaflet)
 * [/line](http://experiments.cndce.me/line)
 * [/littlesteps](http://experiments.cndce.me/littlesteps)
