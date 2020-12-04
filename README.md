@@ -31,6 +31,7 @@ Just a compilation of various contest entries and small experiments
 * [/potree](http://experiments.cndce.me/potree)
 * [/ribbon](http://experiments.cndce.me/ribbon)
 * [/sankey](http://experiments.cndce.me/sankey)
+* [/scores-timeseries](http://experiments.cndce.me/scores-timeseries)
 * [/spurring](http://experiments.cndce.me/spurring)
 * [/sunny](http://experiments.cndce.me/sunny)
 * [/svg-drawing](http://experiments.cndce.me/svg-drawing)
