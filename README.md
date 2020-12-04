@@ -28,6 +28,7 @@ Just a compilation of various contest entries and small experiments
 * [/littlesteps](http://experiments.cndce.me/littlesteps)
 * [/mercifred](http://experiments.cndce.me/mercifred)
 * [/photocloud](http://experiments.cndce.me/photocloud)
+* [/potree](http://experiments.cndce.me/potree)
 * [/ribbon](http://experiments.cndce.me/ribbon)
 * [/sankey](http://experiments.cndce.me/sankey)
 * [/spurring](http://experiments.cndce.me/spurring)
