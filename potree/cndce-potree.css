@@ -1,0 +1,32 @@
+body{
+    font-family: sans-serif;
+}
+
+
+.cndce-potree-container{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+
+.cndce-potree--viewer{
+    width: 100%;
+    height: 100%;
+
+}
+
+.cndce-potree--viewer canvas{
+    outline: none;
+}
+
+.cndce-potree--help{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    background: white;
+    padding: 0.5rem 1rem;
+}

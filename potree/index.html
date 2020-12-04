@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="icon" href="http://cndce.me/favicon.png">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Candice Experiments - Potree Viewer</title>
+
+    <!-- Potree -->
+    <link rel="stylesheet" type="text/css" href="./assets/lib/potree/potree.css">
+
+    <!-- Self -->
+    <link rel="stylesheet" type="text/css" href="./cndce-potree.css">
+</head>
+
+<body>
+
+   
+
+
+    <div class="cndce-potree-container">
+        <div class="cndce-potree--viewer">
+        </div>
+        <div class="cndce-potree--help">
+            Click on the <b>blue spheres</b> to change position; Use <b>mousewheel</b> to zoom; Use <b>mousewheel</b> + <b>Ctrl</b> (or pinch on trackpad) to switch between point cloud/360 image
+        </div>
+    </div>
+
+    
+
+    <!-- POTREE DEPENDENCIES -->
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <!-- TweenJS -->
+    <script src="./assets/lib/tween/tween.min.js"></script>
+    <!-- Proj4 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.6.3/proj4.min.js" integrity="sha512-TzmbpBIqcR0TyAdg+zJJfpbTeKVj24n+U3vvlP3yBDTOs26ELhrzA+TacRmMAuflTY8tU3zVwbCyfvM3QH58lA==" crossorigin="anonymous"></script>
+    <!-- BinaryHeap -->
+    <script src="./assets/lib/potree/BinaryHeap.js"></script>
+    <!-- ThreeJS -->
+    <script src="./assets/lib/threejs/three.min.js"></script>
+    <!-- Potree -->
+    <script src="./assets/lib/potree/potree.js"></script>
+
+
+    
+    <!-- Self -->
+    <script src="./cndce-potree.js"></script>
+
+</body>
+
+</html>
