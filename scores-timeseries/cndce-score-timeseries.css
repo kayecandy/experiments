@@ -1,0 +1,206 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.template {
+  display: none;
+}
+
+/* Checkbox */
+/* Customize the label (the container) */
+.checkbox-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 17px;
+  line-height: 25px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  border-radius: 10px;
+  opacity: 0.5;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  opacity: 0.8;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox-container input:checked ~ .checkmark {
+  opacity: 1;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox-container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.cndce-score-timeseries {
+  display: flex;
+  height: 100%;
+}
+
+.cndce-users-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.cndce-search {
+  width: 300px;
+  padding: 0.5rem;
+}
+
+.cndce-search input {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1rem;
+  padding: 0.7rem 1rem;
+  border: none;
+  background: #eee;
+  border-radius: 11px;
+  outline: none;
+}
+
+.cndce-users-list {
+  overflow: auto;
+  padding: 0.5rem;
+}
+
+.cndce-user {
+  margin: 0.5rem 0;
+}
+
+.cndce-user .cndce-user-name {
+  vertical-align: middle;
+}
+
+.cndce-user .cndce-user-id-container {
+  color: gray;
+  font-size: 80%;
+  vertical-align: middle;
+}
+
+.cndce-chart-container {
+  flex-grow: 1;
+  position: relative;
+}
+
+.cndce-chart-container g.cndce-user-g {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.cndce-score-timeseries.user-hover g.cndce-user-g {
+  opacity: 0.1;
+}
+
+.cndce-score-timeseries.user-hover g.cndce-user-g.hovered {
+  opacity: 1;
+}
+
+.cndce-score-timeseries.user-hover g.cndce-user-g.hovered .cndce-user-path {
+  stroke-width: 3px;
+}
+
+.cndce-chart-container g.cndce-user-g circle {
+  transition: all 0.3s ease-in-out;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+.cndce-chart-container g.cndce-user-g circle:hover {
+  transform: scale(1.2);
+}
+
+.cndce-chart-container .cndce-tooltip {
+  position: absolute;
+  background: #ffffff;
+  box-shadow: 0 0 3px 0px #00000038;
+  border-radius: 11px;
+  z-index: 100;
+  padding: 0.6rem 1.3rem;
+  display: flex;
+  opacity: 0;
+  pointer-events: none;
+
+  transition: opacity 0.3s ease-in-out;
+}
+
+.cndce-chart-container .cndce-tooltip-bar {
+  width: 6px;
+  background: #1eff01;
+  border-radius: 6px;
+}
+
+.cndce-chart-container .cndce-tooltip-contents {
+  padding-left: 0.8rem;
+}
+
+.cndce-chart-container .cndce-tooltip-contents .cndce-tooltip-name {
+  vertical-align: middle;
+}
+.cndce-chart-container .cndce-tooltip-contents .cndce-tooltip-id-container {
+  font-size: 80%;
+  color: #bbbbbb;
+  vertical-align: middle;
+  font-weight: bold;
+  line-height: 100%;
+}
+
+.cndce-chart-container .cndce-tooltip-contents .cndce-tooltip-date {
+  font-size: 80%;
+  color: gray;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
