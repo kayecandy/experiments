@@ -1,5 +1,10 @@
 <?php 
 
+	$attributes = array(
+		'style' => $_GET['style'],
+		'theme'	=> $_GET['theme']
+	);
+
 	function plugins_url($url, $file){
 		return './' . $url;
 	}
@@ -8,10 +13,18 @@
 		return './';
 	}
 
+	function theme_style_url(){
+		global $attributes;
 
-	$attributes = array(
-		'style' => $_GET['style']
-	)
+		return './assets/themes/' . $attributes['theme'] . '/style.css';
+	}
+
+	function theme_container(){
+		global $attributes;
+
+		return './assets/themes/' . $attributes['theme'] . '/cndce-container.php';
+	}
+
 
 ?>
 
@@ -29,7 +42,14 @@
 
 	<!-- Self -->
 	<link rel="stylesheet" type="text/css" href="./cndce-boxingglove.css">
-	<link rel="stylesheet" type="text/css" href="./cndce-theme-1.css">
+
+	<!-- Theme -->
+	<?php if(file_exists(theme_style_url())): ?>
+
+		<link rel="stylesheet" type="text/css" href="<?= theme_style_url() ?>">
+
+	<?php endif; ?>
+
 
 
 
@@ -73,7 +93,15 @@
 		
 	</div>
 
-	<?php include('cndce-container.php') ?>
+
+
+	<?php if(file_exists(theme_container())): ?>
+		<?php include(theme_container()) ?>
+
+	<?php else: ?>
+		<?php include('./cndce-container.php') ?>
+	
+	<?php endif; ?>
 	
 
 
