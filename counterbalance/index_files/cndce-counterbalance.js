@@ -53,7 +53,7 @@
 
 		if(position > currPlaylist.end){
 			player.next();
-		}else if(position < currPlaylist.sources[0].starttime){
+		}else if(position < currPlaylist.sources[0].starttime - 2){
 			player.playlistItem(iPlaylist - 1);
 		}
 	})
