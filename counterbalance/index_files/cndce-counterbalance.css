@@ -1,0 +1,39 @@
+.cndce-prev-rail,
+.cndce-next-rail{
+	position: absolute;
+	height: 100%;
+	z-index: 10;
+	top: 0;
+	bottom: 0;
+	background: black;
+	transition: opacity 0.3s ease-in-out;
+	opacity: 1;
+}
+
+#myElement .jw-slider-container{
+	transition: opacity 0.3s ease-in-out;
+}
+
+/*#myElement.jw-state-buffering .cndce-prev-rail,
+#myElement.jw-state-buffering .cndce-next-rail,*/
+#myElement.jw-state-buffering .jw-slider-container{
+	opacity: 0;
+}
+
+.cndce-prev-rail{
+	left: 0;
+}
+
+.cndce-next-rail{
+	right: 0;
+}
+
+#myElement .jw-knob{
+	z-index: 20;
+
+	transition: opacity 0.3s ease-in-out;
+}
+
+#myElement.jw-state-buffering .jw-knob{
+	opacity: 0;
+}

@@ -1,0 +1,67 @@
+[
+	{
+		"file": "https://s3.amazonaws.com/counterbalance-video/cq1.m4v",
+		"starttime": 1066.5,
+		"end": 1124.7
+	},
+	{
+		"file": "https://s3.amazonaws.com/counterbalance-video/cq1.m4v",
+		"starttime": 1348,
+		"end": 1426
+	},
+	{
+		"file": "https://s3.amazonaws.com/counterbalance-video/cq1.m4v",
+		"starttime": 1429,
+		"end": 1479.5
+	},
+	{
+		"file": "https://s3.amazonaws.com/counterbalance-video/cq1.m4v",
+		"starttime": 1484.5,
+		"end": 1522.5
+	},
+	{
+		"file": "https://s3.amazonaws.com/counterbalance-video/cq1.m4v",
+		"starttime": 1556,
+		"end": 1588
+	},
+	{
+		"file": "https://s3.amazonaws.com/counterbalance-video/cq1.m4v",
+		"starttime": 1831,
+		"end": 1848
+	},
+	{
+		"file": "https://s3.amazonaws.com/counterbalance-video/cq1.m4v",
+		"starttime": 2070,
+		"end": 2089
+	},
+	{
+		"file": "https://s3.amazonaws.com/counterbalance-video/cq1.m4v",
+		"starttime": 2928,
+		"end": 2975
+	},
+	{
+		"file": "https://s3.amazonaws.com/counterbalance-video/cq2.m4v",
+		"starttime": 169,
+		"end": 209
+	},
+	{
+		"file": "https://s3.amazonaws.com/counterbalance-video/cq2.m4v",
+		"starttime": 1594,
+		"end": 1649
+	},
+	{
+		"file": "https://s3.amazonaws.com/counterbalance-video/cq3.m4v",
+		"starttime": 138,
+		"end": 183
+	},
+	{
+		"file": "https://s3.amazonaws.com/counterbalance-video/cq3.m4v",
+		"starttime": 1934,
+		"end": 1980
+	},
+	{
+		"file": "https://s3.amazonaws.com/counterbalance-video/cq3.m4v",
+		"starttime": 2161,
+		"end": 2214
+	}
+]

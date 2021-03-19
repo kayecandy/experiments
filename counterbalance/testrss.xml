@@ -1,0 +1,61 @@
+
+<rss version="2.0" 
+xmlns:jwplayer="http://developer.longtailvideo.com/" 
+xmlns:media="http://search.yahoo.com/mrss/">
+
+  <channel>
+    <title>RSS Playlist for H.264</title>
+    <item>
+      <title>Video</title>
+      <media:content url="https://s3.amazonaws.com/counterbalance-video/cq1.m4v" starttime="17:46.5" duration="18:44.7" />
+    </item>
+    <item>
+      <title>Video</title>
+      <media:content url="https://s3.amazonaws.com/counterbalance-video/cq1.m4v" start="22:28" duration="23:46" />
+    </item>
+    <item>
+      <title>Video</title>
+      <media:content url="https://s3.amazonaws.com/counterbalance-video/cq1.m4v" start="23:49" duration="24:39.5" />
+    </item>
+    <item>
+      <title>Video</title>
+      <media:content url="https://s3.amazonaws.com/counterbalance-video/cq1.m4v" start="24:44.5" duration="25:22.5" />
+    </item>
+    <item>
+      <title>Video</title>
+      <media:content url="https://s3.amazonaws.com/counterbalance-video/cq1.m4v" start="25:56" duration="26:28" />
+    </item>
+    <item>
+      <title>Video</title>
+      <media:content url="https://s3.amazonaws.com/counterbalance-video/cq1.m4v" start="30:31" duration="30:48" />
+    </item>
+    <item>
+      <title>Video</title>
+      <media:content url="https://s3.amazonaws.com/counterbalance-video/cq1.m4v" start="34:30" duration="34:49" />
+    </item>
+    <item>
+      <title>Video</title>
+      <media:content url="https://s3.amazonaws.com/counterbalance-video/cq1.m4v" start="48:48" duration="49:35" />
+    </item>
+    <item>
+      <title>Video</title>
+      <media:content url="https://s3.amazonaws.com/counterbalance-video/cq2.m4v" start="02:49" duration="03:39" />
+    </item>
+    <item>
+      <title>Video</title>
+      <media:content url="https://s3.amazonaws.com/counterbalance-video/cq2.m4v" start="26:34" duration="27:29" />
+    </item>
+    <item>
+      <title>Video</title>
+      <media:content url="https://s3.amazonaws.com/counterbalance-video/cq3.m4v" start="02:18" duration="03:03" />
+    </item>
+    <item>
+      <title>Video</title>
+      <media:content url="https://s3.amazonaws.com/counterbalance-video/cq3.m4v" start="32:14" duration="33:00" />
+    </item>
+    <item>
+      <title>Video</title>
+      <media:content url="https://s3.amazonaws.com/counterbalance-video/cq3.m4v" start="36:01" duration="36:53" />
+    </item>
+  </channel>
+</rss>
