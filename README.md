@@ -18,6 +18,7 @@ Just a compilation of various contest entries and small experiments
 * [/axford](http://experiments.cndce.me/axford)
 * [/boxinggloves](http://experiments.cndce.me/boxinggloves)
 * [/cndce-map](http://experiments.cndce.me/cndce-map)
+* [/counterbalance](http://experiments.cndce.me/counterbalance)
 * [/conway-game-of-life](http://experiments.cndce.me/conway-game-of-life)
 * [/cuep](http://experiments.cndce.me/cuep)
 * [/earth](http://experiments.cndce.me/earth)
