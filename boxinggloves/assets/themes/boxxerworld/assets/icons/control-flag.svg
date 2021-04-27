@@ -1,0 +1,9 @@
+<svg id="united-states-of-america" xmlns="http://www.w3.org/2000/svg" width="22.902" height="22.902" viewBox="0 0 22.902 22.902">
+  <circle id="Ellipse_2" data-name="Ellipse 2" cx="0.5" cy="0.5" r="0.5" transform="translate(2.5 2.402)" fill="#363636"/>
+  <circle id="Ellipse_3" data-name="Ellipse 3" cx="0.5" cy="0.5" r="0.5" transform="translate(2.5 5.402)" fill="#363636"/>
+  <circle id="Ellipse_4" data-name="Ellipse 4" cx="0.5" cy="0.5" r="0.5" transform="translate(5.5 2.402)" fill="#363636"/>
+  <circle id="Ellipse_5" data-name="Ellipse 5" cx="0.5" cy="0.5" r="0.5" transform="translate(5.5 5.402)" fill="#363636"/>
+  <ellipse id="Ellipse_6" data-name="Ellipse 6" cx="1" cy="0.5" rx="1" ry="0.5" transform="translate(7.5 2.402)" fill="#363636"/>
+  <ellipse id="Ellipse_7" data-name="Ellipse 7" cx="1" cy="0.5" rx="1" ry="0.5" transform="translate(7.5 5.402)" fill="#363636"/>
+  <path id="Path_19" data-name="Path 19" d="M22.231,0H.671A.671.671,0,0,0,0,.671v21.56a.671.671,0,1,0,1.342,0v-7.47H22.231a.671.671,0,0,0,.671-.671V.671A.671.671,0,0,0,22.231,0ZM1.342,9.393H21.56v1.342H1.342ZM12.077,6.71H21.56V8.052H12.077Zm0-1.342V4.026H21.56V5.368ZM21.56,2.684H12.077V1.342H21.56ZM10.735,1.342v6.71H1.342V1.342ZM1.342,13.419V12.077H21.56v1.342Z" fill="#363636"/>
+</svg>

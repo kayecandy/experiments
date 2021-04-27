@@ -40,18 +40,10 @@
 	<!-- Scrollbar -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.scrollbar/0.2.11/jquery.scrollbar.min.css" />
 
+	<!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
 	<!-- Self -->
-	<link rel="stylesheet" type="text/css" href="./cndce-boxingglove.css">
-
-	<!-- Theme -->
-	<?php if(file_exists(theme_style_url())): ?>
-
-		<link rel="stylesheet" type="text/css" href="<?= theme_style_url() ?>">
-
-	<?php endif; ?>
-
-
-
 
 	<style type="text/css">
 		body,html{
@@ -68,6 +60,21 @@
 			display: none;
 		}
 	</style>
+
+	<link rel="stylesheet" type="text/css" href="./cndce-boxingglove.css">
+
+
+	<!-- Theme -->
+	<?php if(file_exists(theme_style_url())): ?>
+
+		<link rel="stylesheet" type="text/css" href="<?= theme_style_url() ?>">
+
+	<?php endif; ?>
+
+
+
+
+	
 </head>
 <body>
 
@@ -111,6 +118,9 @@
 	  src="https://code.jquery.com/jquery-3.3.1.min.js"
 	  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 	  crossorigin="anonymous"></script>
+
+	<!-- Bootstrap -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
   	<!-- ThreeJS -->
   	<script type="text/javascript" src="//cdn.cndce.me/threejs/r97/three.min.js"></script>

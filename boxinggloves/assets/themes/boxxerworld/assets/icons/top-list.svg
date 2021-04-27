@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.588" height="12" viewBox="0 0 19.588 12">
+  <g id="list" transform="translate(0.278 -80.71)">
+    <g id="Group_51" data-name="Group 51">
+      <g id="Group_39" data-name="Group 39" transform="translate(6.161 81.229)">
+        <g id="Group_38" data-name="Group 38" transform="translate(0)">
+          <path id="Path_356" data-name="Path 356" d="M136.733,86H124.94c-.375,0-.678.453-.678,1.011s.3,1.011.678,1.011h11.792c.375,0,.678-.453.678-1.011S137.107,86,136.733,86Z" transform="translate(-124.262 -86)" fill="#363636"/>
+        </g>
+      </g>
+      <g id="Group_43" data-name="Group 43" transform="translate(-0.278 80.71)">
+        <g id="Group_42" data-name="Group 42" transform="translate(0 0)">
+          <circle id="Ellipse_8" data-name="Ellipse 8" cx="1.5" cy="1.5" r="1.5" transform="translate(0 0)" fill="#363636"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_52" data-name="Group 52" transform="translate(0 0)">
+      <g id="Group_49" data-name="Group 49" transform="translate(6.161 86.229)">
+        <g id="Group_38-2" data-name="Group 38" transform="translate(0)">
+          <path id="Path_356-2" data-name="Path 356" d="M136.733,86H124.94c-.375,0-.678.453-.678,1.011s.3,1.011.678,1.011h11.792c.375,0,.678-.453.678-1.011S137.107,86,136.733,86Z" transform="translate(-124.262 -86)" fill="#363636"/>
+        </g>
+      </g>
+      <g id="Group_50" data-name="Group 50" transform="translate(-0.278 85.71)">
+        <g id="Group_42-2" data-name="Group 42" transform="translate(0 0)">
+          <circle id="Ellipse_8-2" data-name="Ellipse 8" cx="1.5" cy="1.5" r="1.5" transform="translate(0 0)" fill="#363636"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_48" data-name="Group 48" transform="translate(0 -2)">
+      <g id="Group_41" data-name="Group 41" transform="translate(6.161 92.391)">
+        <g id="Group_40" data-name="Group 40" transform="translate(0 0)">
+          <path id="Path_357" data-name="Path 357" d="M136.733,386H124.94c-.375,0-.678.453-.678,1.011s.3,1.011.678,1.011h11.792c.375,0,.678-.453.678-1.011S137.107,386,136.733,386Z" transform="translate(-124.262 -386)" fill="#363636"/>
+        </g>
+      </g>
+      <g id="Group_47" data-name="Group 47" transform="translate(-0.278 92.085)">
+        <g id="Group_46" data-name="Group 46" transform="translate(0 0)">
+          <circle id="Ellipse_10" data-name="Ellipse 10" cx="1.5" cy="1.5" r="1.5" transform="translate(0 -0.375)" fill="#363636"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
