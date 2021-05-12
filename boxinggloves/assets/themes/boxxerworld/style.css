@@ -27,7 +27,7 @@ body{
 
 
 /* TOP CONTROLS */
-.cndce-top-controls{
+.cndce-controls-top{
     position: absolute;
     right: 0;
     top: 0;
@@ -37,30 +37,30 @@ body{
     padding: 0.5rem 1rem;
 }
 
-.cndce-top-controls .cndce-top-control{
+.cndce-controls-top .cndce-control-top{
     padding: 0.5rem;
     cursor: pointer;
 }
 
-.cndce-top-controls .cndce-top-control--title{
+.cndce-controls-top .cndce-control-top--title{
     transition: all 0.2s ease-in-out;
 }
 
-.cndce-top-controls .cndce-top-control:hover .cndce-top-control--title{
+.cndce-controls-top .cndce-control-top:hover .cndce-control-top--title{
     color: #63b20b;
 }
 
-.cndce-top-controls .cndce-top-control svg path,
-.cndce-top-controls .cndce-top-control svg circle{
+.cndce-controls-top .cndce-control-top svg path,
+.cndce-controls-top .cndce-control-top svg circle{
     transition: all 0.2s ease-in-out;
 }
 
-.cndce-top-controls .cndce-top-control:hover svg path,
-.cndce-top-controls .cndce-top-control:hover svg circle{
+.cndce-controls-top .cndce-control-top:hover svg path,
+.cndce-controls-top .cndce-control-top:hover svg circle{
     fill: #63b20b;
 }
 
-.cndce-top-controls .cndce-top-control:hover svg path.with-stroke{
+.cndce-controls-top .cndce-control-top:hover svg path.with-stroke{
     stroke: #63b20b;
 }
 

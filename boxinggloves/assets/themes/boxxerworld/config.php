@@ -34,7 +34,7 @@ const CONFIG = [
             'icon'      => 'assets/icons/control-crystals.svg'
         ]
     ],
-    'top-controls'      => [
+    'controls-top'      => [
         [
             'id'        => 'save',
             'title'     => 'Save',

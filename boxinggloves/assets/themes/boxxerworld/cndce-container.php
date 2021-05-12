@@ -9,7 +9,7 @@
 
 
     
-    <?php include 'components/top-controls.php' ?>
+    <?php include 'components/controls-top.php' ?>
 
 
     <?php include 'components/controls-panel.php' ?>
