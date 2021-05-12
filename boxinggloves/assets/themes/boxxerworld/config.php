@@ -1,6 +1,6 @@
 <?php 
 
-$CONFIG = [
+const CONFIG = [
     'controls'  => [
         [
             'id'        => 'styles',
