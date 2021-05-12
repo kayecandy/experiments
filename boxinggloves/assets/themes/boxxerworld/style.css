@@ -8,8 +8,12 @@ body{
     font-family: 'Poppins', sans-serif;
     height: auto;
     min-height: 100%;
-    overflow: visible;
     background: none;
+    overflow: hidden;
+}
+
+.cndce-container.loaded{
+    overflow: visible;
 }
 
 .cndce-container canvas{
