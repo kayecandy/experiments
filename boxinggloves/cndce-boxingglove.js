@@ -406,9 +406,8 @@ jQuery.fn.extend({
 				{
 					'label': '20oz',
 					'price': 107.99
-				
-}			],
-
+				}
+			],
 			quantityInput: 'input[name="quantity"]',
 			sizesInput: 'select[name="attribute_sizes"]',
 			addToCartButton: 'button.single_add_to_cart_button',
@@ -482,7 +481,7 @@ jQuery.fn.extend({
 			cameraLookAtEasing: TWEEN.Easing.Quadratic.InOut,
 
 			logoCanvasWidth: 500
-		}
+		};
 
 		var $ = jQuery;
 

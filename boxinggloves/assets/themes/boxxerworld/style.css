@@ -141,3 +141,57 @@ body{
     width: 700px;
     margin: 0 auto;
 }
+
+
+/* CONTROLS SUMMARY */
+.cndce-controls-summary{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1020;
+    /* background: white; */
+    width: 22rem;
+    margin: 1rem 0;
+    max-height: calc(100vh - 2rem);
+    overflow: hidden;
+}
+
+.cndce-controls-summary .accordion{
+    max-height: inherit;
+}
+
+.cndce-controls-summary .accordion-item{
+    max-height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+.cndce-controls-summary .accordion-button{
+    transition: all .15s ease-in-out;
+    transform: unset !important;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    text-align: center;
+    border-radius: 0 !important;
+    text-transform: uppercase;
+}
+
+.cndce-controls-summary .accordion-button .accordion-header-text{
+    flex-grow: 1;
+}
+
+.cndce-controls-summary .accordion-button:not(.collapsed){
+    color: white;
+    background-color: black;
+}
+
+.cndce-controls-summary .accordion-button::after{
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+}
+
+.cndce-controls-summary .accordion-collapse{
+    overflow-y: scroll;
+    background: white;
+}

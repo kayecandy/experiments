@@ -11,6 +11,7 @@
     
     <?php include 'components/controls-top.php' ?>
 
+    <?php include 'components/controls-summary.php' ?>
 
     <?php include 'components/controls-panel.php' ?>
 
