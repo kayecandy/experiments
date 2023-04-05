@@ -413,7 +413,7 @@ var GLOBAL_BASE = 8;
 //    site/build/text/docs/api_reference/preamble.js.txt
 // You can also build docs locally as HTML or other formats in site/
 // An online HTML version (which may be of a different version of Emscripten)
-//    is up at http://kripken.github.io/emscripten-site/docs/api_reference/preamble.js.html
+//    is up at //kripken.github.io/emscripten-site/docs/api_reference/preamble.js.html
 
 
 
@@ -712,7 +712,7 @@ function UTF8ArrayToString(u8Array, idx) {
 
     var str = '';
     while (1) {
-      // For UTF8 byte structure, see http://en.wikipedia.org/wiki/UTF-8#Description and https://www.ietf.org/rfc/rfc2279.txt and https://tools.ietf.org/html/rfc3629
+      // For UTF8 byte structure, see //en.wikipedia.org/wiki/UTF-8#Description and https://www.ietf.org/rfc/rfc2279.txt and https://tools.ietf.org/html/rfc3629
       u0 = u8Array[idx++];
       if (!u0) return str;
       if (!(u0 & 0x80)) { str += String.fromCharCode(u0); continue; }
@@ -772,8 +772,8 @@ function stringToUTF8Array(str, outU8Array, outIdx, maxBytesToWrite) {
   var endIdx = outIdx + maxBytesToWrite - 1; // -1 for string null terminator.
   for (var i = 0; i < str.length; ++i) {
     // Gotcha: charCodeAt returns a 16-bit word that is a UTF-16 encoded code unit, not a Unicode code point of the character! So decode UTF16->UTF32->UTF8.
-    // See http://unicode.org/faq/utf_bom.html#utf16-3
-    // For UTF8 byte structure, see http://en.wikipedia.org/wiki/UTF-8#Description and https://www.ietf.org/rfc/rfc2279.txt and https://tools.ietf.org/html/rfc3629
+    // See //unicode.org/faq/utf_bom.html#utf16-3
+    // For UTF8 byte structure, see //en.wikipedia.org/wiki/UTF-8#Description and https://www.ietf.org/rfc/rfc2279.txt and https://tools.ietf.org/html/rfc3629
     var u = str.charCodeAt(i); // possibly a lead surrogate
     if (u >= 0xD800 && u <= 0xDFFF) u = 0x10000 + ((u & 0x3FF) << 10) | (str.charCodeAt(++i) & 0x3FF);
     if (u <= 0x7F) {
@@ -832,7 +832,7 @@ function lengthBytesUTF8(str) {
   var len = 0;
   for (var i = 0; i < str.length; ++i) {
     // Gotcha: charCodeAt returns a 16-bit word that is a UTF-16 encoded code unit, not a Unicode code point of the character! So decode UTF16->UTF32->UTF8.
-    // See http://unicode.org/faq/utf_bom.html#utf16-3
+    // See //unicode.org/faq/utf_bom.html#utf16-3
     var u = str.charCodeAt(i); // possibly a lead surrogate
     if (u >= 0xD800 && u <= 0xDFFF) u = 0x10000 + ((u & 0x3FF) << 10) | (str.charCodeAt(++i) & 0x3FF);
     if (u <= 0x7F) {
@@ -931,7 +931,7 @@ function UTF32ToString(ptr) {
       return str;
     ++i;
     // Gotcha: fromCharCode constructs a character from a UTF-16 encoded code (pair), not from a Unicode code point! So encode the code point to UTF-16 for constructing.
-    // See http://unicode.org/faq/utf_bom.html#utf16-3
+    // See //unicode.org/faq/utf_bom.html#utf16-3
     if (utf32 >= 0x10000) {
       var ch = utf32 - 0x10000;
       str += String.fromCharCode(0xD800 | (ch >> 10), 0xDC00 | (ch & 0x3FF));
@@ -964,7 +964,7 @@ function stringToUTF32(str, outPtr, maxBytesToWrite) {
   var endPtr = startPtr + maxBytesToWrite - 4;
   for (var i = 0; i < str.length; ++i) {
     // Gotcha: charCodeAt returns a 16-bit word that is a UTF-16 encoded code unit, not a Unicode code point of the character! We must decode the string to UTF-32 to the heap.
-    // See http://unicode.org/faq/utf_bom.html#utf16-3
+    // See //unicode.org/faq/utf_bom.html#utf16-3
     var codeUnit = str.charCodeAt(i); // possibly a lead surrogate
     if (codeUnit >= 0xD800 && codeUnit <= 0xDFFF) {
       var trailSurrogate = str.charCodeAt(++i);
@@ -985,7 +985,7 @@ function lengthBytesUTF32(str) {
   var len = 0;
   for (var i = 0; i < str.length; ++i) {
     // Gotcha: charCodeAt returns a 16-bit word that is a UTF-16 encoded code unit, not a Unicode code point of the character! We must decode the string to UTF-32 to the heap.
-    // See http://unicode.org/faq/utf_bom.html#utf16-3
+    // See //unicode.org/faq/utf_bom.html#utf16-3
     var codeUnit = str.charCodeAt(i);
     if (codeUnit >= 0xD800 && codeUnit <= 0xDFFF) ++i; // possibly a lead surrogate, so skip over the tail surrogate.
     len += 4;
@@ -3404,7 +3404,7 @@ function intArrayToString(array) {
 
 // This code was written by Tyler Akins and has been placed in the
 // public domain.  It would be nice if you left this header intact.
-// Base64 code from Tyler Akins -- http://rumkin.com
+// Base64 code from Tyler Akins -- //rumkin.com
 
 /**
  * Decodes a base64 string.

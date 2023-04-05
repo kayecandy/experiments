@@ -1,8 +1,8 @@
 /**
- * @author Eberhard Graether / http://egraether.com/
- * @author Mark Lundin 	/ http://mark-lundin.com
- * @author Simone Manini / http://daron1337.github.io
- * @author Luca Antiga 	/ http://lantiga.github.io
+ * @author Eberhard Graether / //egraether.com/
+ * @author Mark Lundin 	/ //mark-lundin.com
+ * @author Simone Manini / //daron1337.github.io
+ * @author Luca Antiga 	/ //lantiga.github.io
  */
 
 THREE.TrackballControls = function ( object, domElement ) {

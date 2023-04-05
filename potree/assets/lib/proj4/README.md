@@ -1,7 +1,7 @@
 # PROJ4JS [![Build Status](https://travis-ci.org/proj4js/proj4js.svg)](https://travis-ci.org/proj4js/proj4js)
 
 Proj4js is a JavaScript library to transform point coordinates from one coordinate system to another, including datum transformations.
-Originally a port of [PROJ](https://proj.org/) ([then known as PROJ.4](https://proj.org/faq.html#what-happened-to-proj-4)) and GCTCP C ([Archive](https://web.archive.org/web/20130523091752/http://edcftp.cr.usgs.gov/pub/software/gctpc/)) it is
+Originally a port of [PROJ](https://proj.org/) ([then known as PROJ.4](https://proj.org/faq.html#what-happened-to-proj-4)) and GCTCP C ([Archive](https://web.archive.org/web/20130523091752///edcftp.cr.usgs.gov/pub/software/gctpc/)) it is
 a part of the [MetaCRS](https://trac.osgeo.org/metacrs/wiki) group of projects.
 
 ## Installing

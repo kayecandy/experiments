@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>CUEP Image Finder</title>
-	<link rel="icon" href="http://cndce.me/favicon.png">
+	<link rel="icon" href="//cndce.me/favicon.png">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
 
@@ -47,7 +47,7 @@
 						<span class="cndce-width"></span>x<span class="cndce-height"></span>
 					</td>
 					<td class="cndce-download">
-						<a href="" target="_blank" download><svg enable-background="new 0 0 24 24" id="Layer_1" version="1.0" viewBox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M21.5,4.9l-2.1-2.7C19.3,2.1,19.1,2,18.9,2H5.1C4.9,2,4.7,2.1,4.6,2.2L2.5,4.9C2.2,5.2,2,5.5,2,5.9V20c0,1.1,0.9,2,2,2h16  c1.1,0,2-0.9,2-2v-4V5.9C22,5.5,21.8,5.2,21.5,4.9z M12,18l-5-5h3V9h4v4h3L12,18z M19,5H5l0.5-1h13L19,5z"/></svg></a>
+						<a href="" target="_blank" download><svg enable-background="new 0 0 24 24" id="Layer_1" version="1.0" viewBox="0 0 24 24" xml:space="preserve" xmlns="//www.w3.org/2000/svg" xmlns:xlink="//www.w3.org/1999/xlink"><path d="M21.5,4.9l-2.1-2.7C19.3,2.1,19.1,2,18.9,2H5.1C4.9,2,4.7,2.1,4.6,2.2L2.5,4.9C2.2,5.2,2,5.5,2,5.9V20c0,1.1,0.9,2,2,2h16  c1.1,0,2-0.9,2-2v-4V5.9C22,5.5,21.8,5.2,21.5,4.9z M12,18l-5-5h3V9h4v4h3L12,18z M19,5H5l0.5-1h13L19,5z"/></svg></a>
 					</td>
 				</tr>
 			</table>
@@ -80,7 +80,7 @@
 
 
 	<!-- jQuery -->
-	<script src="http://code.jquery.com/jquery-3.2.1.min.js"
+	<script src="//code.jquery.com/jquery-3.2.1.min.js"
 	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
 

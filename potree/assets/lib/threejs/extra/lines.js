@@ -2,7 +2,7 @@
 
 
 /**
- * @author WestLangley / http://github.com/WestLangley
+ * @author WestLangley / //github.com/WestLangley
  *
  */
 
@@ -262,7 +262,7 @@ THREE.LineSegmentsGeometry.prototype = Object.assign( Object.create( THREE.Insta
 
 
 /**
- * @author WestLangley / http://github.com/WestLangley
+ * @author WestLangley / //github.com/WestLangley
  *
  */
 
@@ -329,7 +329,7 @@ THREE.LineSegments2.prototype = Object.assign( Object.create( THREE.Mesh.prototy
 
 
 /**
- * @author WestLangley / http://github.com/WestLangley
+ * @author WestLangley / //github.com/WestLangley
  *
  * parameters = {
  *  color: <hex>,
@@ -722,7 +722,7 @@ THREE.LineMaterial.prototype.copy = function ( source ) {
 
 
 /**
- * @author WestLangley / http://github.com/WestLangley
+ * @author WestLangley / //github.com/WestLangley
  *
  */
 
@@ -822,7 +822,7 @@ THREE.LineGeometry.prototype = Object.assign( Object.create( THREE.LineSegmentsG
 
 
 /**
- * @author WestLangley / http://github.com/WestLangley
+ * @author WestLangley / //github.com/WestLangley
  *
  */
 

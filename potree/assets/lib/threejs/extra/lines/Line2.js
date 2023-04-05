@@ -1,5 +1,5 @@
 /**
- * @author WestLangley / http://github.com/WestLangley
+ * @author WestLangley / //github.com/WestLangley
  *
  */
 

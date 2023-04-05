@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <e57Root type="Structure"
-         xmlns="http://www.astm.org/COMMIT/E57/2010-e57-v1.0">
+         xmlns="//www.astm.org/COMMIT/E57/2010-e57-v1.0">
   <formatName type="String"><![CDATA[ASTM E57 3D Imaging Data File]]></formatName>
   <guid type="String"><![CDATA[{0CA82B8A-2C48-4C5B-8AE9-5800BE5806E0}]]></guid>
   <versionMajor type="Integer">1</versionMajor>

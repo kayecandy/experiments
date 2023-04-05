@@ -5,9 +5,9 @@
 }(this, (function (exports) { 'use strict';
 
 	/**
-	 * @author mrdoob / http://mrdoob.com/ https://github.com/mrdoob/eventdispatcher.js
+	 * @author mrdoob / //mrdoob.com/ https://github.com/mrdoob/eventdispatcher.js
 	 * 
-	 * with slight modifications by mschuetz, http://potree.org
+	 * with slight modifications by mschuetz, //potree.org
 	 * 
 	 */
 
@@ -380,7 +380,7 @@
 	};
 
 	// /**
-	//  * adapted from http://stemkoski.github.io/Three.js/Sprite-Text-Labels.html
+	//  * adapted from //stemkoski.github.io/Three.js/Sprite-Text-Labels.html
 	//  */
 
 	// let vs2D = `
@@ -2459,7 +2459,7 @@
 		/**
 		 * create worker from a string
 		 *
-		 * code from http://stackoverflow.com/questions/10343913/how-to-create-a-web-worker-from-a-string
+		 * code from //stackoverflow.com/questions/10343913/how-to-create-a-web-worker-from-a-string
 		 */
 		static createWorker (code) {
 			let blob = new Blob([code], {type: 'application/javascript'});
@@ -2944,7 +2944,7 @@
 			return texture;
 		}
 
-		// from http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
+		// from //stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
 		static getParameterByName (name) {
 			name = name.replace(/[[]/, '\\[').replace(/[\]]/, '\\]');
 			let regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
@@ -3220,7 +3220,7 @@
 
 			// this is what we are creating:
 			//
-			//<svg width="1em" height="3em"  xmlns="http://www.w3.org/2000/svg">
+			//<svg width="1em" height="3em"  xmlns="//www.w3.org/2000/svg">
 			//	<defs>
 			//		<linearGradient id="gradientID" gradientTransform="rotate(90)">
 			//		<stop offset="0%"  stop-color="rgb(93, 78, 162)" />
@@ -3235,7 +3235,7 @@
 
 			const gradientId = `${Math.random()}_${Date.now()}`;
 			
-			const svgn = "http://www.w3.org/2000/svg";
+			const svgn = "//www.w3.org/2000/svg";
 			const svg = document.createElementNS(svgn, "svg");
 			svg.setAttributeNS(null, "width", "2em");
 			svg.setAttributeNS(null, "height", "3em");
@@ -5037,7 +5037,7 @@
 
 	// -------------------------------------------
 	// to get a ready to use gradient array from a chroma.js gradient:
-	// http://gka.github.io/chroma.js/
+	// //gka.github.io/chroma.js/
 	// -------------------------------------------
 	//
 	// let stops = [];
@@ -5072,7 +5072,7 @@
 	//	print(rgb)
 
 	let Gradients = {
-		// From chroma spectral http://gka.github.io/chroma.js/
+		// From chroma spectral //gka.github.io/chroma.js/
 		SPECTRAL: [
 			[0, new THREE.Color(0.3686, 0.3098, 0.6353)],
 			[0.1, new THREE.Color(0.1961, 0.5333, 0.7412)],
@@ -5573,7 +5573,7 @@ float getPointSizeAttenuation(){
 
 
 
-// formula adapted from: http://www.dfstudios.co.uk/articles/programming/image-programming-algorithms/image-processing-algorithms-part-5-contrast-adjustment/
+// formula adapted from: //www.dfstudios.co.uk/articles/programming/image-programming-algorithms/image-processing-algorithms-part-5-contrast-adjustment/
 float getContrastFactor(float contrast){
 	return (1.0158730158730156 * (contrast + 1.0)) / (1.0158730158730156 - contrast);
 }
@@ -6721,8 +6721,8 @@ void main() {
 
 	//
 	// how to calculate the radius of a projected sphere in screen space
-	// http://stackoverflow.com/questions/21648630/radius-of-projected-sphere-in-screen-space
-	// http://stackoverflow.com/questions/3717226/radius-of-projected-sphere
+	// //stackoverflow.com/questions/21648630/radius-of-projected-sphere-in-screen-space
+	// //stackoverflow.com/questions/3717226/radius-of-projected-sphere
 	//
 
 
@@ -9031,9 +9031,9 @@ void main() {
 	 * code adapted from three.js BoxHelper.js
 	 * https://github.com/mrdoob/three.js/blob/dev/src/helpers/BoxHelper.js
 	 *
-	 * @author mrdoob / http://mrdoob.com/
-	 * @author Mugen87 / http://github.com/Mugen87
-	 * @author mschuetz / http://potree.org
+	 * @author mrdoob / //mrdoob.com/
+	 * @author Mugen87 / //github.com/Mugen87
+	 * @author mschuetz / //potree.org
 	 */
 
 	class Box3Helper extends THREE.LineSegments {
@@ -12623,7 +12623,7 @@ void main() {
 
 		createHandle(vector){
 			
-			const svgns = "http://www.w3.org/2000/svg";
+			const svgns = "//www.w3.org/2000/svg";
 			const svg = document.createElementNS(svgns, "svg");
 
 			svg.setAttribute("width", "2em");
@@ -13121,7 +13121,7 @@ void main() {
 	//
 	// see
 	// https://github.com/cloudcompare/trunk/tree/master/plugins/qEDL/shaders/EDL
-	// http://www.kitware.com/source/home/post/9
+	// //www.kitware.com/source/home/post/9
 	// https://tel.archives-ouvertes.fr/tel-00438464/document p. 115+ (french)
 
 	class EyeDomeLightingMaterial extends THREE.RawShaderMaterial{
@@ -13304,7 +13304,7 @@ void main() {
 
 	/**
 	 * laslaz code taken and adapted from plas.io js-laslaz
-	 *	http://plas.io/
+	 *	//plas.io/
 	 *  https://github.com/verma/plasio
 	 *
 	 * Thanks to Uday Verma and Howard Butler
@@ -14563,7 +14563,7 @@ void main() {
 
 	/**
 	 * laslaz code taken and adapted from plas.io js-laslaz
-	 *	  http://plas.io/
+	 *	  //plas.io/
 	 *	https://github.com/verma/plasio
 	 *
 	 * Thanks to Uday Verma and Howard Butler
@@ -19299,7 +19299,7 @@ void main() {
 		}
 	};
 
-	// http://epsg.io/
+	// //epsg.io/
 	proj4.defs([
 		['UTM10N', '+proj=utm +zone=10 +ellps=GRS80 +datum=NAD83 +units=m +no_defs'],
 		['EPSG:6339', '+proj=utm +zone=10 +ellps=GRS80 +units=m +no_defs'],
@@ -21405,9 +21405,9 @@ void main() {
 
 	/**
 	 *
-	 * @author sigeom sa / http://sigeom.ch
+	 * @author sigeom sa / //sigeom.ch
 	 * @author Ioda-Net Sàrl / https://www.ioda-net.ch/
-	 * @author Markus Schütz / http://potree.org
+	 * @author Markus Schütz / //potree.org
 	 *
 	 */
 
@@ -21517,9 +21517,9 @@ void main() {
 
 	/**
 	 *
-	 * @author sigeom sa / http://sigeom.ch
+	 * @author sigeom sa / //sigeom.ch
 	 * @author Ioda-Net Sàrl / https://www.ioda-net.ch/
-	 * @author Markus Schuetz / http://potree.org
+	 * @author Markus Schuetz / //potree.org
 	 *
 	 */
 
@@ -28314,7 +28314,7 @@ ENDSEC
 	};
 
 	/**
-	 * @author mschuetz / http://mschuetz.at
+	 * @author mschuetz / //mschuetz.at
 	 *
 	 *
 	 */
@@ -29151,15 +29151,15 @@ ENDSEC
 	}
 
 	/**
-	 * @author mschuetz / http://mschuetz.at
+	 * @author mschuetz / //mschuetz.at
 	 *
 	 * adapted from THREE.OrbitControls by
 	 *
 	 * @author qiao / https://github.com/qiao
-	 * @author mrdoob / http://mrdoob.com
-	 * @author alteredq / http://alteredqualia.com/
-	 * @author WestLangley / http://github.com/WestLangley
-	 * @author erich666 / http://erichaines.com
+	 * @author mrdoob / //mrdoob.com
+	 * @author alteredq / //alteredqualia.com/
+	 * @author WestLangley / //github.com/WestLangley
+	 * @author erich666 / //erichaines.com
 	 *
 	 *
 	 *
@@ -29465,15 +29465,15 @@ ENDSEC
 	};
 
 	/**
-	 * @author mschuetz / http://mschuetz.at
+	 * @author mschuetz / //mschuetz.at
 	 *
 	 * adapted from THREE.OrbitControls by
 	 *
 	 * @author qiao / https://github.com/qiao
-	 * @author mrdoob / http://mrdoob.com
-	 * @author alteredq / http://alteredqualia.com/
-	 * @author WestLangley / http://github.com/WestLangley
-	 * @author erich666 / http://erichaines.com
+	 * @author mrdoob / //mrdoob.com
+	 * @author alteredq / //alteredqualia.com/
+	 * @author WestLangley / //github.com/WestLangley
+	 * @author erich666 / //erichaines.com
 	 *
 	 *
 	 *
@@ -30030,12 +30030,12 @@ ENDSEC
 	 *
 	 * adapted from Potree.FirstPersonControls by
 	 *
-	 * @author mschuetz / http://mschuetz.at
+	 * @author mschuetz / //mschuetz.at
 	 *
 	 * and THREE.DeviceOrientationControls  by
 	 *
-	 * @author richt / http://richt.me
-	 * @author WestLangley / http://github.com/WestLangley
+	 * @author richt / //richt.me
+	 * @author WestLangley / //github.com/WestLangley
 	 *
 	 *
 	 *
@@ -30362,7 +30362,7 @@ ENDSEC
 				</p>
 
 				<p>
-				Please also visit <a href="http://webglreport.com/" target="_blank">webglreport.com</a> and 
+				Please also visit <a href="//webglreport.com/" target="_blank">webglreport.com</a> and 
 				check whether your system supports WebGL.
 				</p>
 				<p>

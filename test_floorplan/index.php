@@ -705,7 +705,7 @@
 								<span class="content__meta-item"><strong>Phone:</strong> (0) 66 2289786</span>
 							</p>
 							<p class="content__desc">Ipomoea aquatica smallanthus sonchifolius. The Docu Dome presents Sintel by the Blender Foundation.</p>
-							<p class="content__desc">Book tickets <a href="http://tympanus.net/Development/SeatPreview/">here</a>.</p>
+							<p class="content__desc">Book tickets <a href="//tympanus.net/Development/SeatPreview/">here</a>.</p>
 						</div>
 					</div>
 					<div class="content__item" data-space="4.03" data-category="3">

@@ -1,7 +1,7 @@
 
 <rss version="2.0" 
-xmlns:jwplayer="http://developer.longtailvideo.com/" 
-xmlns:media="http://search.yahoo.com/mrss/">
+xmlns:jwplayer="//developer.longtailvideo.com/" 
+xmlns:media="//search.yahoo.com/mrss/">
 
   <channel>
     <title>RSS Playlist for H.264</title>

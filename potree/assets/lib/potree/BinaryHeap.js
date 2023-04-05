@@ -1,6 +1,6 @@
 /*
 ** Binary Heap implementation in Javascript
-** From: http://eloquentjavascript.net/1st_edition/appendix2.html
+** From: //eloquentjavascript.net/1st_edition/appendix2.html
 **
 ** Copyright (c) 2007 Marijn Haverbeke, last modified on November 28 2013.
 **

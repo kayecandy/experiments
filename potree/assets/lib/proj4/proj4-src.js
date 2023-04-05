@@ -3126,7 +3126,7 @@
         Formules et constantes pour le Calcul pour la
         projection cylindrique conforme à axe oblique et pour la transformation entre
         des systèmes de référence.
-        http://www.swisstopo.admin.ch/internet/swisstopo/fr/home/topics/survey/sys/refsys/switzerland.parsysrelated1.31216.downloadList.77004.DownloadFile.tmp/swissprojectionfr.pdf
+        //www.swisstopo.admin.ch/internet/swisstopo/fr/home/topics/survey/sys/refsys/switzerland.parsysrelated1.31216.downloadList.77004.DownloadFile.tmp/swissprojectionfr.pdf
       */
 
     function init$8() {
@@ -4196,7 +4196,7 @@
     /*
       reference:
         Wolfram Mathworld "Gnomonic Projection"
-        http://mathworld.wolfram.com/GnomonicProjection.html
+        //mathworld.wolfram.com/GnomonicProjection.html
         Accessed: 12th November 2009
       */
     function init$15() {
@@ -4566,9 +4566,9 @@
     /*
       reference
         Department of Land and Survey Technical Circular 1973/32
-          http://www.linz.govt.nz/docs/miscellaneous/nz-map-definition.pdf
+          //www.linz.govt.nz/docs/miscellaneous/nz-map-definition.pdf
         OSG Technical Report 4.1
-          http://www.linz.govt.nz/docs/miscellaneous/nzmg.pdf
+          //www.linz.govt.nz/docs/miscellaneous/nzmg.pdf
       */
 
     /**
@@ -5747,7 +5747,7 @@
       /* Compute phi and theta for the area of definition.
        * The inverse projection is not described in the original paper, but some
        * good hints can be found here (as of 2011-12-14):
-       * http://fits.gsfc.nasa.gov/fitsbits/saf.93/saf.9302
+       * //fits.gsfc.nasa.gov/fitsbits/saf.93/saf.9302
        * (search for "Message-Id: <9302181759.AA25477 at fits.cv.nrao.edu>") */
       t = (SPI / 12) * Math.tan(mu);
       tantheta = Math.sin(t) / (Math.cos(t) - (1 / Math.sqrt(2)));
@@ -5909,7 +5909,7 @@
 
     // Robinson projection
     // Based on https://github.com/OSGeo/proj.4/blob/master/src/PJ_robin.c
-    // Polynomial coeficients from http://article.gmane.org/gmane.comp.gis.proj-4.devel/6039
+    // Polynomial coeficients from //article.gmane.org/gmane.comp.gis.proj-4.devel/6039
 
     var COEFS_X = [
         [1.0000, 2.2199e-17, -7.15515e-05, 3.1103e-06],

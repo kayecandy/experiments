@@ -10,7 +10,7 @@ const CNDCE_LINE_THETA_RIGHT = 270;
 const DEG_TO_RAD = Math.PI / 180;
 
 
-const SVG_NS = 'http://www.w3.org/2000/svg';
+const SVG_NS = '//www.w3.org/2000/svg';
 
 
 class CNDCELine{

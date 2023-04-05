@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>CUEP Image Finder</title>
-	<link rel="icon" href="http://cndce.me/favicon.png">
+	<link rel="icon" href="//cndce.me/favicon.png">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
 
