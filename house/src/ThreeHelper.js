@@ -137,7 +137,7 @@ class ThreeHelper {
 
         const dirLight = new THREE.DirectionalLight(0xffffff, 2);
         // dirLight.color.setHSL(0.1, 1, 0.95);
-        dirLight.position.set(-1.5, 2.5, 2.5);
+        dirLight.position.set(-1.5, 0, 2.5);
         dirLight.position.multiplyScalar(4);
         this.scene.add(dirLight);
 
@@ -145,7 +145,7 @@ class ThreeHelper {
 
         const dirLight2 = new THREE.DirectionalLight(0xffffff, 2);
         // dirLight2.color.setHSL(0.1, 1, 0.95);
-        dirLight2.position.set(1.5, 2.5, -2.5);
+        dirLight2.position.set(1.5, 0, -2.5);
         dirLight2.position.multiplyScalar(4);
         this.scene.add(dirLight2);
 

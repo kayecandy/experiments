@@ -2,7 +2,6 @@ import * as THREE from "three";
 
 import ThreeHelper from "./src/ThreeHelper.js";
 import MaterialHelper from "./src/MaterialHelper.js";
-import { TEXTURE_TYPES } from "./src/materials.js";
 import DOMControls from "./src/DOMControls.js";
 
 class Main {
@@ -58,10 +57,6 @@ class Main {
     }
 
     _handleMaterialClicked(materialName) {
-        console.log(materialName);
-
-        console.log(this);
-
         if (this.selectedModel) {
             this.selectedModel.material =
                 MaterialHelper.materials[materialName].clone();

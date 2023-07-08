@@ -34,8 +34,8 @@ export const MATERIALS = [
             TEXTURE_TYPES.Metalness,
         ],
         properties: {
-            normalScale: new THREE.Vector2(5, 5),
-            roughness: 2,
+            normalScale: new THREE.Vector2(7, 7),
+            roughness: 1.5,
             metalness: 0.2,
         },
     },
@@ -49,8 +49,8 @@ export const MATERIALS = [
         ],
         properties: {
             normalScale: new THREE.Vector2(5, 5),
-            roughness: 1,
-            metalness: 0.2,
+            roughness: 0.7,
+            metalness: 0.4,
         },
         textureProperties: {
             repeat: new THREE.Vector2(2, 2),
@@ -79,8 +79,8 @@ export const MATERIALS = [
             TEXTURE_TYPES.Height,
         ],
         properties: {
-            normalScale: new THREE.Vector2(10, 10),
-            roughness: 1,
+            normalScale: new THREE.Vector2(20, 20),
+            roughness: 0.7,
             metalness: 0.2,
         },
         textureProperties: {
