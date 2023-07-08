@@ -1,30 +1,75 @@
-import * as THREE from 'three';
+import * as THREE from "three";
 
-const scene = new THREE.Scene();
-const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
+import ThreeHelper from "./src/ThreeHelper.js";
+import MaterialHelper from "./src/MaterialHelper.js";
+import { TEXTURE_TYPES } from "./src/materials.js";
+import DOMControls from "./src/DOMControls.js";
 
-const renderer = new THREE.WebGLRenderer();
-renderer.setSize( window.innerWidth, window.innerHeight );
-document.body.appendChild(renderer.domElement);
+class Main {
+    /** @type {THREE.Mesh<THREE.BufferGeometry, THREE.MeshStandardMaterial>} */
+    selectedModel;
 
-console.log("hello world")
+    constructor() {
+        ThreeHelper.init();
+        MaterialHelper.loadMaterials();
+        DOMControls._initMaterialChoices();
 
+        ThreeHelper.onSceneLoaded = () => {
+            DOMControls._initDatGui();
+        };
 
+        ThreeHelper.onIntersect = this._handleModelHover.bind(this);
 
-const geometry = new THREE.BoxGeometry( 1, 1, 1 );
-const material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
-const cube = new THREE.Mesh( geometry, material );
-scene.add( cube );
+        ThreeHelper.onIntersectClicked = this._handleModelSelected.bind(this);
 
-camera.position.z = 5;
+        DOMControls.onMaterialClicked = this._handleMaterialClicked.bind(this);
+    }
 
-function animate() {
-	requestAnimationFrame( animate );
+    _handleModelHover(intersect, prevIntersect) {
+        console.log("Pointer intersected", intersect, prevIntersect);
 
-	cube.rotation.x += 0.01;
-	cube.rotation.y += 0.01;
+        if (intersect) {
+            intersect.object.material.opacity = 0.7;
+            document.body.classList.add("cursor");
+        } else {
+            document.body.classList.remove("cursor");
+        }
 
-	renderer.render( scene, camera );
+        if (prevIntersect) {
+            if (prevIntersect.object !== this.selectedModel) {
+                prevIntersect.object.material.opacity = 1;
+            }
+        }
+    }
+
+    _handleModelSelected(model) {
+        console.log("Selected model", model, this);
+
+        if (this.selectedModel) {
+            this.selectedModel.material.opacity = 1;
+        }
+
+        this.selectedModel = model.object;
+        document.body.classList.add("model-selected");
+
+        DOMControls.selectedMaterial.name = this.selectedModel.name;
+        DOMControls.selectedMaterial.selectedTexture =
+            this.selectedModel.material.name;
+    }
+
+    _handleMaterialClicked(materialName) {
+        console.log(materialName);
+
+        console.log(this);
+
+        if (this.selectedModel) {
+            this.selectedModel.material =
+                MaterialHelper.materials[materialName].clone();
+
+            DOMControls.selectedMaterial.selectedTexture =
+                this.selectedModel.material.name;
+        }
+    }
 }
 
-animate();
+export default new Main();
