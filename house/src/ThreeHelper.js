@@ -60,6 +60,7 @@ class ThreeHelper {
          */
         this.renderer = new THREE.WebGLRenderer({
             antialias: true,
+            alpha: true,
         });
         this.renderer.setSize(window.innerWidth, window.innerHeight);
         this.renderer.shadowMap.enabled = true;
@@ -68,7 +69,7 @@ class ThreeHelper {
         this.renderer.toneMappingExposure = 1;
         this.renderer.outputColorSpace = THREE.SRGBColorSpace;
         this.renderer.useLegacyLights = false;
-        this.renderer.setClearColor(0xffffff);
+        this.renderer.setClearColor(0xffffff, 0);
 
         window.onresize = (() => {
             this.camera.aspect = window.innerWidth / window.innerHeight;
@@ -195,6 +196,9 @@ class ThreeHelper {
             }
 
             window.scene = this.scene;
+            window.roof = this.scene.getObjectByName("Roof");
+            window.wl = this.scene.getObjectByName("WallLeft");
+            window.wi = this.scene.getObjectByName("InnerWall");
             this.onSceneLoaded();
         });
     }
